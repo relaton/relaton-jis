@@ -6,9 +6,6 @@
         <attribute name="schema-version"/>
       </optional>
       <ref name="doctype"/>
-      <optional>
-        <ref name="docsubtype"/>
-      </optional>
       <ref name="editorialgroup"/>
       <zeroOrMore>
         <ref name="ics"/>
@@ -18,93 +15,12 @@
         <ref name="stagename"/>
       </optional>
     </define>
-    <define name="bdate">
-      <element name="date">
-        <attribute name="type">
-          <choice>
-            <ref name="BibliographicDateType"/>
-            <text/>
-          </choice>
-        </attribute>
-        <choice>
-          <group>
-            <element name="from">
-              <ref name="ISO8601Date"/>
-            </element>
-            <optional>
-              <element name="to">
-                <ref name="ISO8601Date"/>
-              </element>
-            </optional>
-          </group>
-          <element name="on">
-            <choice>
-              <ref name="ISO8601Date"/>
-              <value>--</value>
-              <value>–</value>
-            </choice>
-          </element>
-        </choice>
-      </element>
-    </define>
-    <define name="organization">
-      <element name="organization">
-        <oneOrMore>
-          <ref name="orgname"/>
-        </oneOrMore>
-        <optional>
-          <ref name="abbreviation"/>
-        </optional>
-        <optional>
-          <ref name="uri"/>
-        </optional>
-        <zeroOrMore>
-          <ref name="org-identifier"/>
-        </zeroOrMore>
-        <zeroOrMore>
-          <ref name="contact"/>
-        </zeroOrMore>
-        <optional>
-          <ref name="technical-committee"/>
-        </optional>
-        <optional>
-          <ref name="subcommittee"/>
-        </optional>
-        <optional>
-          <ref name="workgroup"/>
-        </optional>
-        <optional>
-          <ref name="secretariat"/>
-        </optional>
-      </element>
-    </define>
     <define name="DocumentType">
       <choice>
-        <value>british-standard</value>
-        <value>draft-for-development</value>
-        <value>published-document</value>
-        <value>privately-subscribed-standard</value>
-        <value>publicly-available-specification</value>
-        <value>flex-standard</value>
-        <value>international-standard</value>
-        <value>technical-specification</value>
+        <value>japanese-industrial-standard</value>
         <value>technical-report</value>
-        <value>guide</value>
-        <value>international-workshop-agreement</value>
-        <value>industry-technical-agreement</value>
-        <value>standard</value>
-        <value>european-workshop-agreement</value>
-        <value>fast-track-standard</value>
-        <value>expert-commentary</value>
-      </choice>
-    </define>
-    <define name="DocumentSubtype">
-      <choice>
-        <value>specification</value>
-        <value>method-of-test</value>
-        <value>method-of-specifying</value>
-        <value>vocabulary</value>
-        <value>code-of-practice</value>
+        <value>technical-specification</value>
+        <value>amendment</value>
       </choice>
     </define>
     <define name="structuredidentifier">
@@ -126,11 +42,6 @@
       </element>
     </define>
   </include>
-  <define name="updates_document_type">
-    <element name="updates-document-type">
-      <ref name="DocumentType"/>
-    </element>
-  </define>
   <define name="ISOProjectGroup">
     <zeroOrMore>
       <ref name="agency"/>
@@ -148,19 +59,9 @@
       <ref name="secretariat"/>
     </optional>
   </define>
-  <define name="approvalgroup">
-    <element name="approvalgroup">
-      <ref name="ISOProjectGroup"/>
-    </element>
-  </define>
   <define name="agency">
     <element name="agency">
       <text/>
-    </element>
-  </define>
-  <define name="horizontal">
-    <element name="horizontal">
-      <data type="boolean"/>
     </element>
   </define>
   <define name="documentnumber">
@@ -219,13 +120,6 @@
         <attribute name="abbreviation"/>
       </optional>
       <text/>
-    </element>
-  </define>
-  <define name="coverimages">
-    <element name="coverimages">
-      <oneOrMore>
-        <ref name="image"/>
-      </oneOrMore>
     </element>
   </define>
 </grammar>

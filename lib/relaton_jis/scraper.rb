@@ -52,13 +52,16 @@ module RelatonJis
     end
 
     def fetch_docid
-      id = @doc.at("./h2/text()[1]").text.strip
-      [RelatonBib::DocumentIdentifier.new(id: id, type: "JIS", primary: true)]
+      [RelatonBib::DocumentIdentifier.new(id: document_id, type: "JIS", primary: true)]
     end
 
     def fetch_docnumber
-      match = @doc.at("./h2/text()[1]").text.strip.match(/^\w+\s(\w)\s?(\d+)/)
+      match = document_id.match(/^\w+\s(\w)\s?(\d+)/)
       "#{match[1]}#{match[2]}"
+    end
+
+    def document_id
+      @document_id ||= @doc.at("./h2/text()[1]").text.strip
     end
 
     def fetch_date
@@ -100,7 +103,12 @@ module RelatonJis
     end
 
     def fetch_doctype
-      "standard"
+      case document_id
+      when /JIS\s[A-Z]\s[\w-]+:\d{4}\/AMD/ then "amendment"
+      when /JIS\s[A-Z]\s[\w-]+/ then "japanese-industrial-standard"
+      when /TR\s[\w-]+/ then "technical-report"
+      when /TS\s[\w-]+/ then "technical-specification"
+      end
     end
 
     def fetch_ics
