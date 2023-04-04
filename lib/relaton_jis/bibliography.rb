@@ -16,6 +16,8 @@ module RelatonJis
       agent = Mechanize.new
       resp = agent.post "#{SOURCE}0010/searchByKeyword", search_type: "JIS", keyword: code
       disp = JSON.parse resp.body
+      raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
+
       result = agent.get "#{SOURCE}#{disp['disp_screen']}/index"
       HitCollection.new code, year, result: result.xpath("//div[@class='blockGenaral']")
     end
@@ -25,16 +27,20 @@ module RelatonJis
     #
     # @param [String] ref JIS document reference
     # @param [String] year JIS document year
-    # @param [Hash] _opts options
+    # @param [Hash] opts options
+    # @option opts [String] :all_parts return all parts of document
     #
     # @return [RelatonJis::BibliographicItem, nil] JIS document
     #
-    def get(ref, year = nil, _opts = {})
+    def get(ref, year = nil, opts = {})
+      code = ref.sub(/\s\((all parts|規格群)\)/, "")
+      opts[:all_parts] ||= !$1.nil?
       warn "[relaton-jis] (\"#{ref}\") fetching..."
-      result = search(ref, year).find
-      if result[:bib]
-        warn "[relaton-jis] (\"#{ref}\") found #{result[:bib].docidentifier[0].id}"
-        return result[:bib]
+      hits = search(code, year)
+      result = opts[:all_parts] ? hits.find_all_parts : hits.find
+      if result.is_a? RelatonJis::BibliographicItem
+        warn "[relaton-jis] (\"#{ref}\") found #{result.docidentifier[0].id}"
+        return result
       end
       hint result, ref, year
     end
@@ -42,16 +48,16 @@ module RelatonJis
     #
     # Log hint message
     #
-    # @param [Hash] result search result
+    # @param [Array] result search result
     # @param [String] ref reference to search
     # @param [String, nil] year year to search
     #
     def hint(result, ref, year)
       warn "[relaton-jis] (\"#{ref}\") not found. The identifier must be " \
            "exactly as shown on the webdesk.jsa.or.jp website."
-      if result[:missed_years]
-        warn "[relaton-jis] (\"#{ref}\") TIP: No match for edition year #{year}, " \
-             "but matches exist for #{result[:missed_years].uniq.join(', ')}."
+      if result.any?
+        warn "[relaton-jis] (\"#{ref}\") TIP: No match for edition " \
+             "year #{year}, but matches exist for #{result.uniq.join(', ')}."
       end
     end
   end

@@ -19,12 +19,14 @@ module RelatonJis
     #
     # @param [Hash] ref_parts parts of reference
     # @param [String, nil] year year
+    # @param [Boolean] all_parts check all parts of reference
     #
     # @return [Boolean] true if hit matches reference
     #
-    def match?(ref_parts, year = nil) # rubocop:disable Metrics/CyclomaticComplexity, Metrics/AbcSize, Metrics/PerceivedComplexity
+    def match?(ref_parts, year = nil, all_parts: false) # rubocop:disable Metrics/CyclomaticComplexity, Metrics/AbcSize, Metrics/PerceivedComplexity
       id_parts[:code].include?(ref_parts[:code]) &&
-        (year.nil? || year == id_parts[:year]) &&
+        (all_parts || (ref_parts[:part].nil? || ref_parts[:part] == id_parts[:part])) &&
+        (all_parts || year.nil? || year == id_parts[:year]) &&
         ((ref_parts[:expl].nil? || !id_parts[:expl].nil?) &&
          (ref_parts[:expl_num].nil? || ref_parts[:expl_num] == id_parts[:expl_num])) &&
         ((ref_parts[:amd].nil? || !id_parts[:amd].nil?) &&

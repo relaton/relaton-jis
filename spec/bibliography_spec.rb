@@ -37,5 +37,26 @@ describe RelatonJis::Bibliography do
         expect(bib).to be_nil
       end.to output(/TIP: No match for edition year 1998/).to_stderr
     end
+
+    context "with all parts", vcr: { cassette_name: "get_all_parts" } do
+      it "EN" do
+        file = "spec/fixtures/jis_b_0060_all_parts.xml"
+        bib = described_class.get "JIS B 0060 (all parts)"
+        xml = bib.to_xml bibdata: true
+        File.write file, xml, encoding: "UTF-8" unless File.exist? file
+        expect(xml).to be_equivalent_to File.read(file, encoding: "UTF-8")
+          .gsub(/(?<=<fetched>)\d{4}-\d{2}-\d{2}/, Date.today.to_s)
+      end
+
+      it "JP" do
+        bib = described_class.get "JIS B 0060 (規格群)"
+        expect(bib.docidentifier.first.id).to eq "JIS B 0060 (all parts)"
+      end
+
+      it "option" do
+        bib = described_class.get "JIS B 0060", nil, all_parts: true
+        expect(bib.docidentifier.first.id).to eq "JIS B 0060 (all parts)"
+      end
+    end
   end
 end

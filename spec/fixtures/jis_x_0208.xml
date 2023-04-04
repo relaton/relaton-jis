@@ -1,5 +1,5 @@
-<bibdata type="standard" schema-version="v1.2.1">
-  <fetched>2023-03-28</fetched>
+<bibdata type="standard" schema-version="v1.2.3">
+  <fetched>2023-03-29</fetched>
   <title format="text/plain" language="ja" script="Jpan">７ビット及び８ビットの２バイト情報交換用符号化漢字集合</title>
   <title format="text/plain" language="en" script="Lant">7-bit and 8-bit double byte coded KANJI sets for information interchange</title>
   <uri type="src">https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997</uri>
@@ -24,7 +24,7 @@
   <status>
     <stage>valid</stage>
   </status>
-  <ext schema-version="">
+  <ext schema-version="v0.0.1">
     <doctype>japanese-industrial-standard</doctype>
     <editorialgroup>
       <technical-committee>一般財団法人　日本規格協会</technical-committee>
