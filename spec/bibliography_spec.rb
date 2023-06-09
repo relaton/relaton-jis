@@ -1,4 +1,15 @@
 describe RelatonJis::Bibliography do
+  context "class methods" do
+    context ".get" do
+      it "returns empty array if not found" do
+        expect(described_class).to receive(:search).and_return nil
+        expect do
+          expect(described_class.get("JIS X 0208")).to be_nil
+        end.to output(/not found\. The identifier must be exactly as shown on the webdesk\.jsa.or\.jp website\./).to_stderr
+      end
+    end
+  end
+
   it "searches JIS", vcr: { cassette_name: "search" } do
     result = described_class.search "JIS X 0208"
     expect(result).to be_instance_of(RelatonJis::HitCollection)

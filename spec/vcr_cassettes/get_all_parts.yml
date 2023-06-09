@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 03 Apr 2023 22:23:57 GMT
+      - Thu, 08 Jun 2023 02:16:17 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=39ag0n1gepf4q6qhiqe71t2cqj00oatqddhlcka5bbrtc4rf92n670q6klpukalk9uk4gdjmekkj7nlui07ifbdm5miravf2hec9tjk;
+      - CAKEPHP=l23b6n3e0aum01iii45b6hjo7md3p5u7ju7s5t22gbpqqothueknva2m6cnfn1lv5iishmiinmnfrcshisosthreu9lhbvoo48lk2on;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Mon, 03 Apr 2023 22:23:57 GMT
+  recorded_at: Thu, 08 Jun 2023 02:16:17 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=39ag0n1gepf4q6qhiqe71t2cqj00oatqddhlcka5bbrtc4rf92n670q6klpukalk9uk4gdjmekkj7nlui07ifbdm5miravf2hec9tjk
+      - CAKEPHP=l23b6n3e0aum01iii45b6hjo7md3p5u7ju7s5t22gbpqqothueknva2m6cnfn1lv5iishmiinmnfrcshisosthreu9lhbvoo48lk2on
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 03 Apr 2023 22:23:57 GMT
+      - Thu, 08 Jun 2023 02:16:17 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -128,14 +128,14 @@ http_interactions:
         \                   location.href = \"https://webdesk.jsa.or.jp/\";\r\n                }\r\n
         \               setTimeout(\"sender()\", 3600000);\r\n            </script>\r\n
         \       \r\n        <link href=\"//fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&amp;subset=japanese\"
-        rel=\"stylesheet\">\r\n        <link rel=\"stylesheet\" href=\"/css/owl.carousel_r2.css?ver=1.0.8\"/>
-        \       <link rel=\"stylesheet\" href=\"/css/owl.theme.default_r2.css?ver=1.0.8\"/>
-        \       <link rel=\"stylesheet\" href=\"/css/swiper_r2.css?ver=1.0.8\"/>        <link
-        rel=\"stylesheet\" href=\"/css/common_r2.css?ver=1.0.8\"/>        <link rel=\"stylesheet\"
-        href=\"/css/style_r2.css?ver=1.0.8\"/>        <link rel=\"stylesheet\" href=\"/css/books_r2.css?ver=1.0.8\"/>
-        \       <link rel=\"stylesheet\" href=\"/css/jquery-ui.css?ver=1.0.8\"/>        <link
-        rel=\"stylesheet\" href=\"/css/user_r2.css?ver=1.0.8\"/>        <link rel=\"stylesheet\"
-        href=\"/css/seminar_r2.css?ver=1.0.8\"/>        <link rel=\"stylesheet\" href=\"/css/styleguide_r2.css?ver=1.0.8\"/>\r\n
+        rel=\"stylesheet\">\r\n        <link rel=\"stylesheet\" href=\"/css/owl.carousel_r2.css?ver=1.0.9\"/>
+        \       <link rel=\"stylesheet\" href=\"/css/owl.theme.default_r2.css?ver=1.0.9\"/>
+        \       <link rel=\"stylesheet\" href=\"/css/swiper_r2.css?ver=1.0.9\"/>        <link
+        rel=\"stylesheet\" href=\"/css/common_r2.css?ver=1.0.9\"/>        <link rel=\"stylesheet\"
+        href=\"/css/style_r2.css?ver=1.0.9\"/>        <link rel=\"stylesheet\" href=\"/css/books_r2.css?ver=1.0.9\"/>
+        \       <link rel=\"stylesheet\" href=\"/css/jquery-ui.css?ver=1.0.9\"/>        <link
+        rel=\"stylesheet\" href=\"/css/user_r2.css?ver=1.0.9\"/>        <link rel=\"stylesheet\"
+        href=\"/css/seminar_r2.css?ver=1.0.9\"/>        <link rel=\"stylesheet\" href=\"/css/styleguide_r2.css?ver=1.0.9\"/>\r\n
         \       <script src=\"/js/jquery-3.6.0.min.js?ver=1.0.7\"></script>        <script
         src=\"/js/jquery-migrate-3.3.2.min.js?ver=1.0.7\"></script>\r\n        <script
         src=\"/js/owl.carousel.min_r2.js?ver=1.0.7\"></script>        <script src=\"/js/swiper_r2.js?ver=1.0.7\"></script>
@@ -275,27 +275,26 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
+        復刊！</span>\r\n                                                    </a>\r\n
+        \                   </div>\r\n                                                                <div
         class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t155\">\r\n                        <a
         href=\"#\">\r\n                                                            <span>工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</span>\r\n
         \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide\">\r\n
-        \                       <a href=\"https://www.jsa.or.jp/iso45001sp/\" >\r\n
-        \                                                           <span>労働安全衛生マネジメントシステム（ISO
-        45001）特設ページはこちら</span>\r\n                                                    </a>\r\n
-        \                   </div>\r\n                                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"https://www.jsa.or.jp/iso22000sp/\"
-        >\r\n                                                            <span>食品安全マネジメントシステム（ISO
-        22000）特設ページはこちら</span>\r\n                                                    </a>\r\n
-        \                   </div>\r\n                                    </div>\r\n
-        \   </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\" class=\"btn
-        btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div class=\"modal
-        jsModal\" id=\"modal_t155\">\r\n        <p class=\"modalHead\"><span class=\"modalClose
-        jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n            <h4
-        class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n                            <time
-        class=\"modalDate\">2020/06/22</time>\r\n                                    <p
-        class=\"txt right mb0\">2020年6月吉日</p><p class=\"txt mb0\">お 客 様 各 位</p><p
-        class=\"txt right\">日本規格協会グループ<br>出版情報ユニット</p><br>\n<p class=\"txt center
-        mb0\"><b>工業標準化法改正に伴うJIS規格名称変更のお知らせ</b></p><br>\n<p class=\"txt\"><br>\n　拝啓
+        \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
+        class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
+        class=\"modalDate\">2023/04/21</time>\r\n                                            </div>\r\n
+        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t155\">\r\n        <p
+        class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n
+        \                           <time class=\"modalDate\">2020/06/22</time>\r\n
+        \                                   <p class=\"txt right mb0\">2020年6月吉日</p><p
+        class=\"txt mb0\">お 客 様 各 位</p><p class=\"txt right\">日本規格協会グループ<br>出版情報ユニット</p><br>\n<p
+        class=\"txt center mb0\"><b>工業標準化法改正に伴うJIS規格名称変更のお知らせ</b></p><br>\n<p class=\"txt\"><br>\n　拝啓
         時下ますますご清祥のこととお慶び申し上げます。<br>\n　平素より当協会の事業へ格別のご高配を賜り厚く御礼申し上げます。<br>\n　さて、平成30年第196回通常国会において「不正競争防止法等の一部を改正する法律」（法律第33号）が可決成立し、工業標準化法が一部改正されました（平成30年5月30日公布）。<br>\n　これにより2019年7月1日より、“工業標準化法”は“産業標準化法”に変わり、“日本工業規格（JIS）”は“日本産業規格（JIS）”に変わりました。<br>\n　2019年6月末日までに発行されたJISについては、まえがきを除き、JIS規格中の「日本工業規格」を「日本産業規格」に読み替えてください。<br>\n<br>\n　2019年6月末日までに発行されたJISのPDF版をご注文の場合は、全てのページ下部に下記の文言が印字されますのでご了承ください。<br>\n<br>\n<p
         class=\"txt center mb0\">記<br>\n2019年7月1日の法改正により名称が変わりました。<br>\nまえがきを除き、本規格中の「日本工業規格」を「日本産業規格」に読み替えてください。</p><br>\n<br>\n<p
         class=\"txt right\"><u>以上</u></p><br>\n<p class=\"txt\">\n　また、令和2年6月22日に確認公示された日本産業規格については、以下の一文をまえがきに追記して下さい。<br>\n　『また，令和2年6月22日，産業標準化法第17条又は第18条の規定に基づく確認公示に際し，産業標準化法の用語に合わせ，規格中“日本工業規格”を“日本産業規格”に，“日本工業標準調査会”を“日本産業標準調査会”に，“工業標準化法”を“産業標準化法”に改めた。』<br></p>\n<br>\n<p
@@ -304,17 +303,7 @@ http_interactions:
         target=\"_blank\">https://www.meti.go.jp/policy/economy/hyojun-kijun/jisho/jis.html</a>）等でご確認ください。<br>\n</p><br>\n<p
         class=\"txt right\">敬具</p><br>\n<br>\n<br>\n<p class=\"txt right\">お問い合わせ窓口：日本規格協会グループ<br>\n
         出版情報ユニット 出版情報サービスチーム <br>\nメール：<a href=\"mailto:csd@jsa.or.jp\">csd@jsa.or.jp</a><br>\n〒108-0073
-        東京都港区三田 3-13-12 三田 MT ビル<br>\n</p>        </div>\r\n    </div>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t85\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">労働安全衛生マネジメントシステム（ISO 45001）特設ページはこちら</h4>\r\n
-        \                           <time class=\"modalDate\">2019/04/24</time>\r\n
-        \                                           </div>\r\n    </div>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t84\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">食品安全マネジメントシステム（ISO 22000）特設ページはこちら</h4>\r\n
-        \                           <time class=\"modalDate\">2019/04/24</time>\r\n
-        \                                           </div>\r\n    </div>\r\n\r\n<div
+        東京都港区三田 3-13-12 三田 MT ビル<br>\n</p>        </div>\r\n    </div>\r\n\r\n<div
         class=\"keyv keyvBook\">\r\n    <h1 class=\"inner keyvInner\">規格検索結果</h1>\r\n</div>\r\n<!--
         / #keyv -->\r\n<section class=\"sectionSearchBook\">\r\n    <form id=\"search_by_keyword\"
         name=\"search_by_keyword\" method=\"post\" action=\"https://webdesk.jsa.or.jp/books/W11M0080/index\">\r\n
@@ -1340,10 +1329,11 @@ http_interactions:
         href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\" alt=\"\"></a></li>\r\n
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
         alt=\"\"></a></li>\r\n    </ul>\r\n    -->\r\n</aside>\r\n    <!-- modal-->\r\n
-        \                                       <div class=\"modal jsModal\" id=\"about_redline\">\r\n
-        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">Redline版に関する説明</h2>\r\n
-        \       <dl class=\"dataList\">\r\n            <dt>ISO、ASTM</dt>\r\n            <dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        \                                       <!-- modal About Redline -->\r\n<div
+        class=\"modal jsModal\" id=\"about_redline\">\r\n    <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
+        \       <h2 class=\"headline1\">Redline版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
+        \           <dt>ISO、ASTM</dt>\r\n            <dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
         />\r\n                原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br
         />\r\n                邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
         />\r\n                <br />\r\n                原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
@@ -1357,7 +1347,8 @@ http_interactions:
         />\r\n                    邦訳Redline版のサンプルページは<a href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\"
         target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n                </p>\r\n                <p><span
         style=\"font-size: 12pt;\"><br />\r\n                        ※IEC規格のRedline版(冊子版)で、CD-ROMでご提供となる場合がございます。備考欄の記載にご注意ください。</span></p>\r\n
-        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"modal
+        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
+        About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
         jsModal\" id=\"about_ed\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
         jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
         class=\"headline1\">IECのEdition番号について</h2>\r\n        <dl class=\"dataList\">\r\n
@@ -1387,26 +1378,26 @@ http_interactions:
         \                   </tr>\r\n                </table>\r\n                <p
         class=\"txt\">※なお、例外的に、上の規則に当てはまらないこともございます。ご不明な点がございましたら、お手数ですがお問い合わせ願います。
         ご利用の際は、Ed. (Edition)に充分ご注意願います。</p>\r\n            </dd>\r\n        </dl>\r\n
-        \   </div>\r\n</div>\r\n<!-- modal BS Tracked　Changes -->\r\n<div class=\"modal
-        jsModal\" id=\"about_trackedchanges\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">Tracked Changes版に関する説明</h2>\r\n        <dl
-        class=\"dataList\">\r\n            <dt>BS</dt>\r\n            <dd>\r\n                Tracked
-        Changes版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目瞭然となっている商品です。<br><br>\r\n                BS規格は、PDF版が1つのファイル（前半にTracked
-        Changes版、後半に正式規格）で構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br><br>\r\n                Tracked
+        \   </div>\r\n</div>\r\n<!-- /modal About IEC Edition -->\r\n<!-- modal BS
+        Tracked Changes -->\r\n<div class=\"modal jsModal\" id=\"about_trackedchanges\">\r\n
+        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">Tracked
+        Changes版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n            <dt>BS</dt>\r\n
+        \           <dd>\r\n                Tracked Changes版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目瞭然となっている商品です。<br><br>\r\n
+        \               前半にTracked Changes版、後半に正式規格で構成されています。<br><br>\r\n                Tracked
         Changes版のサンプルページは <a href=\"/pdf/book/preview/previewbstrackedchanges.pdf\"
-        target=\"_blank\">こちら</a>。\r\n            </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!--
-        /modal BS Tracked　Changes -->\r\n<!-- modal for JIS Z 8303:2008 -->\r\n<div
-        class=\"modal jsModal\" id=\"modal_jisz_8303_2008\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">改訂に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
-        \           <dt>改訂箇所</dt>\r\n            <dd>解説の箇条４（様式例の目次）４（履歴書）を削除</dd>\r\n
+        target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n            </dd>\r\n        </dl>\r\n
+        \   </div>\r\n</div>\r\n<!-- /modal BS Tracked Changes -->\r\n<!-- modal JIS
+        Z 8303:2008 -->\r\n<div class=\"modal jsModal\" id=\"modal_jisz_8303_2008\">\r\n
+        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">改訂に関する説明</h2>\r\n
+        \       <dl class=\"dataList\">\r\n            <dt>改訂箇所</dt>\r\n            <dd>解説の箇条４（様式例の目次）４（履歴書）を削除</dd>\r\n
         \           <dt>追記箇所</dt>\r\n            <dd>\r\n                解説の冒頭に下記の注意書きを追記<br><br>\r\n
         \               この解説は，次の理由によって2008 年発行時に掲載した解説を改訂した。<br>\r\n                箇条4（様式例の目次）には，附属書A
         で示した主な帳票の様式例が記載されている。<br>\r\n                その中の4（履歴書）には，履歴書の様式例があり，性別欄が設けられている。公務員試験，高校入試などでは性別欄をなくす動きが全国的に広がりつつある中，引き続き掲載することによって，JIS
         で規定されている，何らかの方向付けをしているなどの誤解を招きかねない。このことから，削除することにした。\r\n            </dd>\r\n
-        \       </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal for JIS Z 8303:2008 -->\r\n<!--
-        modal Commented version -->\r\n<div class=\"modal jsModal\" id=\"about_cmv\">\r\n
+        \       </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal JIS Z 8303:2008 -->\r\n<!--
+        modal Commented Version -->\r\n<div class=\"modal jsModal\" id=\"about_cmv\">\r\n
         \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
         \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">Commented
         versionに関する説明</h2>\r\n        <dl class=\"dataList\">\r\n            <dt>IEC</dt>\r\n
@@ -1418,12 +1409,12 @@ http_interactions:
         target=\"_blank\" rel=\"noopener\">こちら</a><br>\r\n                邦訳CMV版のサンプルページは<a
         href=\"/img/book/guide/cmv_sample_ja.PNG\" target=\"_blank\" rel=\"noopener\">こちら</a>\r\n
         \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
-        Commented version -->\r\n<div class=\"modal jsModal\" id=\"about_translation\">\r\n
-        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">邦訳版に関する説明</h2>\r\n
-        \       <p class=\"txt\">\r\n            邦訳版は発行元との協定や諸規則に従い当会が翻訳・発行するものです。技術的内容を考慮して作成しておりますが、原文の利用に際しての情報提供を目的としたものであり、発行元から原文と同じ効力を認められたものではありません。\r\n
-        \       </p>\r\n    </div>\r\n</div>                            <!-- /modal
-        -->\r\n</div>\r\n<!-- / #contents -->\r\n<script type=\"text/javascript\">\r\n
+        Commented Version -->\r\n<!-- modal Houyaku -->\r\n<div class=\"modal jsModal\"
+        id=\"about_translation\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
+        jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
+        class=\"headline1\">邦訳版に関する説明</h2>\r\n        <p class=\"txt\">\r\n            邦訳版は発行元との協定や諸規則に従い当会が翻訳・発行するものです。技術的内容を考慮して作成しておりますが、原文の利用に際しての情報提供を目的としたものであり、発行元から原文と同じ効力を認められたものではありません。\r\n
+        \       </p>\r\n    </div>\r\n</div>\r\n<!-- /modal Houyaku -->                            <!--
+        /modal -->\r\n</div>\r\n<!-- / #contents -->\r\n<script type=\"text/javascript\">\r\n
         \   function fnDetail(syohin_cd) {\r\n        var url = 'https://webdesk.jsa.or.jp/books/W11M0120/index/'
         + syohin_cd;\r\n        callAction('', 'https://webdesk.jsa.or.jp/books/W11M0120/index/'
         + syohin_cd, 'json', function (data) {\r\n            if (data.status == false)
@@ -1531,7 +1522,9 @@ http_interactions:
         \           <ul>\r\n                <li class=\"spDisplay\"><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\">QC検定トップ</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qc1/\">QC検定制度について</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_next_kentei/\">受検案内</a></li>\r\n
-        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_bef_tyuui\">お申込み方法・資料請求</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa6\">申込方法（個人）</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa7\">申込方法（団体）</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_shiryou\">パンフレット・ポスター</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa/\">Q&A</a></li>\r\n
         \           </ul>\r\n        </li>\r\n        <li class=\"footerNavItem\">\r\n
         \           <a class=\"footerNavTitle expandNav jsExpandNav\" href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/dev/\">規格</a>\r\n
@@ -1581,7 +1574,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Mon, 03 Apr 2023 22:23:58 GMT
+  recorded_at: Thu, 08 Jun 2023 02:16:18 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20B%200060-1:2015
@@ -1613,7 +1606,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 03 Apr 2023 22:23:59 GMT
+      - Thu, 08 Jun 2023 02:16:18 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -1621,7 +1614,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=emsn83mndo71ld327fo746d08t8ded8fuui334babf3kh5t9i2v4g1m7bv7t3vvl6a9q50gn47h0du8hsp44ka8ogjto1pmi8s2p5lr;
+      - CAKEPHP=nbli0ku9b1tujvit13joepopc87h3po64oevsnqvvvddr5g8m4mm3bcteb9giu6jn1anqdkofgoa39gnad26htbuf4h2hm1l9okj31f;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -1646,11 +1639,11 @@ http_interactions:
         B 0060-1:2015 デジタル製品技術文書情報―第１部：総則 | 日本規格協会 JSA Group Webdesk</title>\r\n        <link
         href=\"/favicon.ico\" type=\"image/x-icon\" rel=\"icon\"/><link href=\"/favicon.ico\"
         type=\"image/x-icon\" rel=\"shortcut icon\"/>\r\n        <link href=\"//fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&amp;subset=japanese\"
-        rel=\"stylesheet\">\r\n        <link rel=\"stylesheet\" href=\"/css/swiper_r2.css?ver=1.0.8\"/>
-        \       <link rel=\"stylesheet\" href=\"/css/common_r2.css?ver=1.0.8\"/>        <link
-        rel=\"stylesheet\" href=\"/css/style_r2.css?ver=1.0.8\"/>        <link rel=\"stylesheet\"
-        href=\"/css/books_r2.css?ver=1.0.8\"/>\r\n        <link rel=\"stylesheet\"
-        href=\"/css/jquery-ui.css?ver=1.0.8\"/>\r\n        <link rel=\"index contents\"
+        rel=\"stylesheet\">\r\n        <link rel=\"stylesheet\" href=\"/css/swiper_r2.css?ver=1.0.9\"/>
+        \       <link rel=\"stylesheet\" href=\"/css/common_r2.css?ver=1.0.9\"/>        <link
+        rel=\"stylesheet\" href=\"/css/style_r2.css?ver=1.0.9\"/>        <link rel=\"stylesheet\"
+        href=\"/css/books_r2.css?ver=1.0.9\"/>\r\n        <link rel=\"stylesheet\"
+        href=\"/css/jquery-ui.css?ver=1.0.9\"/>\r\n        <link rel=\"index contents\"
         href=\"/\" title=\"ホーム\">\r\n\r\n        <script src=\"/js/jquery-3.6.0.min.js?ver=1.0.7\"></script>
         \       <script src=\"/js/jquery-migrate-3.3.2.min.js?ver=1.0.7\"></script>
         \       \r\n        <script src=\"/js/owl.carousel.min_r2.js?ver=1.0.7\"></script>
@@ -1795,27 +1788,26 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
+        復刊！</span>\r\n                                                    </a>\r\n
+        \                   </div>\r\n                                                                <div
         class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t155\">\r\n                        <a
         href=\"#\">\r\n                                                            <span>工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</span>\r\n
         \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide\">\r\n
-        \                       <a href=\"https://www.jsa.or.jp/iso45001sp/\" >\r\n
-        \                                                           <span>労働安全衛生マネジメントシステム（ISO
-        45001）特設ページはこちら</span>\r\n                                                    </a>\r\n
-        \                   </div>\r\n                                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"https://www.jsa.or.jp/iso22000sp/\"
-        >\r\n                                                            <span>食品安全マネジメントシステム（ISO
-        22000）特設ページはこちら</span>\r\n                                                    </a>\r\n
-        \                   </div>\r\n                                    </div>\r\n
-        \   </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\" class=\"btn
-        btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div class=\"modal
-        jsModal\" id=\"modal_t155\">\r\n        <p class=\"modalHead\"><span class=\"modalClose
-        jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n            <h4
-        class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n                            <time
-        class=\"modalDate\">2020/06/22</time>\r\n                                    <p
-        class=\"txt right mb0\">2020年6月吉日</p><p class=\"txt mb0\">お 客 様 各 位</p><p
-        class=\"txt right\">日本規格協会グループ<br>出版情報ユニット</p><br>\n<p class=\"txt center
-        mb0\"><b>工業標準化法改正に伴うJIS規格名称変更のお知らせ</b></p><br>\n<p class=\"txt\"><br>\n　拝啓
+        \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
+        class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
+        class=\"modalDate\">2023/04/21</time>\r\n                                            </div>\r\n
+        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t155\">\r\n        <p
+        class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n
+        \                           <time class=\"modalDate\">2020/06/22</time>\r\n
+        \                                   <p class=\"txt right mb0\">2020年6月吉日</p><p
+        class=\"txt mb0\">お 客 様 各 位</p><p class=\"txt right\">日本規格協会グループ<br>出版情報ユニット</p><br>\n<p
+        class=\"txt center mb0\"><b>工業標準化法改正に伴うJIS規格名称変更のお知らせ</b></p><br>\n<p class=\"txt\"><br>\n　拝啓
         時下ますますご清祥のこととお慶び申し上げます。<br>\n　平素より当協会の事業へ格別のご高配を賜り厚く御礼申し上げます。<br>\n　さて、平成30年第196回通常国会において「不正競争防止法等の一部を改正する法律」（法律第33号）が可決成立し、工業標準化法が一部改正されました（平成30年5月30日公布）。<br>\n　これにより2019年7月1日より、“工業標準化法”は“産業標準化法”に変わり、“日本工業規格（JIS）”は“日本産業規格（JIS）”に変わりました。<br>\n　2019年6月末日までに発行されたJISについては、まえがきを除き、JIS規格中の「日本工業規格」を「日本産業規格」に読み替えてください。<br>\n<br>\n　2019年6月末日までに発行されたJISのPDF版をご注文の場合は、全てのページ下部に下記の文言が印字されますのでご了承ください。<br>\n<br>\n<p
         class=\"txt center mb0\">記<br>\n2019年7月1日の法改正により名称が変わりました。<br>\nまえがきを除き、本規格中の「日本工業規格」を「日本産業規格」に読み替えてください。</p><br>\n<br>\n<p
         class=\"txt right\"><u>以上</u></p><br>\n<p class=\"txt\">\n　また、令和2年6月22日に確認公示された日本産業規格については、以下の一文をまえがきに追記して下さい。<br>\n　『また，令和2年6月22日，産業標準化法第17条又は第18条の規定に基づく確認公示に際し，産業標準化法の用語に合わせ，規格中“日本工業規格”を“日本産業規格”に，“日本工業標準調査会”を“日本産業標準調査会”に，“工業標準化法”を“産業標準化法”に改めた。』<br></p>\n<br>\n<p
@@ -1824,17 +1816,7 @@ http_interactions:
         target=\"_blank\">https://www.meti.go.jp/policy/economy/hyojun-kijun/jisho/jis.html</a>）等でご確認ください。<br>\n</p><br>\n<p
         class=\"txt right\">敬具</p><br>\n<br>\n<br>\n<p class=\"txt right\">お問い合わせ窓口：日本規格協会グループ<br>\n
         出版情報ユニット 出版情報サービスチーム <br>\nメール：<a href=\"mailto:csd@jsa.or.jp\">csd@jsa.or.jp</a><br>\n〒108-0073
-        東京都港区三田 3-13-12 三田 MT ビル<br>\n</p>        </div>\r\n    </div>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t85\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">労働安全衛生マネジメントシステム（ISO 45001）特設ページはこちら</h4>\r\n
-        \                           <time class=\"modalDate\">2019/04/24</time>\r\n
-        \                                           </div>\r\n    </div>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t84\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">食品安全マネジメントシステム（ISO 22000）特設ページはこちら</h4>\r\n
-        \                           <time class=\"modalDate\">2019/04/24</time>\r\n
-        \                                           </div>\r\n    </div>\r\n\r\n<div
+        東京都港区三田 3-13-12 三田 MT ビル<br>\n</p>        </div>\r\n    </div>\r\n\r\n<div
         class=\"keyv keyvBook\">\r\n    <h1 class=\"inner keyvInner\">規格・書籍・物品</h1>\r\n</div>\r\n<!--
         / #keyv -->\r\n<section class=\"sectionSearchBook\">\r\n    <form id=\"search_by_keyword\"
         name=\"search_by_keyword\" method=\"post\" action=\"https://webdesk.jsa.or.jp/books/W11M0080/index\">\r\n
@@ -2071,10 +2053,10 @@ http_interactions:
         class=\"content\">\r\n                                                                    </td>\r\n
         \                           </tr>\r\n                                                                        </table>\r\n
         \       </section>\r\n    </div>\r\n    <!-- /#main -->\r\n    <!-- modal
-        -->\r\n                                        <div class=\"modal jsModal\"
-        id=\"about_redline\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
-        jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
-        class=\"headline1\">Redline版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
+        -->\r\n                                        <!-- modal About Redline -->\r\n<div
+        class=\"modal jsModal\" id=\"about_redline\">\r\n    <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
+        \       <h2 class=\"headline1\">Redline版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
         \           <dt>ISO、ASTM</dt>\r\n            <dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
         />\r\n                原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br
         />\r\n                邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
@@ -2089,7 +2071,8 @@ http_interactions:
         />\r\n                    邦訳Redline版のサンプルページは<a href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\"
         target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n                </p>\r\n                <p><span
         style=\"font-size: 12pt;\"><br />\r\n                        ※IEC規格のRedline版(冊子版)で、CD-ROMでご提供となる場合がございます。備考欄の記載にご注意ください。</span></p>\r\n
-        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"modal
+        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
+        About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
         jsModal\" id=\"about_ed\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
         jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
         class=\"headline1\">IECのEdition番号について</h2>\r\n        <dl class=\"dataList\">\r\n
@@ -2119,26 +2102,26 @@ http_interactions:
         \                   </tr>\r\n                </table>\r\n                <p
         class=\"txt\">※なお、例外的に、上の規則に当てはまらないこともございます。ご不明な点がございましたら、お手数ですがお問い合わせ願います。
         ご利用の際は、Ed. (Edition)に充分ご注意願います。</p>\r\n            </dd>\r\n        </dl>\r\n
-        \   </div>\r\n</div>\r\n<!-- modal BS Tracked　Changes -->\r\n<div class=\"modal
-        jsModal\" id=\"about_trackedchanges\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">Tracked Changes版に関する説明</h2>\r\n        <dl
-        class=\"dataList\">\r\n            <dt>BS</dt>\r\n            <dd>\r\n                Tracked
-        Changes版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目瞭然となっている商品です。<br><br>\r\n                BS規格は、PDF版が1つのファイル（前半にTracked
-        Changes版、後半に正式規格）で構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br><br>\r\n                Tracked
+        \   </div>\r\n</div>\r\n<!-- /modal About IEC Edition -->\r\n<!-- modal BS
+        Tracked Changes -->\r\n<div class=\"modal jsModal\" id=\"about_trackedchanges\">\r\n
+        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">Tracked
+        Changes版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n            <dt>BS</dt>\r\n
+        \           <dd>\r\n                Tracked Changes版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目瞭然となっている商品です。<br><br>\r\n
+        \               前半にTracked Changes版、後半に正式規格で構成されています。<br><br>\r\n                Tracked
         Changes版のサンプルページは <a href=\"/pdf/book/preview/previewbstrackedchanges.pdf\"
-        target=\"_blank\">こちら</a>。\r\n            </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!--
-        /modal BS Tracked　Changes -->\r\n<!-- modal for JIS Z 8303:2008 -->\r\n<div
-        class=\"modal jsModal\" id=\"modal_jisz_8303_2008\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">改訂に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
-        \           <dt>改訂箇所</dt>\r\n            <dd>解説の箇条４（様式例の目次）４（履歴書）を削除</dd>\r\n
+        target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n            </dd>\r\n        </dl>\r\n
+        \   </div>\r\n</div>\r\n<!-- /modal BS Tracked Changes -->\r\n<!-- modal JIS
+        Z 8303:2008 -->\r\n<div class=\"modal jsModal\" id=\"modal_jisz_8303_2008\">\r\n
+        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">改訂に関する説明</h2>\r\n
+        \       <dl class=\"dataList\">\r\n            <dt>改訂箇所</dt>\r\n            <dd>解説の箇条４（様式例の目次）４（履歴書）を削除</dd>\r\n
         \           <dt>追記箇所</dt>\r\n            <dd>\r\n                解説の冒頭に下記の注意書きを追記<br><br>\r\n
         \               この解説は，次の理由によって2008 年発行時に掲載した解説を改訂した。<br>\r\n                箇条4（様式例の目次）には，附属書A
         で示した主な帳票の様式例が記載されている。<br>\r\n                その中の4（履歴書）には，履歴書の様式例があり，性別欄が設けられている。公務員試験，高校入試などでは性別欄をなくす動きが全国的に広がりつつある中，引き続き掲載することによって，JIS
         で規定されている，何らかの方向付けをしているなどの誤解を招きかねない。このことから，削除することにした。\r\n            </dd>\r\n
-        \       </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal for JIS Z 8303:2008 -->\r\n<!--
-        modal Commented version -->\r\n<div class=\"modal jsModal\" id=\"about_cmv\">\r\n
+        \       </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal JIS Z 8303:2008 -->\r\n<!--
+        modal Commented Version -->\r\n<div class=\"modal jsModal\" id=\"about_cmv\">\r\n
         \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
         \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">Commented
         versionに関する説明</h2>\r\n        <dl class=\"dataList\">\r\n            <dt>IEC</dt>\r\n
@@ -2150,13 +2133,14 @@ http_interactions:
         target=\"_blank\" rel=\"noopener\">こちら</a><br>\r\n                邦訳CMV版のサンプルページは<a
         href=\"/img/book/guide/cmv_sample_ja.PNG\" target=\"_blank\" rel=\"noopener\">こちら</a>\r\n
         \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
-        Commented version -->\r\n<div class=\"modal jsModal\" id=\"about_translation\">\r\n
-        \   <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \   <div class=\"modalInner\">\r\n        <h2 class=\"headline1\">邦訳版に関する説明</h2>\r\n
-        \       <p class=\"txt\">\r\n            邦訳版は発行元との協定や諸規則に従い当会が翻訳・発行するものです。技術的内容を考慮して作成しておりますが、原文の利用に際しての情報提供を目的としたものであり、発行元から原文と同じ効力を認められたものではありません。\r\n
-        \       </p>\r\n    </div>\r\n</div>                            <!-- /modal
-        -->\r\n</div>\r\n<!-- / #contents -->\r\n<script>$(function () {\r\n        $(\"#do_search\").click(function
-        () {\r\n            location.href = ($(\"#search_type\").val() == 1) ? \"https://webdesk.jsa.or.jp/books/W11M0050\"
+        Commented Version -->\r\n<!-- modal Houyaku -->\r\n<div class=\"modal jsModal\"
+        id=\"about_translation\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
+        jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
+        class=\"headline1\">邦訳版に関する説明</h2>\r\n        <p class=\"txt\">\r\n            邦訳版は発行元との協定や諸規則に従い当会が翻訳・発行するものです。技術的内容を考慮して作成しておりますが、原文の利用に際しての情報提供を目的としたものであり、発行元から原文と同じ効力を認められたものではありません。\r\n
+        \       </p>\r\n    </div>\r\n</div>\r\n<!-- /modal Houyaku -->                            <!--
+        /modal -->\r\n</div>\r\n<!-- / #contents -->\r\n<script>$(function () {\r\n
+        \       $(\"#do_search\").click(function () {\r\n            location.href
+        = ($(\"#search_type\").val() == 1) ? \"https://webdesk.jsa.or.jp/books/W11M0050\"
         : \"https://webdesk.jsa.or.jp/books/W11M0090\";\r\n        });\r\n    });</script>\r\n<script
         type=\"text/javascript\">\r\n    function fnDetail(syohin_cd) {\r\n        var
         url = 'https://webdesk.jsa.or.jp/books/W11M0120/index/' + syohin_cd;\r\n        callAction('',
@@ -2265,7 +2249,9 @@ http_interactions:
         \           <ul>\r\n                <li class=\"spDisplay\"><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\">QC検定トップ</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qc1/\">QC検定制度について</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_next_kentei/\">受検案内</a></li>\r\n
-        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_bef_tyuui\">お申込み方法・資料請求</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa6\">申込方法（個人）</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa7\">申込方法（団体）</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_shiryou\">パンフレット・ポスター</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/qc_qa/\">Q&A</a></li>\r\n
         \           </ul>\r\n        </li>\r\n        <li class=\"footerNavItem\">\r\n
         \           <a class=\"footerNavTitle expandNav jsExpandNav\" href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/dev/\">規格</a>\r\n
@@ -2315,5 +2301,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Mon, 03 Apr 2023 22:23:59 GMT
+  recorded_at: Thu, 08 Jun 2023 02:16:19 GMT
 recorded_with: VCR 6.1.0
