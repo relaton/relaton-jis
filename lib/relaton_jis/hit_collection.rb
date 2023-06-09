@@ -18,28 +18,53 @@ module RelatonJis
     # @return [RelatonJis::BibliographicItem, Array<Strig>] hash with bib ot array of missed years
     #
     def find
-      missed_years = []
-      y = year || ref_parts[:year]
-      @array.each do |hit|
-        return hit.fetch if hit.match? ref_parts, y
+      ref_year = year || ref_parts[:year]
+      if ref_year
+        find_by_year ref_year
+      else
+        find_all_years
+      end
+    end
 
-        missed_years << hit.id_parts[:year] if y && hit.match?(ref_parts)
+    def find_by_year(ref_year)
+      missed_years = []
+      @array.each do |hit|
+        return hit.fetch if hit.eq? ref_parts, ref_year
+
+        missed_years << hit.id_parts[:year] if hit.eq?(ref_parts)
       end
       missed_years
     end
 
-    def find_all_parts
-      hits = @array.select { |hit| hit.match? ref_parts, year, all_parts: true }
+    def find_all_years # rubocop:disable Metrics/AbcSize
+      hits = @array.select { |hit| hit.eq? ref_parts }
+      item = hits.max_by { |i| i.id_parts[:year].to_i }.fetch
+      item_id = item.docidentifier.first.id
+      parent = item.to_most_recent_reference
+      hits.each do |hit|
+        next if hit.hit[:id] == item_id
+
+        parent.relation << create_relation(hit)
+      end
+      parent
+    end
+
+    def find_all_parts # rubocop:disable Metrics/AbcSize
+      hits = @array.select { |hit| hit.eq? ref_parts, all_parts: true }
       item = hits.min_by { |i| i.id_parts[:part].to_i }.fetch.to_all_parts
       hits.each do |hit|
         next if hit.hit[:id] == item.docidentifier.first.id
 
-        docid = RelatonBib::DocumentIdentifier.new id: hit.hit[:id], type: "JIS", primary: true
-        fref = RelatonBib::FormattedRef.new content: hit.hit[:id]
-        bibitem = BibliographicItem.new docid: [docid], formattedref: fref
-        item.relation << RelatonBib::DocumentRelation.new(type: "instance", bibitem: bibitem)
+        item.relation << create_relation(hit)
       end
       item
+    end
+
+    def create_relation(hit)
+      docid = RelatonBib::DocumentIdentifier.new id: hit.hit[:id], type: "JIS", primary: true
+      fref = RelatonBib::FormattedRef.new content: hit.hit[:id]
+      bibitem = BibliographicItem.new docid: [docid], formattedref: fref
+      RelatonBib::DocumentRelation.new(type: "instance", bibitem: bibitem)
     end
 
     #

@@ -16,7 +16,8 @@ module RelatonJis
       agent = Mechanize.new
       resp = agent.post "#{SOURCE}0010/searchByKeyword", search_type: "JIS", keyword: code
       disp = JSON.parse resp.body
-      raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
+      # raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
+      return if disp["disp_screen"].nil?
 
       result = agent.get "#{SOURCE}#{disp['disp_screen']}/index"
       HitCollection.new code, year, result: result.xpath("//div[@class='blockGenaral']")
@@ -32,11 +33,15 @@ module RelatonJis
     #
     # @return [RelatonJis::BibliographicItem, nil] JIS document
     #
-    def get(ref, year = nil, opts = {})
+    def get(ref, year = nil, opts = {}) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
       code = ref.sub(/\s\((all parts|規格群)\)/, "")
       opts[:all_parts] ||= !$1.nil?
       warn "[relaton-jis] (\"#{ref}\") fetching..."
       hits = search(code, year)
+      unless hits
+        hint [], ref, year
+        return
+      end
       result = opts[:all_parts] ? hits.find_all_parts : hits.find
       if result.is_a? RelatonJis::BibliographicItem
         warn "[relaton-jis] (\"#{ref}\") found #{result.docidentifier[0].id}"
