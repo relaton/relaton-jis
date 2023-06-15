@@ -112,9 +112,10 @@ module RelatonJis
     end
 
     def fetch_ics
-      @doc.xpath("./table/tr[th[.='ICS']]/td").map do |node|
-        RelatonIsoBib::Ics.new node.text.strip
-      end
+      td = @doc.at("./table/tr[th[.='ICS']]/td")
+      return [] unless td
+
+      td.text.strip.split.map { |code| RelatonIsoBib::Ics.new code }
     end
 
     def fetch_contributor
