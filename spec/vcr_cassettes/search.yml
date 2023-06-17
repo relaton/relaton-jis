@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 08 Jun 2023 02:16:07 GMT
+      - Sat, 17 Jun 2023 16:10:54 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=et114idgecq6l1g41rok0676tnh7reiic5754fgllovcljlrm3972sqjddem56sbqq1tg1pebcu35p05jp0pmdk15akbk9r2l66bpri;
+      - CAKEPHP=jri2441267pt8d7dvc0ps1h5e4d3e0gesc14njntotnf43gcsh6b3ku3q641v1k5lmq0jcqrtfcv14riarb9ivu5de4lu11cnj7fhkm;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Thu, 08 Jun 2023 02:16:07 GMT
+  recorded_at: Sat, 17 Jun 2023 16:10:54 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=et114idgecq6l1g41rok0676tnh7reiic5754fgllovcljlrm3972sqjddem56sbqq1tg1pebcu35p05jp0pmdk15akbk9r2l66bpri
+      - CAKEPHP=jri2441267pt8d7dvc0ps1h5e4d3e0gesc14njntotnf43gcsh6b3ku3q641v1k5lmq0jcqrtfcv14riarb9ivu5de4lu11cnj7fhkm
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 08 Jun 2023 02:16:07 GMT
+      - Sat, 17 Jun 2023 16:10:54 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -911,5 +911,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Thu, 08 Jun 2023 02:16:07 GMT
+  recorded_at: Sat, 17 Jun 2023 16:10:55 GMT
 recorded_with: VCR 6.1.0

@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 08 Jun 2023 02:16:11 GMT
+      - Sat, 17 Jun 2023 16:14:00 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=i5f4c9sbngeh0v8633pfsrqo4a15l1ihf2amuhqcbr27md0bnbq2npa7j5r7f46pjrfirk41sa7tq1kvjd5ahrto3o52ft67aianl8t;
+      - CAKEPHP=tgj508b04pc54oar7da73mjfcd975md7p6jod6tcdlaq2fjjt6usku4d393bdc6u9632l4886a5d07cbrn0auo48cgig6k748pj9ul8;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Thu, 08 Jun 2023 02:16:11 GMT
+  recorded_at: Sat, 17 Jun 2023 16:14:00 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=i5f4c9sbngeh0v8633pfsrqo4a15l1ihf2amuhqcbr27md0bnbq2npa7j5r7f46pjrfirk41sa7tq1kvjd5ahrto3o52ft67aianl8t
+      - CAKEPHP=tgj508b04pc54oar7da73mjfcd975md7p6jod6tcdlaq2fjjt6usku4d393bdc6u9632l4886a5d07cbrn0auo48cgig6k748pj9ul8
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 08 Jun 2023 02:16:11 GMT
+      - Sat, 17 Jun 2023 16:14:00 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -911,7 +911,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Thu, 08 Jun 2023 02:16:12 GMT
+  recorded_at: Sat, 17 Jun 2023 16:14:02 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20X%200208:1997
@@ -943,7 +943,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 08 Jun 2023 02:16:12 GMT
+      - Sat, 17 Jun 2023 16:14:04 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -951,7 +951,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=keptdnotprbhcv5gj0elq8kuc894hrrk312cf9nech6ilj02mfiesa9o1ugj2otdf1ptenk8qob6ajgmm36v2c0ckpem81o0a23bd10;
+      - CAKEPHP=613iqinm4i4hr4rgu651jnikauh09cmdt1akbep53qps4g13cjnigcttb8ogdm6kf334ev0152ma766ca61ovqr374e6dd0psl8juus;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -1665,5 +1665,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Thu, 08 Jun 2023 02:16:13 GMT
+  recorded_at: Sat, 17 Jun 2023 16:14:05 GMT
 recorded_with: VCR 6.1.0
