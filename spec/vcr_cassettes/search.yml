@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 17 Jun 2023 16:10:54 GMT
+      - Fri, 14 Jul 2023 21:37:40 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=jri2441267pt8d7dvc0ps1h5e4d3e0gesc14njntotnf43gcsh6b3ku3q641v1k5lmq0jcqrtfcv14riarb9ivu5de4lu11cnj7fhkm;
+      - CAKEPHP=gv6pb94v5hcafp6ge99botdcqnpmn30i2n7e2p3nhfa9gkmfdmh0q9ht11u49hnv5743kr3k91q05k95qoi81d9o054ui25tqu4kile;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Sat, 17 Jun 2023 16:10:54 GMT
+  recorded_at: Fri, 14 Jul 2023 21:37:40 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=jri2441267pt8d7dvc0ps1h5e4d3e0gesc14njntotnf43gcsh6b3ku3q641v1k5lmq0jcqrtfcv14riarb9ivu5de4lu11cnj7fhkm
+      - CAKEPHP=gv6pb94v5hcafp6ge99botdcqnpmn30i2n7e2p3nhfa9gkmfdmh0q9ht11u49hnv5743kr3k91q05k95qoi81d9o054ui25tqu4kile
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 17 Jun 2023 16:10:54 GMT
+      - Fri, 14 Jul 2023 21:37:41 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -315,7 +315,7 @@ http_interactions:
         \ >IEC規格</option>\r\n                    <option value=\"BS\"  >BS規格</option>\r\n
         \                   <option value=\"ASTM\"  >ASTM規格</option>\r\n                    <option
         value=\"GLOBAL\"  >海外規格</option>\r\n                    <option value=\"KOKUNAI\"
-        \ >JSA規格、国内団体規格</option>\r\n                    <option value=\"BOOKS\"  >書籍</option>\r\n
+        \ >JSA規格、国内団体出版物</option>\r\n                    <option value=\"BOOKS\"  >書籍</option>\r\n
         \                   <option value=\"BUPIN\"  >物品</option>\r\n                </select>\r\n
         \               <input class=\"formInput\" id=\"keyword\" type=\"text\" name=\"keyword\"
         placeholder=\"規格番号【半角】（例：Q9001）、標題\"\r\n                                           value=\"JIS
@@ -658,8 +658,10 @@ http_interactions:
         >IEC規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BS\"
         >BS規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ASTM\"
         >ASTM規格<span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=GLOBAL\"
-        >海外規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=KOKUNAI\"
-        >JSA規格、国内団体規格<span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BOOKS\"
+        >海外規格 <span>0</span></a>            \r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=KOKUNAI\"
+        >JSA規格、<br class=\"pcDisplay\">国内団体出版物<span style=\"text-align: right; position:
+        absolute; top: 50%; transform: translateY(-50%);\">0</span></a>\r\n            <a
+        href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BOOKS\"
         >書籍 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BUPIN\"
         >物品<span>0</span></a>\r\n        </div>\r\n        <!-- bannar\r\n    <ul
         class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n        <li><a
@@ -828,7 +830,7 @@ http_interactions:
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0300\">BS規格</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0310\">ASTM規格</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0320\">海外規格</a></li>\r\n
-        \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0330\">JSA規格、国内団体規格</a></li>\r\n
+        \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0330\">JSA規格、国内団体出版物</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0340\">書籍</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0350\">物品</a></li>\r\n
         \               <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0390/?post_type=book_common&amp;page_id=b_j_top_riyou\">利用方法</a></li>\r\n
@@ -911,5 +913,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Sat, 17 Jun 2023 16:10:55 GMT
+  recorded_at: Fri, 14 Jul 2023 21:37:41 GMT
 recorded_with: VCR 6.1.0
