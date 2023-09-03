@@ -1,4 +1,4 @@
-<bibdata type="standard" schema-version="v1.2.3">
+<bibdata type="standard" schema-version="v1.2.4">
   <fetched>2023-06-08</fetched>
   <title format="text/plain" language="ja" script="Jpan">７ビット及び８ビットの２バイト情報交換用符号化漢字集合</title>
   <title format="text/plain" language="en" script="Lant">7-bit and 8-bit double byte coded KANJI sets for information interchange</title>
@@ -17,7 +17,7 @@
   <status>
     <stage>valid</stage>
   </status>
-  <relation type="instance">
+  <relation type="instanceOf">
     <bibitem type="standard">
       <fetched>2023-06-08</fetched>
       <title format="text/plain" language="ja" script="Jpan">７ビット及び８ビットの２バイト情報交換用符号化漢字集合</title>
@@ -46,7 +46,7 @@
       </status>
     </bibitem>
   </relation>
-  <relation type="instance">
+  <relation type="instanceOf">
     <bibitem type="standard">
       <formattedref format="text/plain">JIS X 0208:1997/AMENDMENT 1:2012</formattedref>
       <docidentifier type="JIS" primary="true">JIS X 0208:1997/AMENDMENT 1:2012</docidentifier>

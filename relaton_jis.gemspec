@@ -35,8 +35,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "mechanize", "~> 2.8.0"
-  spec.add_dependency "relaton-bib", "~> 1.14.9"
-  spec.add_dependency "relaton-iso-bib", "~> 1.14.0"
+  spec.add_dependency "relaton-iso-bib", "~> 1.16.0"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

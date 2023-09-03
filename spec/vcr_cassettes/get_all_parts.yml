@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 14 Jul 2023 21:37:51 GMT
+      - Sat, 02 Sep 2023 02:12:26 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=ipdbuepbkb9q0vvb84lajipcd4tsm2om8juk8uansu8o03sl40u14tqcotk2poiaj7j9i1nrv94ot2h7stun0h3ibafr5euia0ks59q;
+      - CAKEPHP=dt13kdov18km1qi59q5shjg2ivulo2hmncnkrsv6nal1gepdkktq4349hqq3ovj3i6f402o5l1c6ocdhhg3nofdt0ecteobknctb3e4;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Fri, 14 Jul 2023 21:37:51 GMT
+  recorded_at: Sat, 02 Sep 2023 02:12:26 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=ipdbuepbkb9q0vvb84lajipcd4tsm2om8juk8uansu8o03sl40u14tqcotk2poiaj7j9i1nrv94ot2h7stun0h3ibafr5euia0ks59q
+      - CAKEPHP=dt13kdov18km1qi59q5shjg2ivulo2hmncnkrsv6nal1gepdkktq4349hqq3ovj3i6f402o5l1c6ocdhhg3nofdt0ecteobknctb3e4
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 14 Jul 2023 21:37:51 GMT
+      - Sat, 02 Sep 2023 02:12:26 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -275,6 +275,10 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0670/?post_type=other&amp;page_id=sq2023_rp\"
+        >\r\n                                                                                                <b
+        style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>\r\n                                                                                    </a>\r\n
+        \                   </div>\r\n                                                                <div
         class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
@@ -284,6 +288,11 @@ http_interactions:
         \                                                   </a>\r\n                    </div>\r\n
         \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
         class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1465\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
+        \                           <time class=\"modalDate\">2023/08/02</time>\r\n
+        \                                           </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -1576,7 +1585,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Fri, 14 Jul 2023 21:37:51 GMT
+  recorded_at: Sat, 02 Sep 2023 02:12:27 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20B%200060-1:2015
@@ -1608,7 +1617,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 14 Jul 2023 21:37:52 GMT
+      - Sat, 02 Sep 2023 02:12:28 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -1616,7 +1625,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=35mb20af25b2q240ie65iev94mmco0lhnaba7gvh4aeccgblqv7asb324819bf1bt7d2jju20l639ano2gf54qf0f67ln7hukdf5oa9;
+      - CAKEPHP=sd58qv0vb1q4qoh7rcqr49insmujnqspe7d7cveuhp2838n5p2thvqrarompt6hq5ur32aaff8l3lljkd3k5f5qfs08p756knmersv2;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -1790,6 +1799,10 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0670/?post_type=other&amp;page_id=sq2023_rp\"
+        >\r\n                                                                                                <b
+        style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>\r\n                                                                                    </a>\r\n
+        \                   </div>\r\n                                                                <div
         class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
@@ -1799,6 +1812,11 @@ http_interactions:
         \                                                   </a>\r\n                    </div>\r\n
         \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
         class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1465\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
+        \                           <time class=\"modalDate\">2023/08/02</time>\r\n
+        \                                           </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -2043,7 +2061,7 @@ http_interactions:
         \                               <td class=\"content\">\r\n                                                                    </td>\r\n
         \                           </tr>\r\n                        \r\n                                                    <tr>\r\n
         \                                                                   <th class=\"title\">ハンドブック</th>\r\n
-        \                                   <td class=\"content\">\r\n                                                                                                                                                                                        製図:2022<br>\r\n
+        \                                   <td class=\"content\">\r\n                                                                                                                                                                                        製図:2023<br>\r\n
         \                                                                                                                                                                                               標準化:2023<br>\r\n
         \                                                                                                                                                                       </td>\r\n
         \                                                           </tr>\r\n                        \r\n
@@ -2303,5 +2321,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Fri, 14 Jul 2023 21:37:53 GMT
-recorded_with: VCR 6.1.0
+  recorded_at: Sat, 02 Sep 2023 02:12:29 GMT
+recorded_with: VCR 6.2.0
