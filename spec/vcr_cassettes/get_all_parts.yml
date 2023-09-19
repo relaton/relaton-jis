@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 02 Sep 2023 02:12:26 GMT
+      - Tue, 19 Sep 2023 20:11:19 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=dt13kdov18km1qi59q5shjg2ivulo2hmncnkrsv6nal1gepdkktq4349hqq3ovj3i6f402o5l1c6ocdhhg3nofdt0ecteobknctb3e4;
+      - CAKEPHP=v25r447oe39g81fgvb71afvmk7d2dg77lbnpstpi5uotj5qr442lkol99kfdht6ejbc227hsc5pm8k5dh22jbj2hv6704e03b0shis3;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Sat, 02 Sep 2023 02:12:26 GMT
+  recorded_at: Tue, 19 Sep 2023 20:11:19 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=dt13kdov18km1qi59q5shjg2ivulo2hmncnkrsv6nal1gepdkktq4349hqq3ovj3i6f402o5l1c6ocdhhg3nofdt0ecteobknctb3e4
+      - CAKEPHP=v25r447oe39g81fgvb71afvmk7d2dg77lbnpstpi5uotj5qr442lkol99kfdht6ejbc227hsc5pm8k5dh22jbj2hv6704e03b0shis3
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 02 Sep 2023 02:12:26 GMT
+      - Tue, 19 Sep 2023 20:11:19 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -279,7 +279,15 @@ http_interactions:
         >\r\n                                                                                                <b
         style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>\r\n                                                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1487\">\r\n                        <a
+        href=\"#\">\r\n                                                            <span>★商品の発送に関するお知らせ★</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide
+        jsCallModal\" data-modal=\"#modal_t1486\">\r\n                        <a href=\"#\">\r\n
+        \                                                           <span>★閉店時間に関するお知らせ★</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide\">\r\n
+        \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
@@ -293,6 +301,18 @@ http_interactions:
         \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
         \                           <time class=\"modalDate\">2023/08/02</time>\r\n
         \                                           </div>\r\n    </div>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1487\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">★商品の発送に関するお知らせ★</h4>\r\n                            <time
+        class=\"modalDate\">2023/09/13</time>\r\n                                    <p
+        class=\"txt\">\n    平素より当協会のJSA Webdeskをご利用いただき有難うございます。<br>\n    9月29日(金)に実施いたします棚卸に伴い、9月27日（水）午後以降にご注文いただきました商品は、\n
+        \   10月2日（月）以降に順次発送いたします。<br>\n    ※ダウンロード商品は除きます。<br>\n    お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1486\">\r\n
+        \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">★閉店時間に関するお知らせ★</h4>\r\n
+        \                           <time class=\"modalDate\">2023/09/13</time>\r\n
+        \                                   <p class=\"txt\">\n    9月29日(金)に実施いたします棚卸に伴い、当日のライブラリ・販売所（三田ＭＴビル1階）の営業時間を12：00までとさせていただきます。<br>\n
+        \   お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>        </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -1585,7 +1605,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Sat, 02 Sep 2023 02:12:27 GMT
+  recorded_at: Tue, 19 Sep 2023 20:11:20 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20B%200060-1:2015
@@ -1617,7 +1637,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 02 Sep 2023 02:12:28 GMT
+      - Tue, 19 Sep 2023 20:11:22 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -1625,7 +1645,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=sd58qv0vb1q4qoh7rcqr49insmujnqspe7d7cveuhp2838n5p2thvqrarompt6hq5ur32aaff8l3lljkd3k5f5qfs08p756knmersv2;
+      - CAKEPHP=i7ej9m9pto4pluukgpimbn4i6l145c1b0jddq6d52ddtjjnd9clqgc5vci74fm7qno3f6nhusqkmi0rs31s2bmdkand00nh93rp7bhq;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -1803,7 +1823,15 @@ http_interactions:
         >\r\n                                                                                                <b
         style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>\r\n                                                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1487\">\r\n                        <a
+        href=\"#\">\r\n                                                            <span>★商品の発送に関するお知らせ★</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide
+        jsCallModal\" data-modal=\"#modal_t1486\">\r\n                        <a href=\"#\">\r\n
+        \                                                           <span>★閉店時間に関するお知らせ★</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide\">\r\n
+        \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
@@ -1817,6 +1845,18 @@ http_interactions:
         \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
         \                           <time class=\"modalDate\">2023/08/02</time>\r\n
         \                                           </div>\r\n    </div>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t1487\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">★商品の発送に関するお知らせ★</h4>\r\n                            <time
+        class=\"modalDate\">2023/09/13</time>\r\n                                    <p
+        class=\"txt\">\n    平素より当協会のJSA Webdeskをご利用いただき有難うございます。<br>\n    9月29日(金)に実施いたします棚卸に伴い、9月27日（水）午後以降にご注文いただきました商品は、\n
+        \   10月2日（月）以降に順次発送いたします。<br>\n    ※ダウンロード商品は除きます。<br>\n    お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1486\">\r\n
+        \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">★閉店時間に関するお知らせ★</h4>\r\n
+        \                           <time class=\"modalDate\">2023/09/13</time>\r\n
+        \                                   <p class=\"txt\">\n    9月29日(金)に実施いたします棚卸に伴い、当日のライブラリ・販売所（三田ＭＴビル1階）の営業時間を12：00までとさせていただきます。<br>\n
+        \   お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>        </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -2321,5 +2361,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Sat, 02 Sep 2023 02:12:29 GMT
+  recorded_at: Tue, 19 Sep 2023 20:11:22 GMT
 recorded_with: VCR 6.2.0
