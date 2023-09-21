@@ -36,7 +36,7 @@ module RelatonJis
     def get(ref, year = nil, opts = {}) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
       code = ref.sub(/\s\((all parts|規格群)\)/, "")
       opts[:all_parts] ||= !$1.nil?
-      warn "[relaton-jis] (\"#{ref}\") fetching..."
+      Util.warn "(#{ref}) fetching..."
       hits = search(code, year)
       unless hits
         hint [], ref, year
@@ -44,7 +44,7 @@ module RelatonJis
       end
       result = opts[:all_parts] ? hits.find_all_parts : hits.find
       if result.is_a? RelatonJis::BibliographicItem
-        warn "[relaton-jis] (\"#{ref}\") found #{result.docidentifier[0].id}"
+        Util.warn "(#{ref}) found `#{result.docidentifier[0].id}`"
         return result
       end
       hint result, ref, year
@@ -58,12 +58,13 @@ module RelatonJis
     # @param [String, nil] year year to search
     #
     def hint(result, ref, year)
-      warn "[relaton-jis] (\"#{ref}\") not found. The identifier must be " \
-           "exactly as shown on the webdesk.jsa.or.jp website."
+      Util.warn "(#{ref}) not found. The identifier must be " \
+                "exactly as shown on the webdesk.jsa.or.jp website."
       if result.any?
-        warn "[relaton-jis] (\"#{ref}\") TIP: No match for edition " \
-             "year #{year}, but matches exist for #{result.uniq.join(', ')}."
+        Util.warn "(#{ref}) TIP: No match for edition year `#{year}`, " \
+                  "but matches exist for `#{result.uniq.join('`, `')}`."
       end
+      nil
     end
   end
 end

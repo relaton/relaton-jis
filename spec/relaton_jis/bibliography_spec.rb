@@ -1,4 +1,6 @@
 describe RelatonJis::Bibliography do
+  before { RelatonJis.instance_variable_set :@configuration, nil }
+
   context "class methods" do
     context ".get" do
       it "returns empty array if not found" do
@@ -46,7 +48,7 @@ describe RelatonJis::Bibliography do
       expect do
         bib = described_class.get "JIS X 0208", "1998"
         expect(bib).to be_nil
-      end.to output(/TIP: No match for edition year 1998/).to_stderr
+      end.to output(/TIP: No match for edition year `1998`/).to_stderr
     end
 
     context "with all parts", vcr: { cassette_name: "get_all_parts" } do

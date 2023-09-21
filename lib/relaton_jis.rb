@@ -3,6 +3,8 @@
 require "mechanize"
 require "relaton_iso_bib"
 require_relative "relaton_jis/version"
+require_relative "relaton_jis/config"
+require_relative "relaton_jis/util"
 require_relative "relaton_jis/bibliographic_item"
 require_relative "relaton_jis/xml_parser"
 require_relative "relaton_jis/hash_converter"
