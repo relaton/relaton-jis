@@ -22,13 +22,24 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 == Usage
 
-=== Search for standards using keywords
+=== Configuration
+
+Configuration is optional. The available option is `logger` which is a `Logger` instance. By default, the logger is `Logger.new($stderr)` with `Logger::WARN` level. To change the logger level, use `RelatonJis.configure` block.
 
 [source,ruby]
 ----
 require 'relaton_jis'
 => true
 
+RelatonJis.configure do |config|
+  config.logger.level = Logger::DEBUG
+end
+----
+
+=== Search for standards using keywords
+
+[source,ruby]
+----
 hit_collection = RelatonJis::Bibliography.search("JIS X 0208")
 => <RelatonJis::HitCollection:0x00000000018858 @ref=JIS X 0208 @fetched=false>
 
@@ -54,14 +65,14 @@ item.docidentifier
 [source,ruby]
 ----
 item = RelatonJis::Bibliography.get "JIS X 0208:1997"
-[relaton-jis] ("JIS X 0208:1997") fetching...
-[relaton-jis] ("JIS X 0208:1997") found JIS X 0208:1997
+[relaton-jis] (JIS X 0208:1997) fetching...
+[relaton-jis] (JIS X 0208:1997) found `JIS X 0208:1997`
 => #<RelatonJis::BibliographicItem:0x00007fe4478ecc08
 ...
 
 item = RelatonJis::Bibliography.get "JIS X 0208", "1997"
-[relaton-jis] ("JIS X 0208") fetching...
-[relaton-jis] ("JIS X 0208") found JIS X 0208:1997
+[relaton-jis] (JIS X 0208) fetching...
+[relaton-jis] (JIS X 0208) found `JIS X 0208:1997`
 => #<RelatonJis::BibliographicItem:0x00007fe436b49d90
 ...
 
