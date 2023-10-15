@@ -7,7 +7,7 @@ describe RelatonJis::Bibliography do
         expect(described_class).to receive(:search).and_return nil
         expect do
           expect(described_class.get("JIS X 0208")).to be_nil
-        end.to output(/not found\. The identifier must be exactly as shown on the webdesk\.jsa.or\.jp website\./).to_stderr
+        end.to output(/\[relaton-jis\] \(JIS X 0208\) Not found\./).to_stderr
       end
     end
   end
@@ -35,8 +35,10 @@ describe RelatonJis::Bibliography do
     end
 
     it "with year", vcr: { cassette_name: "get" } do
-      bib = described_class.get "JIS X 0208:1997"
-      expect(bib.docidentifier.first.id).to eq "JIS X 0208:1997"
+      expect do
+        bib = described_class.get "JIS X 0208:1997"
+        expect(bib.docidentifier.first.id).to eq "JIS X 0208:1997"
+      end.to output(/\[relaton-jis\] \(JIS X 0208:1997\) Found: `JIS X 0208:1997`/).to_stderr
     end
 
     it "with year as argument", vcr: { cassette_name: "get" } do

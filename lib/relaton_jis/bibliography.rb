@@ -14,13 +14,15 @@ module RelatonJis
     #
     def search(code, year = nil)
       agent = Mechanize.new
-      resp = agent.post "#{SOURCE}0010/searchByKeyword", search_type: "JIS", keyword: code
+      resp = agent.post "#{SOURCE}0010/searchByKeyword", search_type: "JIS",
+                                                         keyword: code
       disp = JSON.parse resp.body
       # raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
       return if disp["disp_screen"].nil?
 
       result = agent.get "#{SOURCE}#{disp['disp_screen']}/index"
-      HitCollection.new code, year, result: result.xpath("//div[@class='blockGenaral']")
+      HitCollection.new code, year,
+                        result: result.xpath("//div[@class='blockGenaral']")
     end
 
     #
@@ -36,7 +38,7 @@ module RelatonJis
     def get(ref, year = nil, opts = {}) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
       code = ref.sub(/\s\((all parts|規格群)\)/, "")
       opts[:all_parts] ||= !$1.nil?
-      Util.warn "(#{ref}) fetching..."
+      Util.warn "(#{ref}) Fetching from webdesk.jsa.or.jp ..."
       hits = search(code, year)
       unless hits
         hint [], ref, year
@@ -44,7 +46,7 @@ module RelatonJis
       end
       result = opts[:all_parts] ? hits.find_all_parts : hits.find
       if result.is_a? RelatonJis::BibliographicItem
-        Util.warn "(#{ref}) found `#{result.docidentifier[0].id}`"
+        Util.warn "(#{ref}) Found: `#{result.docidentifier[0].id}`"
         return result
       end
       hint result, ref, year
@@ -58,8 +60,7 @@ module RelatonJis
     # @param [String, nil] year year to search
     #
     def hint(result, ref, year)
-      Util.warn "(#{ref}) not found. The identifier must be " \
-                "exactly as shown on the webdesk.jsa.or.jp website."
+      Util.warn "(#{ref}) Not found."
       if result.any?
         Util.warn "(#{ref}) TIP: No match for edition year `#{year}`, " \
                   "but matches exist for `#{result.uniq.join('`, `')}`."
