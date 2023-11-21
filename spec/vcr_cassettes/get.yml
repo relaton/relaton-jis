@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 15 Oct 2023 04:10:41 GMT
+      - Tue, 21 Nov 2023 12:30:05 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=asha1kifum74icgjaa9dok6nch8sm5ntanu511a1msas2a80acc6tk3do31vh2cbcbvaidlahnkm3keg9qdju1rm2tatfjdakdspnqe;
+      - CAKEPHP=shkrs5ltaq81f584ed9sgj5ogtnramgt77a0sqd55vs4eqqgicithq9tajns53et4pe0cpumdanii4n1t3pc2o9usrpuhd14mrk2osh;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Sun, 15 Oct 2023 04:10:41 GMT
+  recorded_at: Tue, 21 Nov 2023 12:30:05 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=asha1kifum74icgjaa9dok6nch8sm5ntanu511a1msas2a80acc6tk3do31vh2cbcbvaidlahnkm3keg9qdju1rm2tatfjdakdspnqe
+      - CAKEPHP=shkrs5ltaq81f584ed9sgj5ogtnramgt77a0sqd55vs4eqqgicithq9tajns53et4pe0cpumdanii4n1t3pc2o9usrpuhd14mrk2osh
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 15 Oct 2023 04:10:41 GMT
+      - Tue, 21 Nov 2023 12:30:06 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -156,44 +156,35 @@ http_interactions:
         href=\"/img/common/favicon/safari-pinned-tab.svg\" color=\"#004694\">\r\n<link
         rel=\"shortcut icon\" href=\"/img/common/favicon/favicon.ico\">\r\n<meta name=\"msapplication-TileColor\"
         content=\"#004694\">\r\n<meta name=\"msapplication-config\" content=\"/img/common/favicon/browserconfig.xml\">\r\n<meta
-        name=\"theme-color\" content=\"#ffffff\">\r\n\r\n<!-- User Insight PCDF Code
-        Start :  -->\r\n<!--\r\n<script type=\"text/javascript\">\r\n    var _uic
-        = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 54762;\r\n    _uih['lg_id']
-        = '';\r\n    _uih['fb_id'] = '';\r\n    _uih['tw_id'] = '';\r\n    _uih['uigr_1']
-        = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5']
-        = '';\r\n    _uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = '';
-        _uih['uigr_9'] = ''; _uih['uigr_10'] = '';\r\n    _uic['uls'] = 1;\r\n\r\n
-        \   /* DO NOT ALTER BELOW THIS LINE */\r\n    /* WITH FIRST PARTY COOKIE */\r\n
-        \   (function() {\r\n        var bi = document.createElement('script');bi.type
-        = 'text/javascript'; bi.async = true;\r\n        bi.src = '//cs.nakanohito.jp/b3/bi.js';\r\n
-        \       var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi,
-        s);\r\n    })();\r\n</script> -->\r\n<!-- User Insight PCDF Code End :  -->\r\n\r\n<!--
-        Google Tag Manager -->\r\n<script>\r\n    (function (w, d, s, l, i) {\r\n
-        \       w[l] = w[l] || [];\r\n        w[l].push({'gtm.start':\r\n                    new
-        Date().getTime(), event: 'gtm.js'});\r\n        var f = d.getElementsByTagName(s)[0],\r\n
-        \               j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l
-        : '';\r\n        j.async = true;\r\n        j.src =\r\n                'https://www.googletagmanager.com/gtm.js?id='
-        + i + dl;\r\n        f.parentNode.insertBefore(j, f);\r\n    })(window, document,
-        'script', 'dataLayer', 'GTM-KNRS5R9');\r\n</script>    </head>\r\n\r\n    <body
-        id=\"pageBooks\">\r\n        <!-- Google Tag Manager (noscript) -->\r\n        <noscript>\r\n
-        \       <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KNRS5R9\"
-        height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n
+        name=\"theme-color\" content=\"#ffffff\">\r\n\r\n\r\n    <!-- Google Tag Manager
+        -->\r\n    <script>\r\n        (function(w, d, s, l, i){\r\n            w[l]
+        = w[l] || [];\r\n            w[l].push({'gtm.start':\r\n                        new
+        Date().getTime(), event: 'gtm.js'});\r\n            var f = d.getElementsByTagName(s)[0],\r\n
+        \                   j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+        + l : '';\r\n            j.async = true;\r\n            j.src =\r\n                    'https://www.googletagmanager.com/gtm.js?id='
+        + i + dl;\r\n            f.parentNode.insertBefore(j, f);\r\n        })(window,
+        document, 'script', 'dataLayer', 'GTM-KNRS5R9');\r\n    </script>\r\n    <!--
+        End Google Tag Manager -->\r\n    </head>\r\n\r\n    <body id=\"pageBooks\">\r\n
+        \       \r\n        <!-- Google Tag Manager (noscript) -->\r\n        <noscript>\r\n
+        \       <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KNRS5R9\"\r\n
+        \               height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n
         \       </noscript>\r\n        <!-- End Google Tag Manager (noscript) -->\r\n
-        \       <div id=\"wrapper\">\r\n            <div id=\"container\">\r\n                <header
-        id=\"header\">\r\n    <div class=\"headerInner\">\r\n        <a href=\"https://webdesk.jsa.or.jp/\"
-        class=\"logo\"><img src=\"/img/common/logo_r2.svg\" alt=\"日本規格協会 JSA GROUP
-        Webdesk\"></a>\r\n        <ul id=\"navi\" class=\"jsNavi\">\r\n            <li><a
-        href=\"https://webdesk.jsa.or.jp/\"><img class=\"naviLogo\" src=\"/img/common/logo_r2.svg\"
-        alt=\"日本規格協会 Webdesk\"></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0400/\"
-        class=\"pageJsa\"><span><img src=\"/img/common/icon_group_r2.svg\" alt=\"JSA
-        GROUPとは\"><img src=\"/img/common/icon_group_blue_r2.svg\" alt=\"JSA GROUPとは\"></span><font
-        color=>JSA GROUPとは</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0010/\"
-        class=\"pageBooks\"><span><img src=\"/img/common/icon_service_gray_r2.svg\"
-        alt=\"規格・書籍・物品\"><img src=\"/img/common/icon_service_brown_r2.svg\" alt=\"規格・書籍・物品\"></span><font
-        color=>規格・書籍・物品</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/seminar/W12M1000/\"
-        class=\"pageSeminar\"><span><img src=\"/img/common/icon_seminar_gray_r2.svg\"
-        alt=\"セミナー・説明会・SQ大会\"><img src=\"/img/common/icon_seminar_brown_r2.svg\" alt=\"セミナー・説明会・SQ大会\"></span><font
-        color=>セミナー・説明会・SQ大会</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\"
+        \       \r\n        <div id=\"wrapper\">\r\n            <div id=\"container\">\r\n
+        \               <header id=\"header\">\r\n    <div class=\"headerInner\">\r\n
+        \       <a href=\"https://webdesk.jsa.or.jp/\" class=\"logo\"><img src=\"/img/common/logo_r2.svg\"
+        alt=\"日本規格協会 JSA GROUP Webdesk\"></a>\r\n        <ul id=\"navi\" class=\"jsNavi\">\r\n
+        \           <li><a href=\"https://webdesk.jsa.or.jp/\"><img class=\"naviLogo\"
+        src=\"/img/common/logo_r2.svg\" alt=\"日本規格協会 Webdesk\"></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/common/W10K0400/\" class=\"pageJsa\"><span><img
+        src=\"/img/common/icon_group_r2.svg\" alt=\"JSA GROUPとは\"><img src=\"/img/common/icon_group_blue_r2.svg\"
+        alt=\"JSA GROUPとは\"></span><font color=>JSA GROUPとは</font></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/books/W11M0010/\" class=\"pageBooks\"><span><img
+        src=\"/img/common/icon_service_gray_r2.svg\" alt=\"規格・書籍・物品\"><img src=\"/img/common/icon_service_brown_r2.svg\"
+        alt=\"規格・書籍・物品\"></span><font color=>規格・書籍・物品</font></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/seminar/W12M1000/\" class=\"pageSeminar\"><span><img
+        src=\"/img/common/icon_seminar_gray_r2.svg\" alt=\"セミナー・説明会・SQ大会\"><img src=\"/img/common/icon_seminar_brown_r2.svg\"
+        alt=\"セミナー・説明会・SQ大会\"></span><font color=>セミナー・説明会・SQ大会</font></a></li>\r\n
+        \           <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\"
         class=\"pageQc\"><span><img src=\"/img/common/icon_qc_gray_r2.svg\" alt=\"QC検定\"><img
         src=\"/img/common/icon_qc_orange_r2.svg\" alt=\"QC検定\"></span><font color=>QC検定</font></a></li>\r\n
         \           <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/dev/\"
@@ -275,12 +266,7 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0670/?post_type=other&amp;page_id=sq2023_rp\"
-        >\r\n                                                           \r\n                                    <b
-        style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>                              \r\n
-        \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide\">\r\n
-        \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
@@ -289,11 +275,6 @@ http_interactions:
         \                                                   </a>\r\n                    </div>\r\n
         \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
         class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t1465\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
-        \                           <time class=\"modalDate\">2023/08/02</time>\r\n
-        \                                           </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -679,25 +660,21 @@ http_interactions:
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
         alt=\"\"></a></li>\r\n    </ul>\r\n    -->\r\n</aside>\r\n    <!-- modal-->\r\n
         \                                       <!-- modal About Redline -->\r\n<div
-        class=\"modal jsModal\" id=\"about_redline\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">Redline版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
-        \           <dt>ISO、ASTM</dt>\r\n            <dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />\r\n                原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br
-        />\r\n                邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
-        />\r\n                <br />\r\n                原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n                邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n
-        \           </dd>\r\n            <dt>IEC</dt>\r\n            <dd>\r\n                <p>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />\r\n                    原文はPDF版が1つのファイル（前半にレッドライン版、後半に正式規格）、冊子版(<span style=\"font-size:
-        10pt;\">※)</span>は1冊（Redline版と正式規格の合本）でのお届けとなります。<br />\r\n                    邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
-        />\r\n                    <br />\r\n                    原文Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/previewiecredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。<br
-        />\r\n                    邦訳Redline版のサンプルページは<a href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n                </p>\r\n                <p><span
-        style=\"font-size: 12pt;\"><br />\r\n                        ※IEC規格のRedline版(冊子版)で、CD-ROMでご提供となる場合がございます。備考欄の記載にご注意ください。</span></p>\r\n
-        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
-        About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
+        class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n<div class=\"modalInner\">\r\n\r\n<h2
+        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
+        />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文はPDF版が1つのファイル（前半にRedline版、後半に正式規格）、冊子版は1冊（Redline版と正式規格の合本）でのお届けとなります。<br
+        />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br />\r\n<br
+        />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
+        />正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n<br />\r\n　Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/previewastmredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n</dl>\r\n</div>\r\n</div>\r\n\r\n<!--
+        /modal About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
         jsModal\" id=\"about_ed\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
         jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
         class=\"headline1\">IECのEdition番号について</h2>\r\n        <dl class=\"dataList\">\r\n
@@ -923,7 +900,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Sun, 15 Oct 2023 04:10:42 GMT
+  recorded_at: Tue, 21 Nov 2023 12:30:06 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20X%200208:1997
@@ -955,7 +932,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 15 Oct 2023 04:10:43 GMT
+      - Tue, 21 Nov 2023 12:30:07 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -963,7 +940,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=bohjdafbquq7m742iqskufp02r8bukqumj8quc0g9v26usp6ajkub92vhunhc7fdfdl0t59ljramtvn8n6pa3rnlfelvq4ma1h5igds;
+      - CAKEPHP=hc8te2c8if3a710t20fopougvnvtdjino630b99beiu2elv7s16r7g9jnjburh6ei9292fj5o4kj5api522m0sfr444d290cv1vlu36;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -1019,44 +996,35 @@ http_interactions:
         href=\"/img/common/favicon/safari-pinned-tab.svg\" color=\"#004694\">\r\n<link
         rel=\"shortcut icon\" href=\"/img/common/favicon/favicon.ico\">\r\n<meta name=\"msapplication-TileColor\"
         content=\"#004694\">\r\n<meta name=\"msapplication-config\" content=\"/img/common/favicon/browserconfig.xml\">\r\n<meta
-        name=\"theme-color\" content=\"#ffffff\">\r\n\r\n<!-- User Insight PCDF Code
-        Start :  -->\r\n<!--\r\n<script type=\"text/javascript\">\r\n    var _uic
-        = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 54762;\r\n    _uih['lg_id']
-        = '';\r\n    _uih['fb_id'] = '';\r\n    _uih['tw_id'] = '';\r\n    _uih['uigr_1']
-        = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5']
-        = '';\r\n    _uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = '';
-        _uih['uigr_9'] = ''; _uih['uigr_10'] = '';\r\n    _uic['uls'] = 1;\r\n\r\n
-        \   /* DO NOT ALTER BELOW THIS LINE */\r\n    /* WITH FIRST PARTY COOKIE */\r\n
-        \   (function() {\r\n        var bi = document.createElement('script');bi.type
-        = 'text/javascript'; bi.async = true;\r\n        bi.src = '//cs.nakanohito.jp/b3/bi.js';\r\n
-        \       var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi,
-        s);\r\n    })();\r\n</script> -->\r\n<!-- User Insight PCDF Code End :  -->\r\n\r\n<!--
-        Google Tag Manager -->\r\n<script>\r\n    (function (w, d, s, l, i) {\r\n
-        \       w[l] = w[l] || [];\r\n        w[l].push({'gtm.start':\r\n                    new
-        Date().getTime(), event: 'gtm.js'});\r\n        var f = d.getElementsByTagName(s)[0],\r\n
-        \               j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l
-        : '';\r\n        j.async = true;\r\n        j.src =\r\n                'https://www.googletagmanager.com/gtm.js?id='
-        + i + dl;\r\n        f.parentNode.insertBefore(j, f);\r\n    })(window, document,
-        'script', 'dataLayer', 'GTM-KNRS5R9');\r\n</script>    </head>\r\n\r\n    <body
-        id=\"pageBooks\">\r\n        <!-- Google Tag Manager (noscript) -->\r\n        <noscript>\r\n
-        \       <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KNRS5R9\"
-        height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n
+        name=\"theme-color\" content=\"#ffffff\">\r\n\r\n\r\n    <!-- Google Tag Manager
+        -->\r\n    <script>\r\n        (function(w, d, s, l, i){\r\n            w[l]
+        = w[l] || [];\r\n            w[l].push({'gtm.start':\r\n                        new
+        Date().getTime(), event: 'gtm.js'});\r\n            var f = d.getElementsByTagName(s)[0],\r\n
+        \                   j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+        + l : '';\r\n            j.async = true;\r\n            j.src =\r\n                    'https://www.googletagmanager.com/gtm.js?id='
+        + i + dl;\r\n            f.parentNode.insertBefore(j, f);\r\n        })(window,
+        document, 'script', 'dataLayer', 'GTM-KNRS5R9');\r\n    </script>\r\n    <!--
+        End Google Tag Manager -->\r\n    </head>\r\n\r\n    <body id=\"pageBooks\">\r\n
+        \       \r\n        <!-- Google Tag Manager (noscript) -->\r\n        <noscript>\r\n
+        \       <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KNRS5R9\"\r\n
+        \               height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n
         \       </noscript>\r\n        <!-- End Google Tag Manager (noscript) -->\r\n
-        \       <div id=\"wrapper\">\r\n            <div id=\"container\">\r\n                <header
-        id=\"header\">\r\n    <div class=\"headerInner\">\r\n        <a href=\"https://webdesk.jsa.or.jp/\"
-        class=\"logo\"><img src=\"/img/common/logo_r2.svg\" alt=\"日本規格協会 JSA GROUP
-        Webdesk\"></a>\r\n        <ul id=\"navi\" class=\"jsNavi\">\r\n            <li><a
-        href=\"https://webdesk.jsa.or.jp/\"><img class=\"naviLogo\" src=\"/img/common/logo_r2.svg\"
-        alt=\"日本規格協会 Webdesk\"></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0400/\"
-        class=\"pageJsa\"><span><img src=\"/img/common/icon_group_r2.svg\" alt=\"JSA
-        GROUPとは\"><img src=\"/img/common/icon_group_blue_r2.svg\" alt=\"JSA GROUPとは\"></span><font
-        color=>JSA GROUPとは</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/books/W11M0010/\"
-        class=\"pageBooks\"><span><img src=\"/img/common/icon_service_gray_r2.svg\"
-        alt=\"規格・書籍・物品\"><img src=\"/img/common/icon_service_brown_r2.svg\" alt=\"規格・書籍・物品\"></span><font
-        color=>規格・書籍・物品</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/seminar/W12M1000/\"
-        class=\"pageSeminar\"><span><img src=\"/img/common/icon_seminar_gray_r2.svg\"
-        alt=\"セミナー・説明会・SQ大会\"><img src=\"/img/common/icon_seminar_brown_r2.svg\" alt=\"セミナー・説明会・SQ大会\"></span><font
-        color=>セミナー・説明会・SQ大会</font></a></li>\r\n            <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\"
+        \       \r\n        <div id=\"wrapper\">\r\n            <div id=\"container\">\r\n
+        \               <header id=\"header\">\r\n    <div class=\"headerInner\">\r\n
+        \       <a href=\"https://webdesk.jsa.or.jp/\" class=\"logo\"><img src=\"/img/common/logo_r2.svg\"
+        alt=\"日本規格協会 JSA GROUP Webdesk\"></a>\r\n        <ul id=\"navi\" class=\"jsNavi\">\r\n
+        \           <li><a href=\"https://webdesk.jsa.or.jp/\"><img class=\"naviLogo\"
+        src=\"/img/common/logo_r2.svg\" alt=\"日本規格協会 Webdesk\"></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/common/W10K0400/\" class=\"pageJsa\"><span><img
+        src=\"/img/common/icon_group_r2.svg\" alt=\"JSA GROUPとは\"><img src=\"/img/common/icon_group_blue_r2.svg\"
+        alt=\"JSA GROUPとは\"></span><font color=>JSA GROUPとは</font></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/books/W11M0010/\" class=\"pageBooks\"><span><img
+        src=\"/img/common/icon_service_gray_r2.svg\" alt=\"規格・書籍・物品\"><img src=\"/img/common/icon_service_brown_r2.svg\"
+        alt=\"規格・書籍・物品\"></span><font color=>規格・書籍・物品</font></a></li>\r\n            <li><a
+        href=\"https://webdesk.jsa.or.jp/seminar/W12M1000/\" class=\"pageSeminar\"><span><img
+        src=\"/img/common/icon_seminar_gray_r2.svg\" alt=\"セミナー・説明会・SQ大会\"><img src=\"/img/common/icon_seminar_brown_r2.svg\"
+        alt=\"セミナー・説明会・SQ大会\"></span><font color=>セミナー・説明会・SQ大会</font></a></li>\r\n
+        \           <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/qc/\"
         class=\"pageQc\"><span><img src=\"/img/common/icon_qc_gray_r2.svg\" alt=\"QC検定\"><img
         src=\"/img/common/icon_qc_orange_r2.svg\" alt=\"QC検定\"></span><font color=>QC検定</font></a></li>\r\n
         \           <li><a href=\"https://webdesk.jsa.or.jp/common/W10K0500/index/dev/\"
@@ -1138,12 +1106,7 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0670/?post_type=other&amp;page_id=sq2023_rp\"
-        >\r\n                                                           \r\n                                    <b
-        style=\"color:#ffff00;\">標準化と品質管理全国・地区大会2023お申込みについて</b>                              \r\n
-        \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide\">\r\n
-        \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
@@ -1152,11 +1115,6 @@ http_interactions:
         \                                                   </a>\r\n                    </div>\r\n
         \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
         class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t1465\">\r\n        <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">標準化と品質管理全国・地区大会2023お申込みについて</h4>\r\n
-        \                           <time class=\"modalDate\">2023/08/02</time>\r\n
-        \                                           </div>\r\n    </div>\r\n    <div
         class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
         \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
@@ -1440,25 +1398,21 @@ http_interactions:
         \                           </tr>\r\n                                                                        </table>\r\n
         \       </section>\r\n    </div>\r\n    <!-- /#main -->\r\n    <!-- modal
         -->\r\n                                        <!-- modal About Redline -->\r\n<div
-        class=\"modal jsModal\" id=\"about_redline\">\r\n    <p class=\"modalHead\"><span
-        class=\"modalClose jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n
-        \       <h2 class=\"headline1\">Redline版に関する説明</h2>\r\n        <dl class=\"dataList\">\r\n
-        \           <dt>ISO、ASTM</dt>\r\n            <dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />\r\n                原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br
-        />\r\n                邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
-        />\r\n                <br />\r\n                原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n                邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n
-        \           </dd>\r\n            <dt>IEC</dt>\r\n            <dd>\r\n                <p>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />\r\n                    原文はPDF版が1つのファイル（前半にレッドライン版、後半に正式規格）、冊子版(<span style=\"font-size:
-        10pt;\">※)</span>は1冊（Redline版と正式規格の合本）でのお届けとなります。<br />\r\n                    邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
-        />\r\n                    <br />\r\n                    原文Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/previewiecredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。<br
-        />\r\n                    邦訳Redline版のサンプルページは<a href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。\r\n                </p>\r\n                <p><span
-        style=\"font-size: 12pt;\"><br />\r\n                        ※IEC規格のRedline版(冊子版)で、CD-ROMでご提供となる場合がございます。備考欄の記載にご注意ください。</span></p>\r\n
-        \           </dd>\r\n        </dl>\r\n    </div>\r\n</div>\r\n<!-- /modal
-        About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
+        class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n<div class=\"modalInner\">\r\n\r\n<h2
+        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
+        />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文はPDF版が1つのファイル（前半にRedline版、後半に正式規格）、冊子版は1冊（Redline版と正式規格の合本）でのお届けとなります。<br
+        />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br />\r\n<br
+        />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
+        />正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n<br />\r\n　Redline版のサンプルページは<a
+        href=\"/pdf/book/Redline/previewastmredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n</dl>\r\n</div>\r\n</div>\r\n\r\n<!--
+        /modal About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
         jsModal\" id=\"about_ed\">\r\n    <p class=\"modalHead\"><span class=\"modalClose
         jsCloseModal\"></span></p>\r\n    <div class=\"modalInner\">\r\n        <h2
         class=\"headline1\">IECのEdition番号について</h2>\r\n        <dl class=\"dataList\">\r\n
@@ -1687,5 +1641,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Sun, 15 Oct 2023 04:10:43 GMT
+  recorded_at: Tue, 21 Nov 2023 12:30:07 GMT
 recorded_with: VCR 6.2.0

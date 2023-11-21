@@ -38,6 +38,8 @@ module RelatonJis
 
     def find_all_years # rubocop:disable Metrics/AbcSize
       hits = @array.select { |hit| hit.eq? ref_parts }
+      return [] if hits.empty?
+
       item = hits.max_by { |i| i.id_parts[:year].to_i }.fetch
       item_id = item.docidentifier.first.id
       parent = item.to_most_recent_reference

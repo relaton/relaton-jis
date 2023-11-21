@@ -53,6 +53,13 @@ describe RelatonJis::Bibliography do
       end.to output(/TIP: No match for edition year `1998`/).to_stderr
     end
 
+    it "does not find", vcr: "not_found" do
+      expect do
+        bib = described_class.get "JIS Z 8201"
+        expect(bib).to be_nil
+      end.to output(/Not found/).to_stderr
+    end
+
     context "with all parts", vcr: { cassette_name: "get_all_parts" } do
       it "EN" do
         file = "spec/fixtures/jis_b_0060_all_parts.xml"
