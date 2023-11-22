@@ -7,7 +7,7 @@ module RelatonJis
     def initialize # rubocop:disable Lint/MissingSuper
       @short = :relaton_jis
       @prefix = "JIS"
-      @defaultprefix = %r{^JIS\s}
+      @defaultprefix = %r{^(JIS|TR)\s}
       @idtype = "JIS"
     end
 

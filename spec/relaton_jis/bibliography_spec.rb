@@ -21,8 +21,8 @@ describe RelatonJis::Bibliography do
     expect(result[0].hit[:url]).to include "/index/?bunsyo_id="
   end
 
-  context "get JIS" do
-    it "without year", vcr: { cassette_name: "get" } do
+  context "get" do
+    it "JIS without year", vcr: { cassette_name: "get" } do
       file = "spec/fixtures/jis_x_0208.xml"
       bib = described_class.get "JIS X 0208"
       xml = bib.to_xml bibdata: true
@@ -34,28 +34,33 @@ describe RelatonJis::Bibliography do
       expect(errors).to eq []
     end
 
-    it "with year", vcr: { cassette_name: "get" } do
+    it "JIS with year", vcr: { cassette_name: "get" } do
       expect do
         bib = described_class.get "JIS X 0208:1997"
         expect(bib.docidentifier.first.id).to eq "JIS X 0208:1997"
       end.to output(/\[relaton-jis\] \(JIS X 0208:1997\) Found: `JIS X 0208:1997`/).to_stderr
     end
 
-    it "with year as argument", vcr: { cassette_name: "get" } do
+    it "JIS with year as argument", vcr: { cassette_name: "get" } do
       bib = described_class.get "JIS X 0208", "1997"
       expect(bib.docidentifier.first.id).to eq "JIS X 0208:1997"
     end
 
-    it "with wrong year", vcr: { cassette_name: "get" } do
+    it "JIS with wrong year", vcr: { cassette_name: "get" } do
       expect do
         bib = described_class.get "JIS X 0208", "1998"
         expect(bib).to be_nil
       end.to output(/TIP: No match for edition year `1998`/).to_stderr
     end
 
-    it "withdrawn", vcr: { cassette_name: "withdrawn" } do
+    it "JIS withdrawn", vcr: { cassette_name: "withdrawn" } do
       bib = described_class.get "JIS Z 8201"
       expect(bib.docidentifier.first.id).to eq "JIS Z 8201"
+    end
+
+    it "TR", vcr: { cassette_name: "tr" } do
+      bib = described_class.get "TR A 0001:1996"
+      expect(bib.docidentifier.first.id).to eq "TR A 0001:1996"
     end
 
     it "does not find", vcr: "not_found" do
