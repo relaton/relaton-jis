@@ -14,12 +14,12 @@ module RelatonJis
     #
     def search(code, year = nil)
       agent = Mechanize.new
-      resp = agent.post "#{SOURCE}0010/searchByKeyword", search_type: "JIS", keyword: code
+      resp = agent.post "#{SOURCE}0270/index", dantai: "JIS", bunsyo_id: code, searchtype2: "1", status_1: "1", status_2: "1"
       disp = JSON.parse resp.body
       # raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
-      return if disp["disp_screen"].nil?
+      return unless disp["status"]
 
-      result = agent.get "#{SOURCE}#{disp['disp_screen']}/index"
+      result = agent.get "#{SOURCE}0070/index"
       HitCollection.new code, year, result: result.xpath("//div[@class='blockGenaral']")
     end
 

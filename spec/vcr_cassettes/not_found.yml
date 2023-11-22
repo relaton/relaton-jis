@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://webdesk.jsa.or.jp/books/W11M0010/searchByKeyword
+    uri: https://webdesk.jsa.or.jp/books/W11M0270/index
     body:
       encoding: ASCII-8BIT
-      string: search_type=JIS&keyword=JIS+Z+8201
+      string: dantai=JIS&bunsyo_id=JIS+Z+0000&searchtype2=1&status_1=1&status_2=1
     headers:
       Accept-Encoding:
       - gzip,deflate,identity
@@ -22,7 +22,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Content-Length:
-      - '34'
+      - '67'
       Connection:
       - keep-alive
       Keep-Alive:
@@ -35,15 +35,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:46:30 GMT
+      - Wed, 22 Nov 2023 04:41:02 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
-      - '46'
+      - '15'
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=0amm9fj8r39rljhqp3sr4drvt2j9t1nt7145h015m2hmf14he88uesr9i2jj9o0ge2q2j0m7gq0qgj6ulq1jog6ek75uqcmur7nba5r;
+      - CAKEPHP=a7kj0eenlkv3gjuf6hqabegov4lcvs1qpjlferg6tphkc2jr1qcrjovj4p7dgluv8r9t1jds493rcaj7g1d6k1llib2b0dkkba32pn9;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -59,8 +59,8 @@ http_interactions:
       - nosniff
     body:
       encoding: UTF-8
-      string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Tue, 21 Nov 2023 12:46:30 GMT
+      string: '{"status":true}'
+  recorded_at: Wed, 22 Nov 2023 04:41:02 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=0amm9fj8r39rljhqp3sr4drvt2j9t1nt7145h015m2hmf14he88uesr9i2jj9o0ge2q2j0m7gq0qgj6ulq1jog6ek75uqcmur7nba5r
+      - CAKEPHP=a7kj0eenlkv3gjuf6hqabegov4lcvs1qpjlferg6tphkc2jr1qcrjovj4p7dgluv8r9t1jds493rcaj7g1d6k1llib2b0dkkba32pn9
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:46:31 GMT
+      - Wed, 22 Nov 2023 04:41:02 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -310,12 +310,12 @@ http_interactions:
         \                   <option value=\"BUPIN\"  >物品</option>\r\n                </select>\r\n
         \               <input class=\"formInput\" id=\"keyword\" type=\"text\" name=\"keyword\"
         placeholder=\"規格番号【半角】（例：Q9001）、標題\"\r\n                                           value=\"JIS
-        Z 8201\"\r\n                                              />\r\n            </div>\r\n
+        Z 0000\"\r\n                                              />\r\n            </div>\r\n
         \           <button class = \"btn btnLarge jsCallLoading\" type=\"button\">検索する</button>\r\n
         \                       <a  id=\"detail_search_link\" href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
         class=\"linkArrow\">詳細検索する</a>\r\n        </div>\r\n                <input
-        type=\"hidden\" name=\"all_search_flg\" value=\"all_search\">\r\n        <input
-        type=\"hidden\" name=\"offset\" id=\"offset\" value=\"0\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
+        type=\"hidden\" name=\"all_search_flg\" value=\"\">\r\n        <input type=\"hidden\"
+        name=\"offset\" id=\"offset\" value=\"0\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
         \   //ENTERキーにて検索\r\n    $('#keyword').keypress(function (e) {\r\n        if
         (e.which == 13) {\r\n            var stouchState = true;\r\n            var
         val = $('#search_by_keyword [name=keyword]').val();\r\n            if(val
@@ -352,21 +352,12 @@ http_interactions:
         \       <a href=\"https://webdesk.jsa.or.jp/common/W10K0210/?post_type=common&amp;page_id=m_j_yoyaku\">追録会員</a>\r\n
         \       <a href=\"https://webdesk.jsa.or.jp/books/W11M0450/?post_type=book_common&amp;page_id=b_j_libraryserver\"
         >JSAライブラリサーバ</a>\r\n    </div>\r\n\r\n            <div class=\"linkList linkListSum\">\r\n
-        \           <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=JIS\"
-        class=\"active\">JIS規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ISO\"
-        >ISO規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=IEC\"
-        >IEC規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BS\"
-        >BS規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ASTM\"
-        >ASTM規格<span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=GLOBAL\"
-        >海外規格 <span>0</span></a>            \r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=KOKUNAI\"
-        >JSA規格、<br class=\"pcDisplay\">国内団体出版物<span style=\"text-align: right; position:
-        absolute; top: 50%; transform: translateY(-50%);\">0</span></a>\r\n            <a
-        href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BOOKS\"
-        >書籍 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BUPIN\"
-        >物品<span>0</span></a>\r\n        </div>\r\n        <!-- bannar\r\n    <ul
-        class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n        <li><a
-        href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\" alt=\"\"></a></li>\r\n
+        \                           <a href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
+        class=\"active\">JIS規格 <span>0</span></a>\r\n                                                                                                \r\n
+        \                          \r\n                                </div>\r\n
+        \       <!-- bannar\r\n    <ul class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
+        alt=\"\"></a></li>\r\n        <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
         alt=\"\"></a></li>\r\n    </ul>\r\n    -->\r\n</aside>\r\n    <!-- modal-->\r\n
         \                                       <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
@@ -609,5 +600,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Tue, 21 Nov 2023 12:46:31 GMT
+  recorded_at: Wed, 22 Nov 2023 04:41:03 GMT
 recorded_with: VCR 6.2.0

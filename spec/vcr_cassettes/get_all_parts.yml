@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://webdesk.jsa.or.jp/books/W11M0010/searchByKeyword
+    uri: https://webdesk.jsa.or.jp/books/W11M0270/index
     body:
       encoding: ASCII-8BIT
-      string: search_type=JIS&keyword=JIS+B+0060
+      string: dantai=JIS&bunsyo_id=JIS+B+0060&searchtype2=1&status_1=1&status_2=1
     headers:
       Accept-Encoding:
       - gzip,deflate,identity
@@ -22,7 +22,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Content-Length:
-      - '34'
+      - '67'
       Connection:
       - keep-alive
       Keep-Alive:
@@ -35,15 +35,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:30:11 GMT
+      - Wed, 22 Nov 2023 04:35:06 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
-      - '46'
+      - '15'
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=0dg7efuffjuj56tgauh2cdu1s0la747183fiq8b0aun364grfiu6hntbkb1lk3i18lk0ottbb96bc5ipe4bhlc4h3ongof3u63lsmcj;
+      - CAKEPHP=vk064gjrg3spaslada487sd2mmq57k4pb80veb3arhbl8bfm0gmafa41p3n9u691kq5vicqgmi29vpjv0sgit4359m4c0hvut46mlcl;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -59,8 +59,8 @@ http_interactions:
       - nosniff
     body:
       encoding: UTF-8
-      string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Tue, 21 Nov 2023 12:30:11 GMT
+      string: '{"status":true}'
+  recorded_at: Wed, 22 Nov 2023 04:35:06 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=0dg7efuffjuj56tgauh2cdu1s0la747183fiq8b0aun364grfiu6hntbkb1lk3i18lk0ottbb96bc5ipe4bhlc4h3ongof3u63lsmcj
+      - CAKEPHP=vk064gjrg3spaslada487sd2mmq57k4pb80veb3arhbl8bfm0gmafa41p3n9u691kq5vicqgmi29vpjv0sgit4359m4c0hvut46mlcl
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:30:11 GMT
+      - Wed, 22 Nov 2023 04:35:07 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -314,8 +314,8 @@ http_interactions:
         \           <button class = \"btn btnLarge jsCallLoading\" type=\"button\">検索する</button>\r\n
         \                       <a  id=\"detail_search_link\" href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
         class=\"linkArrow\">詳細検索する</a>\r\n        </div>\r\n                <input
-        type=\"hidden\" name=\"all_search_flg\" value=\"all_search\">\r\n        <input
-        type=\"hidden\" name=\"offset\" id=\"offset\" value=\"10\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
+        type=\"hidden\" name=\"all_search_flg\" value=\"\">\r\n        <input type=\"hidden\"
+        name=\"offset\" id=\"offset\" value=\"10\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
         \   //ENTERキーにて検索\r\n    $('#keyword').keypress(function (e) {\r\n        if
         (e.which == 13) {\r\n            var stouchState = true;\r\n            var
         val = $('#search_by_keyword [name=keyword]').val();\r\n            if(val
@@ -1306,21 +1306,12 @@ http_interactions:
         \       <a href=\"https://webdesk.jsa.or.jp/common/W10K0210/?post_type=common&amp;page_id=m_j_yoyaku\">追録会員</a>\r\n
         \       <a href=\"https://webdesk.jsa.or.jp/books/W11M0450/?post_type=book_common&amp;page_id=b_j_libraryserver\"
         >JSAライブラリサーバ</a>\r\n    </div>\r\n\r\n            <div class=\"linkList linkListSum\">\r\n
-        \           <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=JIS\"
-        class=\"active\">JIS規格 <span>10</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ISO\"
-        >ISO規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=IEC\"
-        >IEC規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BS\"
-        >BS規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ASTM\"
-        >ASTM規格<span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=GLOBAL\"
-        >海外規格 <span>0</span></a>            \r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=KOKUNAI\"
-        >JSA規格、<br class=\"pcDisplay\">国内団体出版物<span style=\"text-align: right; position:
-        absolute; top: 50%; transform: translateY(-50%);\">0</span></a>\r\n            <a
-        href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BOOKS\"
-        >書籍 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BUPIN\"
-        >物品<span>0</span></a>\r\n        </div>\r\n        <!-- bannar\r\n    <ul
-        class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n        <li><a
-        href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\" alt=\"\"></a></li>\r\n
+        \                           <a href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
+        class=\"active\">JIS規格 <span>10</span></a>\r\n                                                                                                \r\n
+        \                          \r\n                                </div>\r\n
+        \       <!-- bannar\r\n    <ul class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
+        alt=\"\"></a></li>\r\n        <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
         alt=\"\"></a></li>\r\n    </ul>\r\n    -->\r\n</aside>\r\n    <!-- modal-->\r\n
         \                                       <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
@@ -1563,7 +1554,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Tue, 21 Nov 2023 12:30:12 GMT
+  recorded_at: Wed, 22 Nov 2023 04:35:08 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20B%200060-1:2015
@@ -1595,7 +1586,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:30:13 GMT
+      - Wed, 22 Nov 2023 04:35:09 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -1603,7 +1594,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=e8lr7lp6v885h6m4hb65b6pqrnhr7oplk421049shpsqiehanr6jc7agiath97ilvie9rp256ff5lrnsb4li15hv1lpsnhcjuk64n7b;
+      - CAKEPHP=frghjqdti00s9udbqk93a4mh6ggvcntm4to9uucvg7ofq2p63m3v9jcgar6djtg00rq5e5o02oqe3cjfk1pt5lho0shc3j8jqgj1nfg;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -2277,5 +2268,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Tue, 21 Nov 2023 12:30:13 GMT
+  recorded_at: Wed, 22 Nov 2023 04:35:10 GMT
 recorded_with: VCR 6.2.0

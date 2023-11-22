@@ -5,7 +5,7 @@ http_interactions:
     uri: https://webdesk.jsa.or.jp/books/W11M0270/index
     body:
       encoding: ASCII-8BIT
-      string: dantai=JIS&bunsyo_id=JIS+X+0208&searchtype2=1&status_1=1&status_2=1
+      string: dantai=JIS&bunsyo_id=JIS+Z+8201&searchtype2=1&status_1=1&status_2=1
     headers:
       Accept-Encoding:
       - gzip,deflate,identity
@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 22 Nov 2023 04:34:53 GMT
+      - Wed, 22 Nov 2023 04:34:58 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=g1o0n3put6l7amv73jqlpafsm76ulqdob9vdb0hqgrrek5btb78j2m8go1n3l67cramq79tdv5ajgrc0du422asmel47d0n1houu513;
+      - CAKEPHP=qhtek8hvo2b24ocuvfnuigllkefc6rm4hjagkgd975i5g0m13eeafi5jl7l5vhiv0ahsa1amih04s3re1pe75qr144dnt0a1a7pmvlb;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true}'
-  recorded_at: Wed, 22 Nov 2023 04:34:53 GMT
+  recorded_at: Wed, 22 Nov 2023 04:34:58 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=g1o0n3put6l7amv73jqlpafsm76ulqdob9vdb0hqgrrek5btb78j2m8go1n3l67cramq79tdv5ajgrc0du422asmel47d0n1houu513
+      - CAKEPHP=qhtek8hvo2b24ocuvfnuigllkefc6rm4hjagkgd975i5g0m13eeafi5jl7l5vhiv0ahsa1amih04s3re1pe75qr144dnt0a1a7pmvlb
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 22 Nov 2023 04:34:53 GMT
+      - Wed, 22 Nov 2023 04:34:58 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -310,12 +310,12 @@ http_interactions:
         \                   <option value=\"BUPIN\"  >物品</option>\r\n                </select>\r\n
         \               <input class=\"formInput\" id=\"keyword\" type=\"text\" name=\"keyword\"
         placeholder=\"規格番号【半角】（例：Q9001）、標題\"\r\n                                           value=\"JIS
-        X 0208\"\r\n                                              />\r\n            </div>\r\n
+        Z 8201\"\r\n                                              />\r\n            </div>\r\n
         \           <button class = \"btn btnLarge jsCallLoading\" type=\"button\">検索する</button>\r\n
         \                       <a  id=\"detail_search_link\" href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
         class=\"linkArrow\">詳細検索する</a>\r\n        </div>\r\n                <input
         type=\"hidden\" name=\"all_search_flg\" value=\"\">\r\n        <input type=\"hidden\"
-        name=\"offset\" id=\"offset\" value=\"2\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
+        name=\"offset\" id=\"offset\" value=\"1\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
         \   //ENTERキーにて検索\r\n    $('#keyword').keypress(function (e) {\r\n        if
         (e.which == 13) {\r\n            var stouchState = true;\r\n            var
         val = $('#search_by_keyword [name=keyword]').val();\r\n            if(val
@@ -340,70 +340,34 @@ http_interactions:
         id=\"data_list\" class=\"sectionGenaralFile\">\r\n            <h2 class=\"headline1
         mb0\">規格一覧</h2>\r\n                                                <div class=\"blockGenaral\">\r\n\r\n
         \                                                                                                   <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997\"
+        href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+Z+8201%3A1981\"
         class=\"title\">\r\n                                                                                                JIS
-        X 0208:1997                                                                <br
-        />\r\n                                                                                        ７ビット及び８ビットの２バイト情報交換用符号化漢字集合
-        \                               <br />\r\n                                                                                        7-bit
-        and 8-bit double byte coded KANJI sets for information interchange                                                    </a>\r\n
-        \                       <div class=\"blockFile\">\r\n                            <div
-        class=\"blockPreviewFile\">\r\n                                <p class=\"previewFileBtn\">\r\n
-        \                                   <a class=\"btnLearnMore btnFile\" href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997\">詳細をみる</a>\r\n
+        Z 8201:1981                                                                <br
+        />\r\n                                                                                        数学記号
+        \                               <br />\r\n                                                                                        Mathematical
+        symbols                                                    </a>\r\n                        <div
+        class=\"blockFile\">\r\n                            <div class=\"blockPreviewFile\">\r\n
+        \                               <p class=\"previewFileBtn\">\r\n                                    <a
+        class=\"btnLearnMore btnFile\" href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+Z+8201%3A1981\">詳細をみる</a>\r\n
         \                               </p>\r\n                                <p
         class=\"previewFileDate\">\r\n                                    発行年月日：\r\n
-        \                                                                                                                       1997-02-28
-        \                                                                                                                                                                                                   <br>確認年月日：\r\n
-        \                                                                                                                                                                                                                                                   2007-09-20
+        \                                                                                                                       1981-05-31
+        \                                                                                                                                                                                                   <br>廃止年月日：\r\n
+        \                                                                                                                                                                                                                                                   2022-03-22
         \                                                                                                                                                           <br>状態：
-        \                                                                                                                                                                   有効
-        \                                                                                                                                                                                               </p>\r\n
+        \                                                                                                                       <span
+        class=\"red\">                                            廃止                                                </span>
+        \                                                                                                                                               </p>\r\n
         \                           </div>\r\n                            <div class=\"blockContentFile\">\r\n
         \                               <div class=\"contentFileTop contentFile\">\r\n
         \                                   <div class=\"groupContent\">\r\n                                        <p
         class=\"sentenceFile\">\r\n                                            <span
         class=\"detail\">\r\n                                                                                                    和文\r\n
         \                                                                                                           <a
-        class=\"btnPreview\" href=\"/preview/pre_jis_x_00208_000_000_1997_j_pr11_i4.pdf\"><img
+        class=\"btnPreview\" href=\"/preview/pre_jis_z_08201_000_000_1981_j_pr10_i4.pdf\"><img
         class=\"iconRight\" src=\"/img/common/icon_arrow1_r2.svg\" alt=\"\">プレビュー</a>\r\n
         \                                                                                                                                               </span>\r\n
         \                                           <span class=\"detailNormal\">\r\n
-        \                                                                                                                                                           490ページ\r\n
-        \                                                                                                   </span>\r\n
-        \                                       </p>\r\n                                        <p
-        class=\"priceFile\">\r\n                                            <span
-        class=\"price\">\r\n                                                                                                                                                            13,200
-        \                                                       <span class=\"subDetail\">&nbsp;円（税込）</span>\r\n
-        \                                                                                                   </span>\r\n
-        \                                                                                                                                               <span
-        class=\"unitPrice\">本体価格：12,000円</span>\r\n                                                                                            </p>\r\n
-        \                                   </div>\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                            \r\n
-        \                                                                                                                                                           <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+X+0208:1997&baitai_cd=POD&param=1\"
-        class=\"booklet activeOrange\">\r\n                                                            <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                            <span
-        class=\"iconText\">BOOK</span>\r\n                                                            <span
-        class=\"iconText2\">冊子</span>\r\n                                                            <span
-        class=\"toolTipText\">冊子をバッグに入れる</span>\r\n                                                        </a>\r\n
-        \                                                                                                                                                                                                                                                   \r\n
-        \                                                                                           <a
-        class=\"pdf\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">PDF</span>\r\n                                                    <span
-        class=\"iconText2\">PDF</span>\r\n                                                </a>\r\n
-        \                                                                                       \r\n
-        \                                                                                           <a
-        class=\"oval\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_oval_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">CD</span>\r\n                                                    <span
-        class=\"iconText2\">CD</span>\r\n                                                </a>\r\n
-        \                                                                                                                                                                   </div>\r\n
-        \                               </div>\r\n                                <div
-        class=\"contentFileBot contentFile\">\r\n                                    <div
-        class=\"groupContent\">\r\n                                        <p class=\"sentenceFile\">\r\n
-        \                                           <span class=\"detail\">\r\n                                                                                                    英訳\r\n
-        \                                                                                                                                               </span>\r\n
-        \                                           <span class=\"detailNormal\">\r\n
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               -\r\n
         \                                                                                                                                               </span>\r\n
         \                                       </p>\r\n                                        <p
@@ -411,91 +375,19 @@ http_interactions:
         class=\"price\">\r\n                                                                                                                                                                                                                                                                                                                                                                                                        </span>\r\n
         \                                                                                                                                                                                                                                                                                                                                                                       </p>\r\n
         \                                   </div>\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                                                                                                                                <a
-        class=\"booklet\">\r\n                                                        <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                        <span
-        class=\"iconText\">BOOK</span>\r\n                                                        <span
-        class=\"iconText2\">冊子</span>\r\n                                                    </a>\r\n
-        \                                                                                                                                           \r\n
-        \                                                                                           <a
-        class=\"pdf\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">PDF</span>\r\n                                                    <span
-        class=\"iconText2\">PDF</span>\r\n                                                </a>\r\n
-        \                                                                                       \r\n
-        \                                                                                           <a
-        class=\"oval\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_oval_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">CD</span>\r\n                                                    <span
-        class=\"iconText2\">CD</span>\r\n                                                </a>\r\n
-        \                                                                                                                                                                   </div>\r\n
-        \                               </div>\r\n                            </div>\r\n
-        \                       </div>\r\n                        <div class=\"blockFileInfo\">\r\n
-        \                                                                                               <ul
-        class=\"breadcrumbFile\">\r\n                                        <li class=\"item\">正誤表　　</li>\r\n
-        \                                                                                   <li>\r\n
-        \                                               <a href=\"https://webdesk.jsa.or.jp/pdf/errata/jis_x_00208_000_000_1997_cor_1_200205_j_i4.pdf\"><img
-        class=\"iconRight\" src=\"/img/common/icon_arrow1_r2.svg\" alt=\"\">\r\n                                                                                                                                                                                                                            正誤票\r\n
-        \                                                                                                       (200205)\r\n
-        \                                               </a>\r\n                                            </li>\r\n
-        \                                                                           </ul>\r\n
-        \                                                                                       <p
-        class=\"blockBotFile\">\r\n                                備考：\r\n                                                                    <br>この規格は、ダウンロードによる販売サービスをお受けしておりません（シート付）。
-        \                                                           </p>\r\n                        </div>\r\n
-        \                   </div>\r\n                                    <div class=\"blockGenaral\">\r\n\r\n
+        class=\"groupIconFile\">\r\n                                                                                                                            \r\n
         \                                                                                                   <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997%2FAMENDMENT+1%3A2012\"
-        class=\"title\">\r\n                                                                                                JIS
-        X 0208:1997/AMENDMENT 1:2012                                                                <br
-        />\r\n                                                                                        ７ビット及び８ビットの２バイト情報交換用符号化漢字集合（追補１）
-        \                               <br />\r\n                                                                                        7-bit
-        and 8-bit double byte coded KANJI sets for information interchange (Amendment
-        1)                                                    </a>\r\n                        <div
-        class=\"blockFile\">\r\n                            <div class=\"blockPreviewFile\">\r\n
-        \                               <p class=\"previewFileBtn\">\r\n                                    <a
-        class=\"btnLearnMore btnFile\" href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997%2FAMENDMENT+1%3A2012\">詳細をみる</a>\r\n
-        \                               </p>\r\n                                <p
-        class=\"previewFileDate\">\r\n                                    発行年月日：\r\n
-        \                                                                                                                       2012-02-20
-        \                                                                                                                                                                                                   <br>確認年月日：\r\n
-        \                                                                                                                                                                                                                                                   2021-10-20
-        \                                                                                                                                                           <br>状態：
-        \                                                                                                                                                                   有効
-        \                                                                                                                                                                                               </p>\r\n
-        \                           </div>\r\n                            <div class=\"blockContentFile\">\r\n
-        \                               <div class=\"contentFileTop contentFile\">\r\n
-        \                                   <div class=\"groupContent\">\r\n                                        <p
-        class=\"sentenceFile\">\r\n                                            <span
-        class=\"detail\">\r\n                                                                                                    和文\r\n
-        \                                                                                                                                               </span>\r\n
-        \                                           <span class=\"detailNormal\">\r\n
-        \                                                                                                                                                           43ページ\r\n
-        \                                                                                                   </span>\r\n
-        \                                       </p>\r\n                                        <p
-        class=\"priceFile\">\r\n                                            <span
-        class=\"price\">\r\n                                                                                                                                                            3,850
-        \                                                       <span class=\"subDetail\">&nbsp;円（税込）</span>\r\n
-        \                                                                                                   </span>\r\n
-        \                                                                                                                                               <span
-        class=\"unitPrice\">本体価格：3,500円</span>\r\n                                                                                            </p>\r\n
-        \                                   </div>\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                            \r\n
-        \                                                                                                                                                           <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+X+0208:1997/AMD+1:2012&baitai_cd=POD&param=1\"
-        class=\"booklet activeOrange\">\r\n                                                            <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                            <span
-        class=\"iconText\">BOOK</span>\r\n                                                            <span
-        class=\"iconText2\">冊子</span>\r\n                                                            <span
-        class=\"toolTipText\">冊子をバッグに入れる</span>\r\n                                                        </a>\r\n
-        \                                                                                                                                                                                                                                                   \r\n
-        \                                                                                                                                               <a
-        href='https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+X+0208:1997/AMD+1:2012&baitai_cd=PDF&param=2'
-        class=\"pdf activeGreen\">\r\n                                                        <img
-        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                        <span
-        class=\"iconText\">PDF</span>\r\n                                                        <span
-        class=\"iconText2\">PDF</span>\r\n                                                        <span
-        class=\"toolTipText\">PDFをバッグに入れる</span>\r\n                                                    </a>\r\n
-        \                                                                                                                                                                                       \r\n
+        class=\"booklet\">\r\n                                                        <img
+        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                        <span
+        class=\"iconText\">BOOK</span>\r\n                                                        <span
+        class=\"iconText2\">冊子</span>\r\n                                                    </a>\r\n
+        \                                                                                                                                           \r\n
+        \                                                                                           <a
+        class=\"pdf\">\r\n                                                    <img
+        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                    <span
+        class=\"iconText\">PDF</span>\r\n                                                    <span
+        class=\"iconText2\">PDF</span>\r\n                                                </a>\r\n
+        \                                                                                       \r\n
         \                                                                                           <a
         class=\"oval\">\r\n                                                    <img
         class=\"icon\" src=\"/img/common/icon_oval_r2.svg\" alt=\"\">\r\n                                                    <span
@@ -535,8 +427,8 @@ http_interactions:
         \                                                                                                                                                                   </div>\r\n
         \                               </div>\r\n                            </div>\r\n
         \                       </div>\r\n                        <div class=\"blockFileInfo\">\r\n
-        \                                                                                                                   <p
-        class=\"blockBotFile\">\r\n                                備考：\r\n                                                            </p>\r\n
+        \                                                       <p class=\"blockBotFile\">\r\n
+        \                               備考：\r\n                                                            </p>\r\n
         \                       </div>\r\n                    </div>\r\n                                    </section>\r\n
         \                   <p class=\"blockBtnMore\">\r\n                <button
         type=\"button\" class=\"btn btnLarge disabled\" id=\"btnPaging\" onclick=\"search(false);\">もっとみる</button>\r\n
@@ -551,7 +443,7 @@ http_interactions:
         \       <a href=\"https://webdesk.jsa.or.jp/books/W11M0450/?post_type=book_common&amp;page_id=b_j_libraryserver\"
         >JSAライブラリサーバ</a>\r\n    </div>\r\n\r\n            <div class=\"linkList linkListSum\">\r\n
         \                           <a href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
-        class=\"active\">JIS規格 <span>2</span></a>\r\n                                                                                                \r\n
+        class=\"active\">JIS規格 <span>1</span></a>\r\n                                                                                                \r\n
         \                          \r\n                                </div>\r\n
         \       <!-- bannar\r\n    <ul class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
@@ -650,7 +542,7 @@ http_interactions:
         'html', function (data) {\r\n            if (is_search) {\r\n                $('#data_list').html(data);\r\n
         \           } else {\r\n                $('#data_list').append(data);\r\n
         \           }\r\n            var size = $('.blockGenaral').length;\r\n            var
-        count = 2;\r\n            document.getElementById(\"btnPaging\").disabled
+        count = 1;\r\n            document.getElementById(\"btnPaging\").disabled
         = false;\r\n            if (size >= count) {\r\n                var obj =
         document.getElementById(\"btnPaging\");\r\n                var list = obj.classList;\r\n
         \               obj.classList.add(\"disabled\");\r\n            }\r\n        });\r\n
@@ -798,10 +690,10 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Wed, 22 Nov 2023 04:34:54 GMT
+  recorded_at: Wed, 22 Nov 2023 04:34:59 GMT
 - request:
     method: get
-    uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20X%200208:1997
+    uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20Z%208201:1981
     body:
       encoding: US-ASCII
       string: ''
@@ -830,7 +722,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 22 Nov 2023 04:34:55 GMT
+      - Wed, 22 Nov 2023 04:35:00 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -838,7 +730,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=e8c69ias7knr2ugufnrk1qscg72lkomoguuu5ge30rkatl5sdvi9408aum4l8ec8ljqeigre0gf128jffa2ov4ia5ro9d48vctuqt9l;
+      - CAKEPHP=5590bpjn0649hivmuor0d05liid2rgo1gm03vcasimg7rnoaiup6a1d8f5ggscr574u9ki32g3j6vfv6s9573s80hm1725mhruppp6e;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -860,10 +752,9 @@ http_interactions:
         content=\"\">\r\n        <meta name=\"viewport\" content=\"width=device-width,
         maximum-scale=1.0, initial-scale=1.0, user-scalable=0\">\r\n        <meta
         name=\"format-detection\" content=\"telephone=no\">\r\n\r\n        <title>JIS
-        X 0208:1997 ７ビット及び８ビットの２バイト情報交換用符号化漢字集合 | 日本規格協会 JSA Group Webdesk</title>\r\n
-        \       <link href=\"/favicon.ico\" type=\"image/x-icon\" rel=\"icon\"/><link
-        href=\"/favicon.ico\" type=\"image/x-icon\" rel=\"shortcut icon\"/>\r\n        <link
-        href=\"//fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&amp;subset=japanese\"
+        Z 8201:1981 数学記号 | 日本規格協会 JSA Group Webdesk</title>\r\n        <link href=\"/favicon.ico\"
+        type=\"image/x-icon\" rel=\"icon\"/><link href=\"/favicon.ico\" type=\"image/x-icon\"
+        rel=\"shortcut icon\"/>\r\n        <link href=\"//fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&amp;subset=japanese\"
         rel=\"stylesheet\">\r\n        <link rel=\"stylesheet\" href=\"/css/swiper_r2.css?ver=1.1.0\"/>
         \       <link rel=\"stylesheet\" href=\"/css/common_r2.css?ver=1.1.0\"/>        <link
         rel=\"stylesheet\" href=\"/css/style_r2.css?ver=1.1.0\"/>        <link rel=\"stylesheet\"
@@ -1070,27 +961,27 @@ http_interactions:
         class=\"scrollBread\">\r\n            <ul class=\"breadcrumbInner\">\r\n                <li><a
         href=\"https://webdesk.jsa.or.jp/\">JSA GROUP Webdesk</a></li>\r\n                                                                                                                        <li><a
         href=\"/books/W11M0010/\">規格・書籍・物品</a></li>\r\n                                                                                                                                                                                                <li>JIS
-        X 0208:1997 ７ビット及び８ビットの２バイト情報交換用符号化漢字集合</li>\r\n                                                                                                                                                                                                                                                                        </ul>\r\n
+        Z 8201:1981 数学記号</li>\r\n                                                                                                                                                                                                                                                                        </ul>\r\n
         \       </div>\r\n                    <a href=\"https://webdesk.jsa.or.jp/books/W11M1010/\"
         class=\"linkArrow standardData\">規格が見つからない場合はこちら</a>\r\n            </div>\r\n<div
         id=\"contents\" class=\"inner contents\">\r\n    <div id=\"main\" class=\"mainBooksDetail\">\r\n
         \       <section class=\"sectionDetailFile\">\r\n                            \r\n
         \                   <h2 class=\"headline1 mb0\">\r\n                                                                                                                        JIS
-        X 0208:1997                                                                <br
-        />\r\n                                                                                        ７ビット及び８ビットの２バイト情報交換用符号化漢字集合
-        \                               <br />\r\n                                                                                        7-bit
-        and 8-bit double byte coded KANJI sets for information interchange                                                                        </h2>\r\n
+        Z 8201:1981                                                                <br
+        />\r\n                                                                                        数学記号
+        \                               <br />\r\n                                                                                        Mathematical
+        symbols                                                                        </h2>\r\n
         \                   <div class=\"blockGenaral\">\r\n                        <div
         class=\"blockFile\">\r\n                            <div class=\"blockPreviewFile\">\r\n
         \                               <p class=\"previewFileDate\">\r\n                                    発行年月日：\r\n
-        \                                                                                                                       1997-02-28
+        \                                                                                                                       1981-05-31
         \                                                                                                               <br>\r\n
-        \                                                                                                                       確認年月日：\r\n
-        \                                                                                           2007-09-20
+        \                                                                                                                       廃止年月日：\r\n
+        \                                                                                           2022-03-22
         \                                                                                       <br>\r\n
         \                                                                           \r\n
         \                                   状態：                                    <span
-        class=\"pl0 \">\r\n                                                                                                                                    有効
+        class=\"pl0 bold red\">\r\n                                                                                                                                    廃止
         \                                                                                                                       </span>\r\n
         \                                                                   </p>\r\n
         \                           </div>\r\n                            <div class=\"blockContentFile\">\r\n
@@ -1100,24 +991,19 @@ http_interactions:
         class=\"detail\">\r\n                                                                                                    和文\r\n
         \                                                                                           </span>\r\n
         \                                           <span class=\"detailNormal\">\r\n
-        \                                                                                                                                                           490ページ\r\n
-        \                                                                                                   </span>\r\n
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               -\r\n
+        \                                                                                                                                               </span>\r\n
         \                                       </p>\r\n                                        <p
         class=\"priceFile\">\r\n                                            <span
-        class=\"price\">\r\n                                                                                                                                                            13,200
-        \                                                       <span class=\"subDetail\">&nbsp;円（税込）</span>\r\n
-        \                                                                                                   </span>\r\n
-        \                                                                                                                                               <span
-        class=\"unitPrice\">本体価格：12,000円</span>\r\n                                                                                            </p>\r\n
+        class=\"price\">\r\n                                                                                                                                                                                                                                                                                                                                                                                                        </span>\r\n
+        \                                                                                                                                                                                                                                                                                                                                                                       </p>\r\n
         \                                   </div>\r\n\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                                                                                                                                                                                        <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+X+0208:1997&baitai_cd=POD&param=1\"
-        class=\"booklet activeOrange\">\r\n                                                            <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                            <span
-        class=\"iconText\">BOOK</span>\r\n                                                            <span
-        class=\"iconText2\">冊子</span>\r\n                                                            <span
-        class=\"toolTipText\">冊子をバッグに入れる</span>\r\n                                                        </a>\r\n
-        \                                                                                                                                                                                                                                                   \r\n
+        class=\"groupIconFile\">\r\n                                                                                                                                                                                                                                <a
+        class=\"booklet\">\r\n                                                        <img
+        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                        <span
+        class=\"iconText\">BOOK</span>\r\n                                                        <span
+        class=\"iconText2\">冊子</span>\r\n                                                    </a>\r\n
+        \                                                                                                                                           \r\n
         \                                                                                           <a
         class=\"pdf\">\r\n                                                    <img
         class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                    <span
@@ -1165,51 +1051,72 @@ http_interactions:
         \                       </div>\r\n                    </div>\r\n                                        <!--/.blockGenaral
         -->\r\n\r\n            <table class=\"tableFile\">\r\n                                                                                        <tr>\r\n
         \                               <th class=\"title\">プレビュー</th>\r\n                                <td
-        class=\"content\">\r\n                                    <a href=\"/preview/pre_jis_x_00208_000_000_1997_j_pr11_i4.pdf\"
+        class=\"content\">\r\n                                    <a href=\"/preview/pre_jis_z_08201_000_000_1981_j_pr10_i4.pdf\"
         target=\"_blank\">和文(PDF)</a>                                                                    </td>\r\n
         \                           </tr>\r\n                        \r\n                                                    <tr>\r\n
         \                               <th class=\"title\">規格概要</th>\r\n                                <td
-        class=\"content\">６８７９文字の図形文字とそれらのビット組合せとの対応を規定。符号化漢字集合は，この規格で規定する漢字集合だけを利用する場合，又はＪＩＳ　Ｘ　０２０１のラテン文字用図形文字集合若しくはＩＳＯ／ＩＥＣ　６４６の国際基準版（ＩＲＶ）と組み合わせて利用する場合，それぞれについての７ビット・８ビットの２バイト符号について適用。</td>\r\n
-        \                           </tr>\r\n                        \r\n                                                    <tr>\r\n
+        class=\"content\">鉱工業において用いる数学記号について規定。</td>\r\n                            </tr>\r\n
+        \                       \r\n                                                    <tr>\r\n
         \                               <th class=\"title\">公示の種類</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            確認
-        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \r\n
+        class=\"content\">\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                廃止
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \r\n
         \                                                                                                           </td>\r\n
         \                           </tr>\r\n\r\n                            <tr>\r\n
         \                               <th class=\"title\">履歴</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                        1978-01-01
+        class=\"content\">\r\n                                                                                                                        1953-07-24
         \                                                                                           制定
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <br>\r\n
-        \                                                                                   1983-09-01
+        \                                                                                   1956-07-24
         \                                                                                                                                                                                       改正
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <br>\r\n
-        \                                                                                   1987-03-01
-        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   被移行
-        \                                                                                                                                                                                                                                   <br>\r\n
-        \                                                                                   1989-02-01
+        \                                                                                   1959-05-08
         \                                                                                                                                                                                                                                                                                   確認
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
-        \                                                                                   1990-09-01
+        \                                                                                   1962-03-20
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1965-03-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1968-03-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1971-07-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1975-11-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1978-12-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   1981-03-01
         \                                                                                                                                                                                       改正
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <br>\r\n
-        \                                                                                   1997-01-20
-        \                                                                                                                                                                                       改正
-        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <br>\r\n
-        \                                                                                   2002-07-20
+        \                                                                                   1986-08-01
         \                                                                                                                                                                                                                                                                                   確認
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
-        \                                                                                   2007-09-20
+        \                                                                                   1991-06-01
         \                                                                                                                                                                                                                                                                                   確認
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
-        \                                                                                   2012-02-20
-        \                                                                                                                                                                                       改正
-        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <br>\r\n
-        \                                                                                   2016-10-20
+        \                                                                                   2001-02-20
         \                                                                                                                                                                                                                                                                                   確認
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
-        \                                                                                   2021-10-20
+        \                                                                                   2006-01-20
         \                                                                                                                                                                                                                                                                                   確認
         \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   2010-10-01
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   2015-10-20
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   2020-06-22
+        \                                                                                                                                                                                                                                                                                   確認
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <br>\r\n
+        \                                                                                   2022-03-22
+        \                                                                                                                                                                                                                                                                                                                                                                               廃止
+        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <br>\r\n
         \                                                                                                               <div
         class=\"jsCallModal\" data-modal=\"#modal_rireki\">\r\n                                        <a
         href=\"#\" class=\"linkArrow active\">履歴に関する説明</a>\r\n                                    </div>\r\n
@@ -1226,19 +1133,34 @@ http_interactions:
         \                                               <dt>廃止</dt>\r\n                                                <dd>主務大臣が当該JISをその役目を終えたものと認めたとき、廃止されます。なお、完全に廃止される場合と、規格の統合等により別のJISに移行される場合があります。</dd>\r\n
         \                                           </dl>\r\n                                        </div>\r\n
         \                                   </div>\r\n                                </td>\r\n
-        \                           </tr>\r\n\r\n                                                    \r\n
-        \                       \r\n                        \r\n                                                    <tr>\r\n
-        \                               <th class=\"title\">原案作成団体</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                                                                        一般財団法人　日本規格協会
+        \                           </tr>\r\n\r\n                                                            <tr>\r\n
+        \                                   <th class=\"title\">廃止理由</th>\r\n                                    <td
+        class=\"content\">\r\n                                                                                    切替規格
+        \                                                                           </td>\r\n
+        \                               </tr>\r\n                                                    \r\n
+        \                                                   <tr>\r\n                                <th
+        class=\"title\">移行先</th>\r\n                                <td class=\"content\">\r\n
+        \                                                                                                                                                                                                                           <a
+        href=\"https://webdesk.jsa.or.jp/books/W11M0090/?bunsyo_id=JIS Z 8000-2:2022\">\r\n
+        \                                                                                                       JIS
+        Z 8000-2:2022                                                                                                        </a>\r\n
+        \                                                                                                                                                                                                       </td>\r\n
+        \                           </tr>\r\n                        \r\n                        \r\n
+        \                                                   <tr>\r\n                                <th
+        class=\"title\">原案作成団体</th>\r\n                                <td class=\"content\">\r\n
+        \                                                                                                                                                                       一般財団法人　日本規格協会
         \                                               <br>\r\n                                                                                                                                                        </td>\r\n
         \                           </tr>\r\n                                                            \r\n
         \                                   \r\n                                                    <tr>\r\n
         \                               <th class=\"title\">ICS</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                        35.040<br>\r\n
+        class=\"content\">\r\n                                                                                                                        01.075<br>\r\n
+        \                                                                                   07.020<br>\r\n
         \                                                                                                           </td>\r\n
         \                           </tr>\r\n                        \r\n                                                    <tr>\r\n
         \                               <th class=\"title\">対応国際規格</th>\r\n                                <td
-        class=\"content\">\r\n\r\n                                                                                                                                                    <div
+        class=\"content\">\r\n\r\n                                                                                                                                                                                                                            ISO
+        31-11:1978                                                                                                    (MOD)
+        \                                                                                                                                                                                                           <div
         class=\"jsCallModal\" data-modal=\"#modal_douzoku\">\r\n                                        <a
         href=\"#\" class=\"linkArrow active\">同等性に関する説明</a>\r\n                                    </div>\r\n
         \                                   <div class=\"modal jsModal\" id=\"modal_douzoku\">\r\n
@@ -1262,38 +1184,16 @@ http_interactions:
         \                               </td>\r\n                            </tr>\r\n
         \                       \r\n                                                    <tr>\r\n
         \                               <th class=\"title\">引用JIS規格</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                                                                        X0201
-        \                                                                                                                                           ,&nbsp;
-        \                                                                                                                                                                               X0202
-        \                                                                                                                                           ,&nbsp;
-        \                                                                                                                                                                               X0211
-        \                                                                                                                                           ,&nbsp;
-        \                                                                                                                                                                               X0221
-        \                                                                                                                                                                                                       </td>\r\n
+        class=\"content\">\r\n                                                                    </td>\r\n
         \                           </tr>\r\n\r\n                            <tr>\r\n
         \                               <th class=\"title\">\r\n                                                                            引用国際規格\r\n
         \                                                                   </th>\r\n
-        \                               <td class=\"content\">\r\n                                                                                                                                                                        ISO/IEC
-        646                                                                                            <br>\r\n
-        \                                                                                                           </td>\r\n
-        \                           </tr>\r\n                        \r\n                                                    <tr>\r\n
-        \                                                                   <th class=\"title\">ハンドブック</th>\r\n
-        \                                   <td class=\"content\">\r\n                                                                                                                                                                                        情報基本:2016<br>\r\n
-        \                                                                                                                                                                       </td>\r\n
-        \                                                           </tr>\r\n                        \r\n
+        \                               <td class=\"content\">\r\n                                                                    </td>\r\n
+        \                           </tr>\r\n                        \r\n                        \r\n
         \                                   \r\n                <tr>\r\n                    <th
         class=\"title\">備考</th>\r\n                    <td class=\"content\">\r\n
-        \                                                                                   この規格は、ダウンロードによる販売サービスをお受けしておりません（シート付）。
-        \                                                                       </td>\r\n
-        \               </tr>\r\n\r\n                                                                                        <tr>\r\n
-        \                               <th class=\"title\">正誤票・訂正票</th>\r\n                                <td
-        class=\"content\">\r\n                                                                                                                        <a
-        href=\"https://webdesk.jsa.or.jp/pdf/errata/jis_x_00208_000_000_1997_cor_1_200205_j_i4.pdf\"
-        target=\"_blank\"  class=\"tableLink mr30\"><img class=\"iconRight\" src=\"/img/common/icon_arrow1_r2.svg\"
-        alt=\"\">\r\n                                                                                                    正誤票\r\n
-        \                                                                                               (200205)\r\n
-        \                                           </a>&nbsp;\r\n                                                                                                            </td>\r\n
-        \                           </tr>\r\n                                                                        </table>\r\n
+        \                                                                                                                                                           </td>\r\n
+        \               </tr>\r\n\r\n                                                                                                            </table>\r\n
         \       </section>\r\n    </div>\r\n    <!-- /#main -->\r\n    <!-- modal
         -->\r\n                                        <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
@@ -1539,5 +1439,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Wed, 22 Nov 2023 04:34:56 GMT
+  recorded_at: Wed, 22 Nov 2023 04:35:01 GMT
 recorded_with: VCR 6.2.0

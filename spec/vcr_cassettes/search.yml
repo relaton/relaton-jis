@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://webdesk.jsa.or.jp/books/W11M0010/searchByKeyword
+    uri: https://webdesk.jsa.or.jp/books/W11M0270/index
     body:
       encoding: ASCII-8BIT
-      string: search_type=JIS&keyword=JIS+X+0208
+      string: dantai=JIS&bunsyo_id=JIS+X+0208&searchtype2=1&status_1=1&status_2=1
     headers:
       Accept-Encoding:
       - gzip,deflate,identity
@@ -22,7 +22,7 @@ http_interactions:
       Content-Type:
       - application/x-www-form-urlencoded
       Content-Length:
-      - '34'
+      - '67'
       Connection:
       - keep-alive
       Keep-Alive:
@@ -35,15 +35,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:30:00 GMT
+      - Wed, 22 Nov 2023 04:34:50 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
-      - '46'
+      - '15'
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=116m5jrom5gdld7jancmvfrrudo21aosti7v52efpgrjtk11oglbk56sgkt1r6jbqklrs5u6ahqovgn0vc7oalgf0ch5fqvfkfthdat;
+      - CAKEPHP=g4oi1f6bjc296pqge03en01pjedojt6p78uf2roi31djo6ejn562h716gdd0v0cde7kfaptfm176n0v83tf2ea1r3nbajvbofvb7c5g;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -59,8 +59,8 @@ http_interactions:
       - nosniff
     body:
       encoding: UTF-8
-      string: '{"status":true,"mess":"","disp_screen":"0070"}'
-  recorded_at: Tue, 21 Nov 2023 12:30:00 GMT
+      string: '{"status":true}'
+  recorded_at: Wed, 22 Nov 2023 04:34:50 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=116m5jrom5gdld7jancmvfrrudo21aosti7v52efpgrjtk11oglbk56sgkt1r6jbqklrs5u6ahqovgn0vc7oalgf0ch5fqvfkfthdat
+      - CAKEPHP=g4oi1f6bjc296pqge03en01pjedojt6p78uf2roi31djo6ejn562h716gdd0v0cde7kfaptfm176n0v83tf2ea1r3nbajvbofvb7c5g
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 21 Nov 2023 12:30:01 GMT
+      - Wed, 22 Nov 2023 04:34:50 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -314,8 +314,8 @@ http_interactions:
         \           <button class = \"btn btnLarge jsCallLoading\" type=\"button\">検索する</button>\r\n
         \                       <a  id=\"detail_search_link\" href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
         class=\"linkArrow\">詳細検索する</a>\r\n        </div>\r\n                <input
-        type=\"hidden\" name=\"all_search_flg\" value=\"all_search\">\r\n        <input
-        type=\"hidden\" name=\"offset\" id=\"offset\" value=\"3\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
+        type=\"hidden\" name=\"all_search_flg\" value=\"\">\r\n        <input type=\"hidden\"
+        name=\"offset\" id=\"offset\" value=\"2\" >\r\n    </form>\r\n</section>\r\n<script>\r\n
         \   //ENTERキーにて検索\r\n    $('#keyword').keypress(function (e) {\r\n        if
         (e.which == 13) {\r\n            var stouchState = true;\r\n            var
         val = $('#search_by_keyword [name=keyword]').val();\r\n            if(val
@@ -340,99 +340,6 @@ http_interactions:
         id=\"data_list\" class=\"sectionGenaralFile\">\r\n            <h2 class=\"headline1
         mb0\">規格一覧</h2>\r\n                                                <div class=\"blockGenaral\">\r\n\r\n
         \                                                                                                   <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+B+0206%3A1973%2FEXPL\"
-        class=\"title\">\r\n                                                                                                JIS
-        B 0206:1973/EXPL                                                                <br
-        />\r\n                                                                                        JIS
-        B0206:1973,B0208:1973解説                                <br />\r\n                                                                                        JIS
-        B0206:1973,B0208:1973 consolidated explanatory version                                                    </a>\r\n
-        \                       <div class=\"blockFile\">\r\n                            <div
-        class=\"blockPreviewFile\">\r\n                                <p class=\"previewFileBtn\">\r\n
-        \                                   <a class=\"btnLearnMore btnFile\" href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+B+0206%3A1973%2FEXPL\">詳細をみる</a>\r\n
-        \                               </p>\r\n                                <p
-        class=\"previewFileDate\">\r\n                                    発行年月日：\r\n
-        \                                                                                                                       1974-01-31
-        \                                                                                                                                                                                                                                                                                                                                               <br>状態：
-        \                                                                                                                                                                   有効
-        \                                                                                                                                                                                               </p>\r\n
-        \                           </div>\r\n                            <div class=\"blockContentFile\">\r\n
-        \                               <div class=\"contentFileTop contentFile\">\r\n
-        \                                   <div class=\"groupContent\">\r\n                                        <p
-        class=\"sentenceFile\">\r\n                                            <span
-        class=\"detail\">\r\n                                                                                                    和文\r\n
-        \                                                                                                                                               </span>\r\n
-        \                                           <span class=\"detailNormal\">\r\n
-        \                                                                                                                                                           14ページ\r\n
-        \                                                                                                   </span>\r\n
-        \                                       </p>\r\n                                        <p
-        class=\"priceFile\">\r\n                                            <span
-        class=\"price\">\r\n                                                                                                                                                            1,210
-        \                                                       <span class=\"subDetail\">&nbsp;円（税込）</span>\r\n
-        \                                                                                                   </span>\r\n
-        \                                                                                                                                               <span
-        class=\"unitPrice\">本体価格：1,100円</span>\r\n                                                                                            </p>\r\n
-        \                                   </div>\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                            \r\n
-        \                                                                                                                                                           <a
-        href=\"https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+B+0206K:1973&baitai_cd=POD&param=1\"
-        class=\"booklet activeOrange\">\r\n                                                            <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                            <span
-        class=\"iconText\">BOOK</span>\r\n                                                            <span
-        class=\"iconText2\">冊子</span>\r\n                                                            <span
-        class=\"toolTipText\">冊子をバッグに入れる</span>\r\n                                                        </a>\r\n
-        \                                                                                                                                                                                                                                                   \r\n
-        \                                                                                                                                               <a
-        href='https://webdesk.jsa.or.jp/books/W11M0120/addCart/0/?syohin_cd=JIS+B+0206K:1973&baitai_cd=PDF&param=2'
-        class=\"pdf activeGreen\">\r\n                                                        <img
-        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                        <span
-        class=\"iconText\">PDF</span>\r\n                                                        <span
-        class=\"iconText2\">PDF</span>\r\n                                                        <span
-        class=\"toolTipText\">PDFをバッグに入れる</span>\r\n                                                    </a>\r\n
-        \                                                                                                                                                                                       \r\n
-        \                                                                                           <a
-        class=\"oval\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_oval_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">CD</span>\r\n                                                    <span
-        class=\"iconText2\">CD</span>\r\n                                                </a>\r\n
-        \                                                                                                                                                                   </div>\r\n
-        \                               </div>\r\n                                <div
-        class=\"contentFileBot contentFile\">\r\n                                    <div
-        class=\"groupContent\">\r\n                                        <p class=\"sentenceFile\">\r\n
-        \                                           <span class=\"detail\">\r\n                                                                                                    英訳\r\n
-        \                                                                                                                                               </span>\r\n
-        \                                           <span class=\"detailNormal\">\r\n
-        \                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               -\r\n
-        \                                                                                                                                               </span>\r\n
-        \                                       </p>\r\n                                        <p
-        class=\"priceFile\">\r\n                                            <span
-        class=\"price\">\r\n                                                                                                                                                                                                                                                                                                                                                                                                        </span>\r\n
-        \                                                                                                                                                                                                                                                                                                                                                                       </p>\r\n
-        \                                   </div>\r\n                                    <div
-        class=\"groupIconFile\">\r\n                                                                                                                                                                                                                                <a
-        class=\"booklet\">\r\n                                                        <img
-        class=\"icon\" src=\"/img/common/icon_booklet_r2.svg\" alt=\"\">\r\n                                                        <span
-        class=\"iconText\">BOOK</span>\r\n                                                        <span
-        class=\"iconText2\">冊子</span>\r\n                                                    </a>\r\n
-        \                                                                                                                                           \r\n
-        \                                                                                           <a
-        class=\"pdf\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_pdf01_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">PDF</span>\r\n                                                    <span
-        class=\"iconText2\">PDF</span>\r\n                                                </a>\r\n
-        \                                                                                       \r\n
-        \                                                                                           <a
-        class=\"oval\">\r\n                                                    <img
-        class=\"icon\" src=\"/img/common/icon_oval_r2.svg\" alt=\"\">\r\n                                                    <span
-        class=\"iconText\">CD</span>\r\n                                                    <span
-        class=\"iconText2\">CD</span>\r\n                                                </a>\r\n
-        \                                                                                                                                                                   </div>\r\n
-        \                               </div>\r\n                            </div>\r\n
-        \                       </div>\r\n                        <div class=\"blockFileInfo\">\r\n
-        \                                                                                                                   <p
-        class=\"blockBotFile\">\r\n                                備考：\r\n                                                                    <br>JIS
-        B0206,B0208の解説です。                                                            </p>\r\n
-        \                       </div>\r\n                    </div>\r\n                                    <div
-        class=\"blockGenaral\">\r\n\r\n                                                                                                    <a
         href=\"https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+X+0208%3A1997\"
         class=\"title\">\r\n                                                                                                JIS
         X 0208:1997                                                                <br
@@ -643,21 +550,12 @@ http_interactions:
         \       <a href=\"https://webdesk.jsa.or.jp/common/W10K0210/?post_type=common&amp;page_id=m_j_yoyaku\">追録会員</a>\r\n
         \       <a href=\"https://webdesk.jsa.or.jp/books/W11M0450/?post_type=book_common&amp;page_id=b_j_libraryserver\"
         >JSAライブラリサーバ</a>\r\n    </div>\r\n\r\n            <div class=\"linkList linkListSum\">\r\n
-        \           <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=JIS\"
-        class=\"active\">JIS規格 <span>3</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ISO\"
-        >ISO規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=IEC\"
-        >IEC規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BS\"
-        >BS規格 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=ASTM\"
-        >ASTM規格<span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=GLOBAL\"
-        >海外規格 <span>0</span></a>            \r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=KOKUNAI\"
-        >JSA規格、<br class=\"pcDisplay\">国内団体出版物<span style=\"text-align: right; position:
-        absolute; top: 50%; transform: translateY(-50%);\">0</span></a>\r\n            <a
-        href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BOOKS\"
-        >書籍 <span>0</span></a>\r\n            <a href=\"https://webdesk.jsa.or.jp/books/W11S0260/getSearchAllListBySide?display_tap=BUPIN\"
-        >物品<span>0</span></a>\r\n        </div>\r\n        <!-- bannar\r\n    <ul
-        class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n        <li><a
-        href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\" alt=\"\"></a></li>\r\n
+        \                           <a href=\"https://webdesk.jsa.or.jp/books/W11M0270\"
+        class=\"active\">JIS規格 <span>2</span></a>\r\n                                                                                                \r\n
+        \                          \r\n                                </div>\r\n
+        \       <!-- bannar\r\n    <ul class=\"owl-carousel owl-theme imgGallery jsOwlCarousel\">\r\n
         \       <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
+        alt=\"\"></a></li>\r\n        <li><a href=\"#\" class=\"imgLink\"><img src=\"/img/common/bnr_sidebar_r2.jpg\"
         alt=\"\"></a></li>\r\n    </ul>\r\n    -->\r\n</aside>\r\n    <!-- modal-->\r\n
         \                                       <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
@@ -752,7 +650,7 @@ http_interactions:
         'html', function (data) {\r\n            if (is_search) {\r\n                $('#data_list').html(data);\r\n
         \           } else {\r\n                $('#data_list').append(data);\r\n
         \           }\r\n            var size = $('.blockGenaral').length;\r\n            var
-        count = 3;\r\n            document.getElementById(\"btnPaging\").disabled
+        count = 2;\r\n            document.getElementById(\"btnPaging\").disabled
         = false;\r\n            if (size >= count) {\r\n                var obj =
         document.getElementById(\"btnPaging\");\r\n                var list = obj.classList;\r\n
         \               obj.classList.add(\"disabled\");\r\n            }\r\n        });\r\n
@@ -900,5 +798,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Tue, 21 Nov 2023 12:30:01 GMT
+  recorded_at: Wed, 22 Nov 2023 04:34:51 GMT
 recorded_with: VCR 6.2.0

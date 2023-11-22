@@ -80,6 +80,29 @@ item.docidentifier[0].id
 => "JIS X 0208:1997"
 ----
 
+=== Fetch all parts of a standard
+
+[source,ruby]
+----
+item = RelatonJis::Bibliography.get "JIS B 0060 (all parts)"
+[relaton-jis] (JIS B 0060 (all parts)) Fetching from webdesk.jsa.or.jp ...
+[relaton-jis] (JIS B 0060 (all parts)) Found: `JIS B 0060 (all parts)`
+=> #<RelatonJis::BibliographicItem:0x000000010c3e2300
+...
+
+item.docidentifier
+=> [#<RelatonBib::DocumentIdentifier:0x000000010c5905f8 @id="JIS B 0060 (all parts)", @language=nil, @primary=true, @scope=nil, @script=nil, @type="JIS">]
+
+item = RelatonJis::Bibliography.get "JIS B 0060 (規格群)"
+[relaton-jis] (JIS B 0060 (規格群)) Fetching from webdesk.jsa.or.jp ...
+[relaton-jis] (JIS B 0060 (規格群)) Found: `JIS B 0060 (all parts)`
+=> #<RelatonJis::BibliographicItem:0x000000010c3ceb20
+...
+
+item.docidentifier
+=> [#<RelatonBib::DocumentIdentifier:0x000000010c8d9b10 @id="JIS B 0060 (all parts)", @language=nil, @primary=true, @scope=nil, @script=nil, @type="JIS">]
+----
+
 === XML serialization
 
 Possible options:
