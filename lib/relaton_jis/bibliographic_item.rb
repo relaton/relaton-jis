@@ -1,6 +1,5 @@
 module RelatonJis
   class BibliographicItem < RelatonIsoBib::IsoBibliographicItem
-    DOCTYPES = %w[japanese-industrial-standard technical-report technical-specification amendment].freeze
     #
     # Fetch the flavor shcema version
     #

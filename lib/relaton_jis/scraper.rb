@@ -103,12 +103,13 @@ module RelatonJis
     end
 
     def fetch_doctype
-      case document_id
-      when /JIS\s[A-Z]\s[\w-]+:\d{4}\/AMENDMENT/ then "amendment"
-      when /JIS\s[A-Z]\s[\w-]+/ then "japanese-industrial-standard"
-      when /TR[\s\/][\w-]+/ then "technical-report"
-      when /TS[\s\/][\w-]+/ then "technical-specification"
-      end
+      type =  case document_id
+              when /JIS\s[A-Z]\s[\w-]+:\d{4}\/AMENDMENT/ then "amendment"
+              when /JIS\s[A-Z]\s[\w-]+/ then "japanese-industrial-standard"
+              when /TR[\s\/][\w-]+/ then "technical-report"
+              when /TS[\s\/][\w-]+/ then "technical-specification"
+              end
+      DocumentType.new type: type
     end
 
     def fetch_ics

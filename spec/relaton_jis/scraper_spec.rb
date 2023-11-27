@@ -6,7 +6,7 @@ describe RelatonJis::Scraper do
       shared_examples "doctype" do |id, doctype|
         it do
           expect(subject).to receive(:document_id).and_return id
-          expect(subject.fetch_doctype).to eq doctype
+          expect(subject.fetch_doctype.type).to eq doctype
         end
       end
 
