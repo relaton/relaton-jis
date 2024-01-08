@@ -35,7 +35,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 22 Nov 2023 04:41:02 GMT
+      - Wed, 03 Jan 2024 05:01:40 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +43,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=a7kj0eenlkv3gjuf6hqabegov4lcvs1qpjlferg6tphkc2jr1qcrjovj4p7dgluv8r9t1jds493rcaj7g1d6k1llib2b0dkkba32pn9;
+      - CAKEPHP=oc1su2kf7on66olf60bobu9fl15mgdaog55i93lmjko8rt5ura7p6obs59dpaaijeeirpjuk5lnll3n89p0opdm19trh1agh2nm3fke;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +60,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true}'
-  recorded_at: Wed, 22 Nov 2023 04:41:02 GMT
+  recorded_at: Wed, 03 Jan 2024 05:01:40 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -79,7 +79,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=a7kj0eenlkv3gjuf6hqabegov4lcvs1qpjlferg6tphkc2jr1qcrjovj4p7dgluv8r9t1jds493rcaj7g1d6k1llib2b0dkkba32pn9
+      - CAKEPHP=oc1su2kf7on66olf60bobu9fl15mgdaog55i93lmjko8rt5ura7p6obs59dpaaijeeirpjuk5lnll3n89p0opdm19trh1agh2nm3fke
       Host:
       - webdesk.jsa.or.jp
       Connection:
@@ -94,7 +94,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 22 Nov 2023 04:41:02 GMT
+      - Wed, 03 Jan 2024 05:01:40 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -266,7 +266,19 @@ http_interactions:
         Template Area -->\r\n                <section class=\"sectionTicker\">\r\n
         \   <h3 class=\"title\"><span>NEWS TOPICS</span></h3>\r\n    <div class=\"swiper-container
         js-ticker\">\r\n        <div class=\"swiper-wrapper\">\r\n                                                <div
-        class=\"swiper-slide\">\r\n                        <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
+        class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1544\">\r\n                        <a
+        href=\"#\">\r\n                                                            <span>『ISO/IEC
+        27001:2022』・『JIS Q 27001:2023』関連書籍、新刊発売のお知らせ</span>\r\n                                                    </a>\r\n
+        \                   </div>\r\n                                                                <div
+        class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1545\">\r\n                        <a
+        href=\"#\">\r\n                                                            <span>QC検定関連書籍、新刊発売のお知らせ</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide
+        jsCallModal\" data-modal=\"#modal_t1528\">\r\n                        <a href=\"#\">\r\n
+        \                                                           <span>★商品の発送に関するお知らせ★</span>\r\n
+        \                                                   </a>\r\n                    </div>\r\n
+        \                                                               <div class=\"swiper-slide\">\r\n
+        \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</span>\r\n                                                    </a>\r\n
         \                   </div>\r\n                                                                <div
@@ -275,13 +287,43 @@ http_interactions:
         \                                                   </a>\r\n                    </div>\r\n
         \                                   </div>\r\n    </div>\r\n    <a href=\"https://webdesk.jsa.or.jp/common/W10K0600\"
         class=\"btn btnMiddle infoMember\">会員向け情報はこちら</a>\r\n</section>\r\n    <div
-        class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p class=\"modalHead\"><span
+        class=\"modal jsModal\" id=\"modal_t1544\">\r\n        <p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
-        \           <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』 復刊！</h4>\r\n                            <time
-        class=\"modalDate\">2023/04/21</time>\r\n                                            </div>\r\n
-        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t155\">\r\n        <p
+        \           <h4 class=\"modalTitle\">『ISO/IEC 27001:2022』・『JIS Q 27001:2023』関連書籍、新刊発売のお知らせ</h4>\r\n
+        \                           <time class=\"modalDate\">2023/12/25</time>\r\n
+        \                                   <p class=\"txt mb10\">\n&emsp;2022年10月25日に「ISO/IEC
+        27001:2022」、2023年9月20日に「JIS Q 27001:2023」が発行されたことに伴い、関連書籍を発売いたしました。<br>\nISMSの理解に、最新版に対応する弊会の書籍を是非ご活用ください。<br>\n</p>\n<table
+        class=\"txt\">\n<tr>\n<td valign=\"top\">・要求事項の解説：</td>\n<td>ISO/IEC 27001(JIS
+        Q 27001)の逐条解説書です。<br>\nご購入は<a href=\"/books/W11M0100/index/?syohin_cd=330550\">こちら</a>から。</td>\n</tr>\n<tr><td><br></td></tr>\n<tr>\n<td
+        valign=\"top\">・ポケット版：</td>\n<td>ISO/IEC 27001(JIS Q 27001)を英和対訳で収録しています。<br>\n2024年1月12日発行予定、ご予約受付です。ご予約は<a
+        href=\"/books/W11M0100/index/?syohin_cd=340290\">こちら</a>から。</td>\n</tr>\n</table>\n<p
+        class=\"txt\">\n・見るみるシリーズ：2024年2月以降発行予定。<br>\n<br>\n・邦訳版：ご購入は<a href=\"/books/W11M0090/index/?bunsyo_id=ISO/IEC+27001:2022\">こちら</a>から。<br>\n<br>\n・JIS規格：ご購入は<a
+        href=\"/books/W11M0090/index/?bunsyo_id=JIS+Q+27001:2023\">こちら</a>から。<br>\n<br>\n注目のマネジメントシステム規格の情報をまとめた特設ページは<a
+        href=\"https://www.jsa.or.jp/ms-sp/\" target=\"_blank\">こちら</a>よりご確認いただけます。\n</p>
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1545\">\r\n
+        \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">QC検定関連書籍、新刊発売のお知らせ</h4>\r\n
+        \                           <time class=\"modalDate\">2023/12/25</time>\r\n
+        \                                   <p class=\"txt\">\n&emsp;2023年12月22日に『過去問題で学ぶQC
+        検定シリーズ』の２級・３級の新刊を発売いたしました。ぜひ、ご活用ください。<br>\n<br>\n・過去問題で学ぶQC検定2級　2024年版：詳細は<a
+        href=\"/books/W11M0100/index/?syohin_cd=350528\">こちら</a>から<br>\n<br>\n・過去問題で学ぶQC検定3級　2024年版：詳細は<a
+        href=\"/books/W11M0100/index/?syohin_cd=350529\">こちら</a>から<br>\n<br>\nその他QC検定関連書籍についても好評発売中です。詳細は<a
+        href=\"/common/W10K0010/?post_type=book_common&page_id=b_j_top_QC\">こちら</a>から\n</p>
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1528\">\r\n
+        \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">★商品の発送に関するお知らせ★</h4>\r\n
+        \                           <time class=\"modalDate\">2023/12/08</time>\r\n
+        \                                   <p class=\"txt\">\n    平素当協会のJSA Webdeskをご利用いただき有難うございます。<br>\n
+        \   12月25日（月）午後から1月3日（水）までの間にご注文いただきました商品の発送は、<br>\n    業務の都合上、１月4日（木）以降に順次発送いたします。<br>\n
+        \   ※ダウンロード商品は除きます。<br>\n    お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>        </div>\r\n
+        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p
         class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n
+        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』
+        復刊！</h4>\r\n                            <time class=\"modalDate\">2023/04/21</time>\r\n
+        \                                           </div>\r\n    </div>\r\n    <div
+        class=\"modal jsModal\" id=\"modal_t155\">\r\n        <p class=\"modalHead\"><span
+        class=\"modalClose jsCloseModal\"></span></p>\r\n        <div class=\"modalInner\">\r\n
+        \           <h4 class=\"modalTitle\">工業標準化法改正に伴うJIS規格名称変更のお知らせ(2020年6月22日更新)</h4>\r\n
         \                           <time class=\"modalDate\">2020/06/22</time>\r\n
         \                                   <p class=\"txt right mb0\">2020年6月吉日</p><p
         class=\"txt mb0\">お 客 様 各 位</p><p class=\"txt right\">日本規格協会グループ<br>出版情報ユニット</p><br>\n<p
@@ -600,5 +642,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Wed, 22 Nov 2023 04:41:03 GMT
+  recorded_at: Wed, 03 Jan 2024 05:01:41 GMT
 recorded_with: VCR 6.2.0
