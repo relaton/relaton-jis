@@ -12,13 +12,11 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.8.5 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.9.1 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
-      Host:
-      - webdesk.jsa.or.jp
       Content-Type:
       - application/x-www-form-urlencoded
       Content-Length:
@@ -35,7 +33,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 03 Jan 2024 05:01:33 GMT
+      - Thu, 08 Feb 2024 00:04:47 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -43,7 +41,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=28ebibh75s29cfgidki5s9nvlhvln550v22p64cvmto2nai2vhtanq151bkkgr2cilcdm3da35uk342rhk34911lo78fketgd968c8m;
+      - CAKEPHP=5va3a8093c0925ir666ir1ckt9dfepb5d6t491skdp4s9okspf4tun1gs56rofmshl0k4qsk2aqd4tcq7llirfr8igbnk6ul4nganpj;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -60,7 +58,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"status":true}'
-  recorded_at: Wed, 03 Jan 2024 05:01:33 GMT
+  recorded_at: Thu, 08 Feb 2024 00:04:47 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0070/index
@@ -73,15 +71,13 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.8.5 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.9.1 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - CAKEPHP=28ebibh75s29cfgidki5s9nvlhvln550v22p64cvmto2nai2vhtanq151bkkgr2cilcdm3da35uk342rhk34911lo78fketgd968c8m
-      Host:
-      - webdesk.jsa.or.jp
+      - CAKEPHP=5va3a8093c0925ir666ir1ckt9dfepb5d6t491skdp4s9okspf4tun1gs56rofmshl0k4qsk2aqd4tcq7llirfr8igbnk6ul4nganpj
       Connection:
       - keep-alive
       Keep-Alive:
@@ -94,7 +90,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 03 Jan 2024 05:01:33 GMT
+      - Thu, 08 Feb 2024 00:04:47 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -273,10 +269,6 @@ http_interactions:
         class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1545\">\r\n                        <a
         href=\"#\">\r\n                                                            <span>QC検定関連書籍、新刊発売のお知らせ</span>\r\n
         \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide
-        jsCallModal\" data-modal=\"#modal_t1528\">\r\n                        <a href=\"#\">\r\n
-        \                                                           <span>★商品の発送に関するお知らせ★</span>\r\n
-        \                                                   </a>\r\n                    </div>\r\n
         \                                                               <div class=\"swiper-slide\">\r\n
         \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
@@ -309,15 +301,8 @@ http_interactions:
         href=\"/books/W11M0100/index/?syohin_cd=350528\">こちら</a>から<br>\n<br>\n・過去問題で学ぶQC検定3級　2024年版：詳細は<a
         href=\"/books/W11M0100/index/?syohin_cd=350529\">こちら</a>から<br>\n<br>\nその他QC検定関連書籍についても好評発売中です。詳細は<a
         href=\"/common/W10K0010/?post_type=book_common&page_id=b_j_top_QC\">こちら</a>から\n</p>
-        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1528\">\r\n
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1393\">\r\n
         \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">★商品の発送に関するお知らせ★</h4>\r\n
-        \                           <time class=\"modalDate\">2023/12/08</time>\r\n
-        \                                   <p class=\"txt\">\n    平素当協会のJSA Webdeskをご利用いただき有難うございます。<br>\n
-        \   12月25日（月）午後から1月3日（水）までの間にご注文いただきました商品の発送は、<br>\n    業務の都合上、１月4日（木）以降に順次発送いたします。<br>\n
-        \   ※ダウンロード商品は除きます。<br>\n    お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>        </div>\r\n
-        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p
-        class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
         \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</h4>\r\n                            <time class=\"modalDate\">2023/04/21</time>\r\n
         \                                           </div>\r\n    </div>\r\n    <div
@@ -494,16 +479,14 @@ http_interactions:
         \                                       <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n<div class=\"modalInner\">\r\n\r\n<h2
-        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
+        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は、一部例外を除き、原文のRedline版と正式規格（最新版）の対訳版の2つのファイルで構成されており、Redline版の対訳は含みませんのでご注意ください。<br
         />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
         />原文はPDF版が1つのファイル（前半にRedline版、後半に正式規格）、冊子版は1冊（Redline版と正式規格の合本）でのお届けとなります。<br
-        />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br />\r\n<br
-        />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
+        />\r\n邦訳版は、一部例外を除き、原文のRedline版と正式規格（最新版）の対訳版で構成された1つのファイルとなり、Redline版の対訳は含みませんのでご注意ください。<br
+        />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
         />正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n<br />\r\n　Redline版のサンプルページは<a
         href=\"/pdf/book/Redline/previewastmredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n</dl>\r\n</div>\r\n</div>\r\n\r\n<!--
         /modal About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
@@ -732,7 +715,7 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n\r\n</html>\r\n"
-  recorded_at: Wed, 03 Jan 2024 05:01:34 GMT
+  recorded_at: Thu, 08 Feb 2024 00:04:47 GMT
 - request:
     method: get
     uri: https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS%20Z%208201:1981
@@ -745,13 +728,11 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.8.5 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.9.1 Ruby/3.2.0p0 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
-      Host:
-      - webdesk.jsa.or.jp
       Connection:
       - keep-alive
       Keep-Alive:
@@ -764,7 +745,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 03 Jan 2024 05:01:35 GMT
+      - Thu, 08 Feb 2024 00:04:48 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -772,7 +753,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - CAKEPHP=mhqc9dl0016vme92t8e8vcs14euvq07vl9mnshcqut9tl8k94hd0il1eerqs3sta6pog1frfcmpu3vrbic7gaikdk0u6655k58ki9cc;
+      - CAKEPHP=02emoh804i16cb5djrjbch71umpuqh1ad1ho1ves40tf7bfpfu41e67nggduvrt650l5ehoibdimiriqq64u0g83r819u2v5v4ovsbd;
         path=/; secure; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -944,10 +925,6 @@ http_interactions:
         class=\"swiper-slide jsCallModal\" data-modal=\"#modal_t1545\">\r\n                        <a
         href=\"#\">\r\n                                                            <span>QC検定関連書籍、新刊発売のお知らせ</span>\r\n
         \                                                   </a>\r\n                    </div>\r\n
-        \                                                               <div class=\"swiper-slide
-        jsCallModal\" data-modal=\"#modal_t1528\">\r\n                        <a href=\"#\">\r\n
-        \                                                           <span>★商品の発送に関するお知らせ★</span>\r\n
-        \                                                   </a>\r\n                    </div>\r\n
         \                                                               <div class=\"swiper-slide\">\r\n
         \                       <a href=\"/common/W10K0010/?post_type=book_common&amp;page_id=SQ_info\"
         >\r\n                                                            <span>お知らせ　『標準化と品質管理（SQ誌）』
@@ -980,15 +957,8 @@ http_interactions:
         href=\"/books/W11M0100/index/?syohin_cd=350528\">こちら</a>から<br>\n<br>\n・過去問題で学ぶQC検定3級　2024年版：詳細は<a
         href=\"/books/W11M0100/index/?syohin_cd=350529\">こちら</a>から<br>\n<br>\nその他QC検定関連書籍についても好評発売中です。詳細は<a
         href=\"/common/W10K0010/?post_type=book_common&page_id=b_j_top_QC\">こちら</a>から\n</p>
-        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1528\">\r\n
+        \       </div>\r\n    </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1393\">\r\n
         \       <p class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
-        \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">★商品の発送に関するお知らせ★</h4>\r\n
-        \                           <time class=\"modalDate\">2023/12/08</time>\r\n
-        \                                   <p class=\"txt\">\n    平素当協会のJSA Webdeskをご利用いただき有難うございます。<br>\n
-        \   12月25日（月）午後から1月3日（水）までの間にご注文いただきました商品の発送は、<br>\n    業務の都合上、１月4日（木）以降に順次発送いたします。<br>\n
-        \   ※ダウンロード商品は除きます。<br>\n    お客様にはご迷惑をおかけいたしますが予めご了承願います。\n</p>        </div>\r\n
-        \   </div>\r\n    <div class=\"modal jsModal\" id=\"modal_t1393\">\r\n        <p
-        class=\"modalHead\"><span class=\"modalClose jsCloseModal\"></span></p>\r\n
         \       <div class=\"modalInner\">\r\n            <h4 class=\"modalTitle\">お知らせ　『標準化と品質管理（SQ誌）』
         復刊！</h4>\r\n                            <time class=\"modalDate\">2023/04/21</time>\r\n
         \                                           </div>\r\n    </div>\r\n    <div
@@ -1282,16 +1252,14 @@ http_interactions:
         -->\r\n                                        <!-- modal About Redline -->\r\n<div
         class=\"modal jsModal\" id=\"about_redline\">\r\n<p class=\"modalHead\"><span
         class=\"modalClose jsCloseModal\"></span></p>\r\n<div class=\"modalInner\">\r\n\r\n<h2
-        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
-        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br
+        class=\"headline1\">Redline版に関する説明</h2>\r\n<dl class=\"dataList\">\r\n<dt>ISO</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        />原文は正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n邦訳版は、一部例外を除き、原文のRedline版と正式規格（最新版）の対訳版の2つのファイルで構成されており、Redline版の対訳は含みませんのでご注意ください。<br
         />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewisoredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iso.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n</dd>\r\n\r\n<dt>IEC</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いがカラーで示され、改訂箇所が一目でわかる商品です。<br
         />原文はPDF版が1つのファイル（前半にRedline版、後半に正式規格）、冊子版は1冊（Redline版と正式規格の合本）でのお届けとなります。<br
-        />\r\n邦訳版は1冊（Redline版と正式規格の合本）でのお届けとなります。媒体は冊子版のみで、PDF版のお取り扱いはありません。<br />\r\n<br
-        />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
-        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n　邦訳Redline版のサンプルページは<a
-        href=\"/pdf/book/Redline/hoyaku_sample_iec.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、ひとつ前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
+        />\r\n邦訳版は、一部例外を除き、原文のRedline版と正式規格（最新版）の対訳版で構成された1つのファイルとなり、Redline版の対訳は含みませんのでご注意ください。<br
+        />\r\n<br />\r\n　原文Redline版のサンプルページは<a href=\"/pdf/book/Redline/previewiecredline.pdf\"
+        target=\"_blank\" rel=\"noopener\">こちら</a>。<br />\r\n</dd>\r\n\r\n<dt>ASTM</dt>\r\n<dd>Redline版とは、最新版とその改訂前の版との違いが示されている商品です。ASTMの場合は、単に赤字又は青字で記載されている箇所は変更点ではございません。削除された箇所には取り消し線、追加された箇所には下線が引かれます。<br
         />正式規格とRedline版の2つのファイルで構成されています。媒体はPDF版のみで、冊子版は発行されておりません。<br />\r\n<br />\r\n　Redline版のサンプルページは<a
         href=\"/pdf/book/Redline/previewastmredline.pdf\" target=\"_blank\" rel=\"noopener\">こちら</a>。</dd>\r\n\r\n</dl>\r\n</div>\r\n</div>\r\n\r\n<!--
         /modal About Redline -->\r\n<!-- modal About IEC Edition -->\r\n<div class=\"modal
@@ -1523,5 +1491,5 @@ http_interactions:
         class=\"loadingSpinner\">\r\n        <div class=\"bounce1\"></div>\r\n        <div
         class=\"bounce2\"></div>\r\n        <div class=\"bounce3\"></div>\r\n    </div>\r\n</div>
         \   </body>\r\n</html>\r\n"
-  recorded_at: Wed, 03 Jan 2024 05:01:35 GMT
+  recorded_at: Thu, 08 Feb 2024 00:04:49 GMT
 recorded_with: VCR 6.2.0
