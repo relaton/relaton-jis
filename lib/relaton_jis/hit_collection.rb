@@ -64,7 +64,7 @@ module RelatonJis
 
     def create_relation(hit)
       docid = RelatonBib::DocumentIdentifier.new id: hit.hit[:id], type: "JIS", primary: true
-      fref = RelatonBib::FormattedRef.new content: hit.hit[:id]
+      fref = RelatonBib::FormattedRef.new hit.hit[:id]
       bibitem = BibliographicItem.new docid: [docid], formattedref: fref
       RelatonBib::DocumentRelation.new(type: "instanceOf", bibitem: bibitem)
     end

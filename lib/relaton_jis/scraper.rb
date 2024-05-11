@@ -36,18 +36,18 @@ module RelatonJis
     end
 
     def fetch_link
-      src = RelatonBib::TypedUri.new content: @url, type: "src"
+      src = RelatonBib::Source.new content: @url, type: "src"
       uri = URI @url
       domain = "#{uri.scheme}://#{uri.host}"
       @doc.xpath("./table/tr[th[.='プレビュー']]/td/a").reduce([src]) do |mem, node|
         href = "#{domain}#{node[:href]}"
-        mem << RelatonBib::TypedUri.new(content: href, type: "pdf")
+        mem << RelatonBib::Source.new(content: href, type: "pdf")
       end
     end
 
     def fetch_abstract
       @doc.xpath("./table/tr[th[.='規格概要']]/td").map do |node|
-        RelatonBib::FormattedString.new content: node.text.strip, language: "ja", script: "Jpan"
+        RelatonBib::Abstract.new content: node.text.strip, language: "ja", script: "Jpan"
       end
     end
 
@@ -123,7 +123,7 @@ module RelatonJis
       @doc.xpath("./table/tr[th[.='原案作成団体']]/td").map do |node|
         name = RelatonBib::LocalizedString.new node.text.strip, "ja", "Jpan"
         org = RelatonBib::Organization.new name: name
-        RelatonBib::ContributionInfo.new entity: org, role: [type: "author"]
+        RelatonBib::Contributor.new entity: org, role: [type: "author"]
       end
     end
 
