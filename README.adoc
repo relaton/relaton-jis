@@ -112,7 +112,7 @@ Possible options:
 [source,ruby]
 ----
 item.to_xml
-=> "<bibitem id="JISX0208-1997" type="standard" schema-version="v1.2.8">
+=> "<bibitem id="JISX0208-1997" type="standard" schema-version="v1.3.1">
       <fetched>2023-03-18</fetched>
       <title format="text/plain" language="ja" script="Jpan">７ビット及び８ビットの２バイト情報交換用符号化漢字集合</title>
       <title format="text/plain" language="en" script="Lant">7-bit and 8-bit double byte coded KANJI sets for information interchange</title>
@@ -120,7 +120,7 @@ item.to_xml
     </bibitem>"
 
 item.to_xml bibdata: true
-=> "<bibdata type="standard" schema-version="v1.2.8">
+=> "<bibdata type="standard" schema-version="v1.3.1">
       <fetched>2023-03-18</fetched>
       <title format="text/plain" language="ja" script="Jpan">７ビット及び８ビットの２バイト情報交換用符号化漢字集合</title>
       <title format="text/plain" language="en" script="Lant">7-bit and 8-bit double byte coded KANJI sets for information interchange</title>
