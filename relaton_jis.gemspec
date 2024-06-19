@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "mechanize", "~> 2.8.0"
+  spec.add_dependency "mechanize", "~> 2.10"
   spec.add_dependency "relaton-iso-bib", "~> 1.18.0"
 
   # For more information and examples about making a new gem, check out our
