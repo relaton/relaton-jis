@@ -22,24 +22,13 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 == Usage
 
-=== Configuration
-
-Configuration is optional. The available option is `logger` which is a `Logger` instance. By default, the logger is `Logger.new($stderr)` with `Logger::WARN` level. To change the logger level, use `RelatonJis.configure` block.
+=== Search for standards using keywords
 
 [source,ruby]
 ----
 require 'relaton_jis'
 => true
 
-RelatonJis.configure do |config|
-  config.logger.level = Logger::DEBUG
-end
-----
-
-=== Search for standards using keywords
-
-[source,ruby]
-----
 hit_collection = RelatonJis::Bibliography.search("JIS X 0208")
 => <RelatonJis::HitCollection:0x00000000018858 @ref=JIS X 0208 @fetched=false>
 
@@ -159,6 +148,10 @@ item.link
   @script=nil,
   @type="pdf">]
 ----
+
+=== Logging
+
+RelatonJis uses the relaton-logger gem for logging. By default, it logs to STDOUT. To change the log levels and add other loggers, read the https://github.com/relaton/relaton-logger#usage[relaton-logger] documentation.
 
 == Development
 
