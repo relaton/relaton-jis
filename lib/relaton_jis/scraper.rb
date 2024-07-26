@@ -120,11 +120,23 @@ module RelatonJis
     end
 
     def fetch_contributor
-      @doc.xpath("./table/tr[th[.='原案作成団体']]/td").map do |node|
-        name = RelatonBib::LocalizedString.new node.text.strip, "ja", "Jpan"
-        org = RelatonBib::Organization.new name: name
-        RelatonBib::ContributionInfo.new entity: org, role: [type: "author"]
+      @doc.xpath("./table/tr[th[.='原案作成団体']]/td").reduce([]) do |a, node|
+        a << create_contrib(node, "author")
+        a << create_contrib(node, "publisher")
       end
+    end
+
+    def create_contrib(node, role)
+      org = RelatonBib::Organization.new name: create_orgname(node)
+      RelatonBib::ContributionInfo.new entity: org, role: [type: role]
+    end
+
+    def create_orgname(node)
+      name = [RelatonBib::LocalizedString.new(node.text.strip, "ja", "Jpan")]
+      if node.text.include?("日本規格協会")
+        name << RelatonBib::LocalizedString.new("Japanese Industrial Standards", "en", "Latn")
+      end
+      name
     end
 
     def fetch_editorialgroup
