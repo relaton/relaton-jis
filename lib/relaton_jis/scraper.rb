@@ -1,7 +1,9 @@
+# encoding: UTF-8
+
 module RelatonJis
   class Scraper
     ATTRS = %i[
-      fetched title link abstract docid docnumber date type language script
+      title link abstract docid docnumber date type language script
       docstatus doctype ics contributor editorialgroup structuredidentifier
     ].freeze
 
@@ -24,9 +26,9 @@ module RelatonJis
       BibliographicItem.new(**attrs)
     end
 
-    def fetch_fetched
-      Date.today.to_s
-    end
+    # def fetch_fetched
+    #   Date.today.to_s
+    # end
 
     def fetch_title
       { "ja" => "Jpan", "en" => "Lant" }.map.with_index do |(lang, script), i|

@@ -2,6 +2,7 @@
 
 require "mechanize"
 require "relaton_iso_bib"
+require "relaton/index"
 require_relative "relaton_jis/version"
 require_relative "relaton_jis/util"
 require_relative "relaton_jis/document_type"
@@ -12,6 +13,7 @@ require_relative "relaton_jis/scraper"
 require_relative "relaton_jis/bibliography"
 require_relative "relaton_jis/hit_collection"
 require_relative "relaton_jis/hit"
+require_relative "relaton_jis/data_fetcher"
 
 module RelatonJis
   class Error < StandardError; end

@@ -44,7 +44,11 @@ module RelatonJis
     end
 
     def fetch
-      @fetch ||= Scraper.new(hit[:url]).fetch
+      return @fetch if defined? @fetch
+
+      @fetch = Scraper.new(hit[:url]).fetch
+      @fetch.fetched = Date.today.to_s
+      @fetch
     end
   end
 end
