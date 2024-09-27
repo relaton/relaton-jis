@@ -1,6 +1,6 @@
 module RelatonJis
   module HashConverter
-    include RelatonBib::HashConverter
+    include RelatonIsoBib::HashConverter
     extend self
 
     # @param item_hash [Hash]

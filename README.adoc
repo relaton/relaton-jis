@@ -149,6 +149,24 @@ item.link
   @type="pdf">]
 ----
 
+=== Fetch data
+
+This gem scrapes the https://webdesk.jsa.or.jp/books/W11M0270 pages to fetch the JIS Standards metadata. By default the data is saved in the `./data` folder in YAML format.
+
+The method `RelatonJis::DataFetcher.fetch(output: "data", format: "yaml")` fetches all the documents from the dataset and saves them to the `./data` folder in YAML format.
+Arguments:
+
+- `output` - folder to save documents (default './data').
+- `format` - the format in which the documents are saved. Possible formats are: `yaml`, `xml`, `bibxml` (default `yaml`).
+
+[source,ruby]
+----
+RelatonJis::DataFetcher.fetch
+Start fetching JIS data at 2024-09-27 17:49:40 -0400
+Fetching JIS data finished at 2024-09-27 18:40:11 -0400. It took 3031.0 seconds.
+=> nil
+----
+
 === Logging
 
 RelatonJis uses the relaton-logger gem for logging. By default, it logs to STDOUT. To change the log levels and add other loggers, read the https://github.com/relaton/relaton-logger#usage[relaton-logger] documentation.

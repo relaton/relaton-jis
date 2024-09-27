@@ -9,6 +9,7 @@ module RelatonJis
       @prefix = "JIS"
       @defaultprefix = %r{^(JIS|TR)\s}
       @idtype = "JIS"
+      @datasets = %w[jis-webdesk]
     end
 
     # @param code [String]
@@ -17,6 +18,18 @@ module RelatonJis
     # @return [RelatonJis::BibliographicItem]
     def get(code, date, opts)
       ::RelatonJis::Bibliography.get(code, date, opts)
+    end
+
+    #
+    # Fetch all the docukents from a source
+    #
+    # @param [String] _source source name
+    # @param [Hash] opts
+    # @option opts [String] :output directory to output documents
+    # @option opts [String] :format
+    #
+    def fetch_data(_source, opts)
+      DataFetcher.fetch(**opts)
     end
 
     # @param xml [String]
@@ -36,6 +49,13 @@ module RelatonJis
     # @return [String]
     def grammar_hash
       @grammar_hash ||= ::RelatonJis.grammar_hash
+    end
+
+    #
+    # Remove index file
+    #
+    def remove_index_file
+      Relaton::Index.find_or_create(:jis, url: true, file: DataFetcher::INDEX_FILE).remove_file
     end
   end
 end

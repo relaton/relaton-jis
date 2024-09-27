@@ -1,6 +1,7 @@
 module RelatonJis
   class DataFetcher
     URL = "https://webdesk.jsa.or.jp/books/".freeze
+    INDEX_FILE = "index-v1.yaml".freeze
 
     def initialize(output, format)
       @output = output
@@ -14,11 +15,11 @@ module RelatonJis
 
     def self.fetch(output: "data", format: "yaml")
       start_time = Time.now
-      Util.info "Start fetching JIS data at #{start_time}"
+      puts "Start fetching JIS data at #{start_time}"
       FileUtils.mkdir_p output
       new(output, format).fetch
       stop_time = Time.now
-      Util.info "Fetching JIS data finished at #{stop_time}. It took #{stop_time - start_time} seconds."
+      puts "Fetching JIS data finished at #{stop_time}. It took #{stop_time - start_time} seconds."
     end
 
     def create_thread_pool(size)
@@ -136,7 +137,7 @@ module RelatonJis
     end
 
     def index
-      @index ||= Relaton::Index.find_or_create :jis, file: "index-v1.yaml"
+      @index ||= Relaton::Index.find_or_create :jis, file: INDEX_FILE
     end
 
     def file(id)

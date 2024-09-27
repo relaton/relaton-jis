@@ -2,7 +2,8 @@ module RelatonJis
   module Bibliography
     extend self
 
-    SOURCE = "https://webdesk.jsa.or.jp/books/W11M".freeze
+    # SOURCE = "https://webdesk.jsa.or.jp/books/W11M".freeze
+    GH_URL = "https://raw.githubusercontent.com/relaton/relaton-data-jis/refs/heads/main/".freeze
 
     #
     # Search JIS by keyword
@@ -13,14 +14,9 @@ module RelatonJis
     # @return [RelatonJis::HitCollection] search result
     #
     def search(code, year = nil)
-      agent = Mechanize.new
-      resp = agent.post "#{SOURCE}0270/index", dantai: "JIS", bunsyo_id: code, searchtype2: "1", status_1: "1", status_2: "1"
-      disp = JSON.parse resp.body
-      # raise RelatonBib::RequestError, "No results found for #{code}" if disp["disp_screen"].nil?
-      return unless disp["status"]
-
-      result = agent.get "#{SOURCE}0070/index"
-      HitCollection.new code, year, result: result.xpath("//div[@class='blockGenaral']")
+      index = Relaton::Index.find_or_create(:jis, url: "#{GH_URL}index-v1.zip", file: DataFetcher::INDEX_FILE)
+      result = index.search(code).sort_by { |h| h[:id] }
+      HitCollection.new code, year, result: result # .xpath("//div[@class='blockGenaral']")
     end
 
     #

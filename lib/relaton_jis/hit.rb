@@ -8,9 +8,9 @@ module RelatonJis
     #
     # @return [RelatonJis::Hit] new hit
     #
-    def self.create(node, collection)
-      a = node.at("./a")
-      hit = { id: a.at("./text()").text.strip, url: a["href"] }
+    def self.create(hit, collection)
+      # a = node.at("./a")
+      # hit = { id: a.at("./text()").text.strip, url: a["href"] }
       new hit, collection
     end
 
@@ -46,7 +46,10 @@ module RelatonJis
     def fetch
       return @fetch if defined? @fetch
 
-      @fetch = Scraper.new(hit[:url]).fetch
+      # @fetch = Scraper.new(hit[:url]).fetch
+      yaml = Mechanize.new.get("#{Bibliography::GH_URL}#{hit[:file]}").body
+      hash = YAML.safe_load yaml
+      @fetch = RelatonJis::BibliographicItem.from_hash hash
       @fetch.fetched = Date.today.to_s
       @fetch
     end

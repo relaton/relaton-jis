@@ -16,7 +16,6 @@ describe RelatonJis::Bibliography do
     expect(result.size).to eq(2)
     expect(result.first).to be_instance_of(RelatonJis::Hit)
     expect(result[0].hit[:id]).to eq("JIS X 0208:1997")
-    expect(result[0].hit[:url]).to include "/index/?bunsyo_id="
   end
 
   context "get" do
