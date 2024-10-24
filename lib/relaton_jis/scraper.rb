@@ -41,14 +41,14 @@ module RelatonJis
       src = RelatonBib::TypedUri.new content: @url, type: "src"
       uri = URI @url
       domain = "#{uri.scheme}://#{uri.host}"
-      @doc.xpath("./table/tr[th[.='プレビュー']]/td/a").reduce([src]) do |mem, node|
+      @doc.xpath("./dl/dt[.='プレビュー']/following-sibling::dd[1]/a").reduce([src]) do |mem, node|
         href = "#{domain}#{node[:href]}"
         mem << RelatonBib::TypedUri.new(content: href, type: "pdf")
       end
     end
 
     def fetch_abstract
-      @doc.xpath("./table/tr[th[.='規格概要']]/td").map do |node|
+      @doc.xpath("//div[@id='honbun']").map do |node|
         RelatonBib::FormattedString.new content: node.text.strip, language: "ja", script: "Jpan"
       end
     end
@@ -122,23 +122,24 @@ module RelatonJis
     end
 
     def fetch_contributor
-      @doc.xpath("./table/tr[th[.='原案作成団体']]/td").reduce([]) do |a, node|
-        a << create_contrib(node, "author")
-        a << create_contrib(node, "publisher")
+      authorizer = create_contrib("一般財団法人　日本規格協会", "authorizer")
+      @doc.xpath("./table/tr[th[.='原案作成団体']]/td").reduce([authorizer]) do |a, node|
+        a << create_contrib(node.text.strip, "author")
+        a << create_contrib(node.text.strip, "publisher")
       end
     end
 
-    def create_contrib(node, role)
-      org = RelatonBib::Organization.new name: create_orgname(node)
+    def create_contrib(name, role)
+      org = RelatonBib::Organization.new name: create_orgname(name)
       RelatonBib::ContributionInfo.new entity: org, role: [type: role]
     end
 
-    def create_orgname(node)
-      name = [RelatonBib::LocalizedString.new(node.text.strip, "ja", "Jpan")]
-      if node.text.include?("日本規格協会")
-        name << RelatonBib::LocalizedString.new("Japanese Industrial Standards", "en", "Latn")
+    def create_orgname(name)
+      orgname = [RelatonBib::LocalizedString.new(name, "ja", "Jpan")]
+      if name.include?("日本規格協会")
+        orgname << RelatonBib::LocalizedString.new("Japanese Industrial Standards", "en", "Latn")
       end
-      name
+      orgname
     end
 
     def fetch_editorialgroup

@@ -2,6 +2,38 @@ describe RelatonJis::Scraper do
   context "instance methods" do
     subject { RelatonJis::Scraper.new "https://document.url" }
 
+    context "#fetch" do
+      let(:doc) { Nokogiri::HTML File.read "spec/fixtures/jis_x_0208_1997.html", encoding: "UTF-8" }
+
+      before do
+        agent = subject.instance_variable_get :@agent
+        expect(agent).to receive(:get).with("https://document.url").and_return doc
+      end
+
+      it do
+        item = subject.fetch
+        expect(item).to be_instance_of RelatonJis::BibliographicItem
+        expect(item.title.size).to eq 2
+        expect(item.title.first).to be_instance_of RelatonBib::TypedTitleString
+        expect(item.link.size).to eq 2
+        expect(item.link.first).to be_instance_of RelatonBib::TypedUri
+        expect(item.abstract.first).to be_instance_of RelatonBib::FormattedString
+        expect(item.docidentifier.first).to be_instance_of RelatonBib::DocumentIdentifier
+        expect(item.date.size).to eq 2
+        expect(item.date.first).to be_instance_of RelatonBib::BibliographicDate
+        expect(item.type).to eq "standard"
+        expect(item.language.first).to eq "ja"
+        expect(item.script.first).to eq "Jpan"
+        expect(item.status).to be_instance_of RelatonBib::DocumentStatus
+        expect(item.doctype).to be_instance_of RelatonJis::DocumentType
+        expect(item.ics.first).to be_instance_of RelatonIsoBib::Ics
+        expect(item.contributor.size).to eq 3
+        expect(item.contributor.first).to be_instance_of RelatonBib::ContributionInfo
+        expect(item.editorialgroup).to be_instance_of RelatonIsoBib::EditorialGroup
+        expect(item.structuredidentifier).to be_instance_of RelatonIsoBib::StructuredIdentifier
+      end
+    end
+
     context "#fetch_doctype" do
       shared_examples "doctype" do |id, doctype|
         it do

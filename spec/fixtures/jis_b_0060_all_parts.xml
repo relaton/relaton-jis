@@ -1,5 +1,5 @@
 <bibdata type="standard" schema-version="v1.2.9">
-  <fetched>2024-07-25</fetched>
+  <fetched>2024-10-24</fetched>
   <title format="text/plain" language="ja" script="Jpan">デジタル製品技術文書情報―第１部：総則</title>
   <title format="text/plain" language="en" script="Lant">Digital technical product documentation (DTPD) -- Part 1: General code of practices</title>
   <uri type="src">https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+B+0060-1%3A2015</uri>
@@ -32,7 +32,7 @@
   </status>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2024-07-25</fetched>
+      <fetched>2024-10-24</fetched>
       <title format="text/plain" language="ja" script="Jpan">デジタル製品技術文書情報―第１部：総則</title>
       <title format="text/plain" language="en" script="Lant">Digital technical product documentation (DTPD) -- Part 1: General code of practices</title>
       <uri type="src">https://webdesk.jsa.or.jp/books/W11M0090/index/?bunsyo_id=JIS+B+0060-1%3A2015</uri>
@@ -60,10 +60,15 @@
       </contributor>
       <language>ja</language>
       <script>Jpan</script>
-      <abstract format="text/plain" language="ja" script="Jpan">一般機械，精密機械，電気機械などの工業分野で用いる三次元製品情報付加モデル（３Ｄ　ａｎｎｏｔａｔｅｄ　ｍｏｄｅｌ）を作成する場合の基本的事項及び総括的なデジタル製品技術文書情報（ＤＴＰＤ：ｄｉｇｉｔａｌ　ｔｅｃｈｎｉｃａｌ　ｐｒｏｄｕｃｔ　ｄｏｃｕｍｅｎｔａｔｉｏｎ）について規定。</abstract>
       <status>
         <stage>valid</stage>
       </status>
+    </bibitem>
+  </relation>
+  <relation type="instanceOf">
+    <bibitem type="standard">
+      <formattedref format="text/plain">JIS B 0060-10:2022</formattedref>
+      <docidentifier type="JIS" primary="true">JIS B 0060-10:2022</docidentifier>
     </bibitem>
   </relation>
   <relation type="instanceOf">
@@ -118,12 +123,6 @@
     <bibitem type="standard">
       <formattedref format="text/plain">JIS B 0060-9:2021</formattedref>
       <docidentifier type="JIS" primary="true">JIS B 0060-9:2021</docidentifier>
-    </bibitem>
-  </relation>
-  <relation type="instanceOf">
-    <bibitem type="standard">
-      <formattedref format="text/plain">JIS B 0060-10:2022</formattedref>
-      <docidentifier type="JIS" primary="true">JIS B 0060-10:2022</docidentifier>
     </bibitem>
   </relation>
   <ext schema-version="v0.0.1">
