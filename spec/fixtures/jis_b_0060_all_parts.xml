@@ -12,6 +12,13 @@
     <on>2020-06-22</on>
   </date>
   <contributor>
+    <role type="authorizer"/>
+    <organization>
+      <name language="ja" script="Jpan">一般財団法人　日本規格協会</name>
+      <name language="en" script="Latn">Japanese Industrial Standards</name>
+    </organization>
+  </contributor>
+  <contributor>
     <role type="author"/>
     <organization>
       <name language="ja" script="Jpan">一般財団法人　日本規格協会</name>
@@ -45,6 +52,13 @@
         <on>2020-06-22</on>
       </date>
       <contributor>
+        <role type="authorizer"/>
+        <organization>
+          <name language="ja" script="Jpan">一般財団法人　日本規格協会</name>
+          <name language="en" script="Latn">Japanese Industrial Standards</name>
+        </organization>
+      </contributor>
+      <contributor>
         <role type="author"/>
         <organization>
           <name language="ja" script="Jpan">一般財団法人　日本規格協会</name>
@@ -60,6 +74,7 @@
       </contributor>
       <language>ja</language>
       <script>Jpan</script>
+      <abstract format="text/plain" language="ja" script="Jpan">一般機械，精密機械，電気機械などの工業分野で用いる三次元製品情報付加モデル（３Ｄ　ａｎｎｏｔａｔｅｄ　ｍｏｄｅｌ）を作成する場合の基本的事項及び総括的なデジタル製品技術文書情報（ＤＴＰＤ：ｄｉｇｉｔａｌ　ｔｅｃｈｎｉｃａｌ　ｐｒｏｄｕｃｔ　ｄｏｃｕｍｅｎｔａｔｉｏｎ）について規定。</abstract>
       <status>
         <stage>valid</stage>
       </status>
