@@ -3,7 +3,8 @@
 describe RelatonJis::DataFetcher do
   subject { described_class.new "data", "bibxml" }
   let(:next_url) { "https://webdesk.jsa.or.jp/books/W11M0070/getAddList" }
-  let(:next_body) { { all_search_flg: "all_search", offset: 100, search_type: "KOKUNAI" } }
+  let(:next_body) { { search_type: "JIS", offset: 100 } }
+  # let(:next_body) { { all_search_flg: "all_search", offset: 100, search_type: "KOKUNAI" } }
   let(:bib) do
     docid = RelatonBib::DocumentIdentifier.new(id: "JIS A 1301:1994", type: "JIS", primary: true)
     RelatonJis::BibliographicItem.new docid: [docid]
@@ -39,7 +40,8 @@ describe RelatonJis::DataFetcher do
     context "#fetch" do
       let(:url1) { "https://webdesk.jsa.or.jp/books/W11M0270/index" }
       let(:url2) { "https://webdesk.jsa.or.jp/books/W11M0070/index" }
-      let(:body) { { all_search_flg: "all_search", search_type: "KOKUNAI" } }
+      # let(:body) { { all_search_flg: "all_search", search_type: "KOKUNAI" } }
+      let(:body) { { record: 0, dantai: "JIS", searchtype2: 1, status_1: 1, status_2: 2 } }
       let(:resp) do
         Nokogiri::HTML(<<~HTML)
           <body>
