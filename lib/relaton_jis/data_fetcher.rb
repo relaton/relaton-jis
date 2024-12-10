@@ -61,7 +61,8 @@ module RelatonJis
     def initial_post
       return true if @initial_time && Time.now - @initial_time < 600
 
-      body = { record: 0, dantai: "JIS", searchtype2: 1, status_1: 1, status_2: 2 }
+      # body = { record: 0, dantai: "JIS", searchtype2: 1, status_1: 1, status_2: 2 }
+      body = { search_type: "KOKUNAI", all_search_flg: "all_search" }
       resp = agent.post "#{URL}W11M0270/index", body
       disp = JSON.parse resp.body
       @initial_time = Time.now
@@ -107,7 +108,7 @@ module RelatonJis
       attempts = 0
       begin
         if initial_post
-          agent.post "#{URL}W11M0070/getAddList", search_type: "JIS", offset: offset
+          agent.post "#{URL}W11M0070/getAddList", search_type: "KOKUNAI", all_search_flg: "all_search", offset: offset
         end
       rescue StandardError => e
         attempts += 1
